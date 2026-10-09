@@ -1,0 +1,9 @@
+{
+ "created": "2026-10-07",
+ "note": "Pseudonymous project ids frozen as TEST. Never edit; new projects are assigned by the seeded shuffle.",
+ "test": [
+  "P-389c9b1fdd",
+  "P-c866f377f1",
+  "P-ce24a2f002"
+ ]
+}

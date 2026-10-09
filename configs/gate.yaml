@@ -1,0 +1,8 @@
+# Stage E evaluation gate (held-out TEST projects; calibration and tau come from VAL only)
+variants_required: [no_colour, with_colour]   # evaluated in this order; both must pass
+min_n_test_objects: 200        # G5: below this the gate is INCONCLUSIVE, never passed
+min_n_per_auto_class: 30       # G5: every class the model would auto-label needs this many TEST objects
+quantisation:                  # G3: served artefact vs the evaluated (unfused) model
+  min_top1_agreement: 0.995
+  max_abs_conf_delta: 0.05
+  require_identical_outcomes_at_tau: true

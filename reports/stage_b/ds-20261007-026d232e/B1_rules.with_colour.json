@@ -1,0 +1,478 @@
+{
+ "n": 2698,
+ "at_tau_0": {
+  "n": 2698,
+  "correct": 44,
+  "wrong": 0,
+  "unknown": 2654,
+  "wrong_rate": 0.0,
+  "coverage": 0.0163,
+  "n_labelled": 670,
+  "labelled_recall": 0.0657,
+  "tau": 0.0
+ },
+ "tau": 0.0,
+ "at_tau": {
+  "n": 2698,
+  "correct": 44,
+  "wrong": 0,
+  "unknown": 2654,
+  "wrong_rate": 0.0,
+  "coverage": 0.0163,
+  "n_labelled": 670,
+  "labelled_recall": 0.0657,
+  "tau": 0.0
+ },
+ "wrong0": {
+  "n": 2698,
+  "correct": 44,
+  "wrong": 0,
+  "unknown": 2654,
+  "wrong_rate": 0.0,
+  "coverage": 0.0163,
+  "n_labelled": 670,
+  "labelled_recall": 0.0657,
+  "tau": 0.0,
+  "objects_behind_tau_per_class": {
+   "BLK_n_SETBACK_DIM": 44
+  }
+ },
+ "per_class_at_tau": {
+  "BLK_n_COVERED_AREA": {
+   "n_gold": 64,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA": {
+   "n_gold": 25,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT": {
+   "n_gold": 18,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING": {
+   "n_gold": 4,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_EXISTING": {
+   "n_gold": 86,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_DEM_AREA": {
+   "n_gold": 2,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_FLOOR_HEIGHT": {
+   "n_gold": 25,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_LIFT_n": {
+   "n_gold": 2,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_ROOF_AREA": {
+   "n_gold": 35,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_ROOM_n_MEZ_AREA_n": {
+   "n_gold": 3,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_STAIR_n": {
+   "n_gold": 10,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_STAIR_n_FLIGHT_n": {
+   "n_gold": 48,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_STAIR_n_LANDING_n": {
+   "n_gold": 19,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_WATER_CLOSET": {
+   "n_gold": 6,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_WC_BATH": {
+   "n_gold": 14,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_HT_OF_BLDG": {
+   "n_gold": 15,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_BLDG_FOOT_PRINT": {
+   "n_gold": 67,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_FRONT_SETBACK": {
+   "n_gold": 17,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_REAR_SETBACK": {
+   "n_gold": 17,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK1": {
+   "n_gold": 16,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK2": {
+   "n_gold": 16,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_PLINTH_HEIGHT": {
+   "n_gold": 5,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_SETBACK_DIM": {
+   "n_gold": 60,
+   "n_pred": 44,
+   "precision": 1.0,
+   "recall": 0.733
+  },
+  "BLK_n_STAIR_HEADROOM": {
+   "n_gold": 1,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "DIST_BETWEEN_BLK_n_BLK_n": {
+   "n_gold": 13,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "GUARD_ROOM": {
+   "n_gold": 19,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "MAIN_GATE": {
+   "n_gold": 13,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "NORTH_DIRECTION": {
+   "n_gold": 15,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "OPEN_PARKING": {
+   "n_gold": 15,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "PLAN_INFO": {
+   "n_gold": 10,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "PLOT_BOUNDARY": {
+   "n_gold": 10,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  }
+ },
+ "confusion_at_tau": {
+  "NORTH_DIRECTION": {
+   "unknown": 15
+  },
+  "BLK_n_FLR_n_FLOOR_HEIGHT": {
+   "unknown": 25
+  },
+  "BLK_n_HT_OF_BLDG": {
+   "unknown": 15
+  },
+  "BLK_n_PLINTH_HEIGHT": {
+   "unknown": 5
+  },
+  "PLAN_INFO": {
+   "unknown": 10
+  },
+  "BLK_n_FLR_n_WATER_CLOSET": {
+   "unknown": 6
+  },
+  "BLK_n_FLR_n_ROOM_n_MEZ_AREA_n": {
+   "unknown": 3
+  },
+  "BLK_n_SETBACK_DIM": {
+   "unknown": 16,
+   "BLK_n_SETBACK_DIM": 44
+  },
+  "BLK_n_COVERED_AREA": {
+   "unknown": 64
+  },
+  "BLK_n_FLR_n_DEM_AREA": {
+   "unknown": 2
+  },
+  "DIST_BETWEEN_BLK_n_BLK_n": {
+   "unknown": 13
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA": {
+   "unknown": 25
+  },
+  "BLK_n_LVL_n_BLDG_FOOT_PRINT": {
+   "unknown": 67
+  },
+  "BLK_n_LVL_n_FRONT_SETBACK": {
+   "unknown": 17
+  },
+  "BLK_n_LVL_n_REAR_SETBACK": {
+   "unknown": 17
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK2": {
+   "unknown": 16
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK1": {
+   "unknown": 16
+  },
+  "OPEN_PARKING": {
+   "unknown": 15
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_EXISTING": {
+   "unknown": 86
+  },
+  "PLOT_BOUNDARY": {
+   "unknown": 10
+  },
+  "MAIN_GATE": {
+   "unknown": 13
+  },
+  "unknown": {
+   "unknown": 2028
+  },
+  "BLK_n_FLR_n_LIFT_n": {
+   "unknown": 2
+  },
+  "BLK_n_FLR_n_STAIR_n_LANDING_n": {
+   "unknown": 19
+  },
+  "GUARD_ROOM": {
+   "unknown": 19
+  },
+  "BLK_n_FLR_n_ROOF_AREA": {
+   "unknown": 35
+  },
+  "BLK_n_FLR_n_WC_BATH": {
+   "unknown": 14
+  },
+  "BLK_n_FLR_n_STAIR_n": {
+   "unknown": 10
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING": {
+   "unknown": 4
+  },
+  "BLK_n_STAIR_HEADROOM": {
+   "unknown": 1
+  },
+  "BLK_n_FLR_n_STAIR_n_FLIGHT_n": {
+   "unknown": 48
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT": {
+   "unknown": 18
+  }
+ },
+ "per_fold": {
+  "folds": {
+   "P-0599b89d73": {
+    "n": 328,
+    "correct": 5,
+    "wrong": 0,
+    "unknown": 323,
+    "wrong_rate": 0.0,
+    "coverage": 0.0152,
+    "n_labelled": 82,
+    "labelled_recall": 0.061,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0152
+   },
+   "P-0744c38d12": {
+    "n": 74,
+    "correct": 3,
+    "wrong": 0,
+    "unknown": 71,
+    "wrong_rate": 0.0,
+    "coverage": 0.0405,
+    "n_labelled": 30,
+    "labelled_recall": 0.1,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0405
+   },
+   "P-3cf5591a59": {
+    "n": 716,
+    "correct": 5,
+    "wrong": 0,
+    "unknown": 711,
+    "wrong_rate": 0.0,
+    "coverage": 0.007,
+    "n_labelled": 179,
+    "labelled_recall": 0.0279,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.007
+   },
+   "P-73bec27336": {
+    "n": 104,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 104,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 26,
+    "labelled_recall": 0.0,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0
+   },
+   "P-75e7b3e5bc": {
+    "n": 384,
+    "correct": 6,
+    "wrong": 0,
+    "unknown": 378,
+    "wrong_rate": 0.0,
+    "coverage": 0.0156,
+    "n_labelled": 96,
+    "labelled_recall": 0.0625,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0156
+   },
+   "P-78592d8181": {
+    "n": 188,
+    "correct": 6,
+    "wrong": 0,
+    "unknown": 182,
+    "wrong_rate": 0.0,
+    "coverage": 0.0319,
+    "n_labelled": 47,
+    "labelled_recall": 0.1277,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0319
+   },
+   "P-7949c7daba": {
+    "n": 118,
+    "correct": 4,
+    "wrong": 0,
+    "unknown": 114,
+    "wrong_rate": 0.0,
+    "coverage": 0.0339,
+    "n_labelled": 32,
+    "labelled_recall": 0.125,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0339
+   },
+   "P-975c4d649c": {
+    "n": 559,
+    "correct": 3,
+    "wrong": 0,
+    "unknown": 556,
+    "wrong_rate": 0.0,
+    "coverage": 0.0054,
+    "n_labelled": 76,
+    "labelled_recall": 0.0395,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0054
+   },
+   "P-9c988ff6a8": {
+    "n": 63,
+    "correct": 6,
+    "wrong": 0,
+    "unknown": 57,
+    "wrong_rate": 0.0,
+    "coverage": 0.0952,
+    "n_labelled": 61,
+    "labelled_recall": 0.0984,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0952
+   },
+   "P-a0fc981ea6": {
+    "n": 164,
+    "correct": 6,
+    "wrong": 0,
+    "unknown": 158,
+    "wrong_rate": 0.0,
+    "coverage": 0.0366,
+    "n_labelled": 41,
+    "labelled_recall": 0.1463,
+    "tau": 0.0,
+    "own_wrong0_coverage": 0.0366
+   }
+  },
+  "spread": {
+   "wrong_rate": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "folds": 10
+   },
+   "coverage": {
+    "mean": 0.0281,
+    "min": 0.0,
+    "max": 0.0952,
+    "folds": 10
+   },
+   "labelled_recall": {
+    "mean": 0.0788,
+    "min": 0.0,
+    "max": 0.1463,
+    "folds": 10
+   },
+   "own_wrong0_coverage": {
+    "mean": 0.0281,
+    "min": 0.0,
+    "max": 0.0952,
+    "folds": 10
+   }
+  }
+ },
+ "projects": 10
+}

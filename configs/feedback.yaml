@@ -1,0 +1,3 @@
+# Stage G retrain trigger (Q-G1 default). Officer corrections must be real; nothing synthetic counts.
+not_learnable_min_real: 30     # a class crossing this many real examples triggers a retrain
+min_relative_growth: 0.15      # or real labelled objects grow by 15% over the active model's dataset

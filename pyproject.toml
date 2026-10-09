@@ -1,0 +1,15 @@
+[project]
+name = "dxftrain"
+version = "0.1.0"
+description = "Per-object classifier for no-layer Goa-IDC DXF drawings (standalone; never imports the scrutiny system)"
+requires-python = ">=3.11,<3.13"
+dependencies = ["ezdxf==1.4.*", "shapely==2.1.*", "numpy<3", "matplotlib==3.*", "pyyaml", "scikit-learn==1.9.*"]
+
+[project.optional-dependencies]
+mlx = ["mlx==0.32.*", "mlx-lm==0.32.*"]                       # Apple Silicon: scoring + LoRA
+cuda = ["torch", "transformers>=4.45", "peft>=0.13", "accelerate", "bitsandbytes"]  # NVIDIA QLoRA + scoring (no TRL)
+serve = ["fastapi", "uvicorn"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

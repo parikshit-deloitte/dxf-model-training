@@ -1,0 +1,5 @@
+# Split by PROJECT (LESSEE_NAME + PLOT_NO). Revisions of a project always stay together.
+ratios: {train: 0.6, val: 0.2, test: 0.2}
+frozen_test_projects: configs/test_projects.v1.json   # created on the first build, reused afterwards
+lopo_below_projects: 40
+seed: 20261007

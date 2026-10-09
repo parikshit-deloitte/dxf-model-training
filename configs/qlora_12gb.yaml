@@ -1,0 +1,27 @@
+# Stage C. The CUDA block is the specified 12 GB QLoRA recipe (train_lora.py, TRL/PEFT/bitsandbytes).
+# The MLX block is what runs on Apple Silicon (mlx_train.py). Differences are listed, not hidden.
+base_model_hf: Qwen/Qwen2.5-7B-Instruct
+max_length: 1024            # 512 requested; the system prompt alone is 627 Qwen tokens (decision Q-C1)
+lora: {r: 16, alpha: 32, dropout: 0.05, targets: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]}
+learning_rate: 2.0e-4
+lr_schedule: cosine
+warmup_ratio: 0.03
+epochs_max: 3
+early_stop: first_val_loss_rise   # keep the best epoch's adapter
+batch_size: 1
+grad_accumulation: 16
+seeds: [20261007, 7]
+train_variant: with_colour        # its train rows already carry colour dropout (p=0.3) and D4/text augmentation
+cuda:
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+  compute_dtype: float16          # T4 (Turing) has no bfloat16: float16 + loss scaling. Ampere or newer: bfloat16
+  bnb_4bit_compute_dtype: float16
+  gradient_checkpointing: true
+  optim: paged_adamw_8bit
+mlx:
+  base_model: mlx-community/Qwen2.5-7B-Instruct-4bit   # MLX affine 4-bit (group 64), NOT nf4
+  optimizer: adamw                                      # MLX has no paged 8-bit optimiser
+  grad_checkpoint: true
+  num_layers: -1                                        # LoRA on all 28 layers

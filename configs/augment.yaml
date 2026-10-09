@@ -1,0 +1,6 @@
+# Train split only. Each augmented example is tagged source=augmented with its transform.
+enabled: true
+copies_per_object: 1          # augmented copies per real TRAIN object (unknown objects after the train cap)
+rotate_flip: true             # one of the 7 non-identity square symmetries, applied before position features
+colour_dropout_p: 0.3         # with_colour variant only; the no_colour variant has no colour at all
+text_corrupt_p: 0.3           # case change or truncation of text / dimension override

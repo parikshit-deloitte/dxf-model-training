@@ -1,0 +1,11 @@
+# Stage A data build
+workers: 3                 # parallel extractor subprocesses (each large DXF can take 1-3 GB RAM)
+file_timeout_s: 900        # per file; a file over it is logged as "timeout", never silently dropped
+plot_match_tol: 0.02       # UNCHANGED rule: exactly one polygon within 2% of PLOT_AREA_M2
+duplicate_policy: H1       # none | H1. H1 approved 2026-10-09 (Q-A1): identical copies of one outline = one plot
+triage:
+  conforming_min_match: 0.80
+  unlabeled_max_match: 0.30
+unknown_per_labelled_train: 3   # cap on 'unknown' objects per labelled object, per project, TRAIN only
+not_learnable_min_real: 30
+seed: 20261007

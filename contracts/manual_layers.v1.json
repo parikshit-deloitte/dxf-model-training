@@ -1,0 +1,720 @@
+{
+ "_source": "Goa-IDC OBPAS Drawing Manual v1.0 (copied from gidc-obpas-ai-enhancements/db/layers/GoaIDC_OBPAS_Database.json, 'Layers' table). Reference data only.",
+ "version": "1",
+ "layers": [
+  {
+   "Layer_ID": "LYR-001",
+   "Rule_No": 1,
+   "Bye_Law_Check": "Plot area",
+   "Layer_Name": "PLOT_BOUNDARY",
+   "Element_Type": "Polygon",
+   "Color_Code": "70"
+  },
+  {
+   "Layer_ID": "LYR-002",
+   "Rule_No": 2,
+   "Bye_Law_Check": "Plot Cut Area",
+   "Layer_Name": "HILL_CUTTING_AREA",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-003",
+   "Rule_No": 3,
+   "Bye_Law_Check": "Temporary Structure",
+   "Layer_Name": "BLK_n_LVL_n_TEMP_STRUCTURE_n",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-004",
+   "Rule_No": 4,
+   "Bye_Law_Check": "Temporary Structure Height",
+   "Layer_Name": "BLK_n_TEMP_STRUCTURE_HT",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-005",
+   "Rule_No": 5,
+   "Bye_Law_Check": "Amenity Service",
+   "Layer_Name": "AMENITY_n",
+   "Element_Type": "Polygon (area) + Mtext (amenity name)",
+   "Color_Code": "7P"
+  },
+  {
+   "Layer_ID": "LYR-006",
+   "Rule_No": 6,
+   "Bye_Law_Check": "Compound Wall",
+   "Layer_Name": "COMPOUND_WALL",
+   "Element_Type": "Dimension",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-007",
+   "Rule_No": 6,
+   "Bye_Law_Check": "Compound Wall",
+   "Layer_Name": "COMPOUND_WALL",
+   "Element_Type": "Dimension",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-008",
+   "Rule_No": 7,
+   "Bye_Law_Check": "Main Gate",
+   "Layer_Name": "MAIN_GATE",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-009",
+   "Rule_No": 7,
+   "Bye_Law_Check": "Main Gate",
+   "Layer_Name": "MAIN_GATE",
+   "Element_Type": "Dimension",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-010",
+   "Rule_No": 7,
+   "Bye_Law_Check": "Main Gate",
+   "Layer_Name": "MAIN_GATE",
+   "Element_Type": "Dimension",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-011",
+   "Rule_No": 8,
+   "Bye_Law_Check": "Ground Coverage area",
+   "Layer_Name": "BLK_n_COVERED_AREA",
+   "Element_Type": "Polygon",
+   "Color_Code": "140"
+  },
+  {
+   "Layer_ID": "LYR-012",
+   "Rule_No": 8,
+   "Bye_Law_Check": "Ground Coverage area (deduction)",
+   "Layer_Name": "BLK_n_COVERED_AREA_DEDUCT",
+   "Element_Type": "Polygon",
+   "Color_Code": "140"
+  },
+  {
+   "Layer_ID": "LYR-013",
+   "Rule_No": 9,
+   "Bye_Law_Check": "Building Footprint (Ground Floor only)",
+   "Layer_Name": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "Element_Type": "Polygon",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-014",
+   "Rule_No": 10,
+   "Bye_Law_Check": "Setback Front",
+   "Layer_Name": "BLK_n_LVL_n_FRONT_SETBACK",
+   "Element_Type": "Polygon",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-015",
+   "Rule_No": 11,
+   "Bye_Law_Check": "Setback Rear",
+   "Layer_Name": "BLK_n_LVL_n_REAR_SETBACK",
+   "Element_Type": "Polygon",
+   "Color_Code": "11"
+  },
+  {
+   "Layer_ID": "LYR-016",
+   "Rule_No": 12,
+   "Bye_Law_Check": "Setback Left",
+   "Layer_Name": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "Element_Type": "Polygon",
+   "Color_Code": "171"
+  },
+  {
+   "Layer_ID": "LYR-017",
+   "Rule_No": 13,
+   "Bye_Law_Check": "Setback Right",
+   "Layer_Name": "BLK_n_LVL_n_SIDE_SETBACK2",
+   "Element_Type": "Polygon",
+   "Color_Code": "102"
+  },
+  {
+   "Layer_ID": "LYR-018",
+   "Rule_No": 14,
+   "Bye_Law_Check": "Setback Dimensions",
+   "Layer_Name": "BKL_n_SETBACK_DIM",
+   "Element_Type": "Dimension",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-019",
+   "Rule_No": 14,
+   "Bye_Law_Check": "Setback Dimensions",
+   "Layer_Name": "BKL_n_SETBACK_DIM",
+   "Element_Type": "Dimension",
+   "Color_Code": "11"
+  },
+  {
+   "Layer_ID": "LYR-020",
+   "Rule_No": 14,
+   "Bye_Law_Check": "Setback Dimensions",
+   "Layer_Name": "BKL_n_SETBACK_DIM",
+   "Element_Type": "Dimension",
+   "Color_Code": "171"
+  },
+  {
+   "Layer_ID": "LYR-021",
+   "Rule_No": 14,
+   "Bye_Law_Check": "Setback Dimensions",
+   "Layer_Name": "BKL_n_SETBACK_DIM",
+   "Element_Type": "Dimension",
+   "Color_Code": "102"
+  },
+  {
+   "Layer_ID": "LYR-022",
+   "Rule_No": 15,
+   "Bye_Law_Check": "Open Space between buildings",
+   "Layer_Name": "DIST_BETWEEN_BLK_n_BLK_n",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-023",
+   "Rule_No": 16,
+   "Bye_Law_Check": "Plantation Tree Count",
+   "Layer_Name": "PLANTATION_TREE_COUNT",
+   "Element_Type": "Polygon",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-024",
+   "Rule_No": 16,
+   "Bye_Law_Check": "Plantation Tree Count",
+   "Layer_Name": "PLANTATION_TREE_COUNT",
+   "Element_Type": "Polygon",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-025",
+   "Rule_No": 16,
+   "Bye_Law_Check": "Plantation Tree Count",
+   "Layer_Name": "PLANTATION_TREE_COUNT",
+   "Element_Type": "Polygon",
+   "Color_Code": "3"
+  },
+  {
+   "Layer_ID": "LYR-026",
+   "Rule_No": 17,
+   "Bye_Law_Check": "Rainwater harvesting system",
+   "Layer_Name": "RWH",
+   "Element_Type": "Polygon + Mtext (RWH_CAPACITY_L=n)",
+   "Color_Code": "4"
+  },
+  {
+   "Layer_ID": "LYR-027",
+   "Rule_No": 18,
+   "Bye_Law_Check": "Solar photovoltaic panels",
+   "Layer_Name": "SOLAR_PANEL",
+   "Element_Type": "Polygon",
+   "Color_Code": "3"
+  },
+  {
+   "Layer_ID": "LYR-028",
+   "Rule_No": 19,
+   "Bye_Law_Check": "Basement Parking",
+   "Layer_Name": "BLK_n_FLR_n_COVERED_PARKING",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-029",
+   "Rule_No": 19,
+   "Bye_Law_Check": "Open Parking",
+   "Layer_Name": "OPEN_PARKING",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-030",
+   "Rule_No": 19,
+   "Bye_Law_Check": "Stilt Parking",
+   "Layer_Name": "SPECIAL_PARKING",
+   "Element_Type": "Polygon",
+   "Color_Code": "3"
+  },
+  {
+   "Layer_ID": "LYR-031",
+   "Rule_No": 19,
+   "Bye_Law_Check": "Rooftop Parking",
+   "Layer_Name": "SPECIAL_PARKING",
+   "Element_Type": "Polygon",
+   "Color_Code": "4"
+  },
+  {
+   "Layer_ID": "LYR-032",
+   "Rule_No": 19,
+   "Bye_Law_Check": "Stack Parking",
+   "Layer_Name": "STACK_PARKING",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-033",
+   "Rule_No": 20,
+   "Bye_Law_Check": "Ramp",
+   "Layer_Name": "BLK_n_FLR_n_VEHICLERAMP_n",
+   "Element_Type": "Polygon + Mtext (SLOPE=1IN8)",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-034",
+   "Rule_No": 21,
+   "Bye_Law_Check": "North Direction",
+   "Layer_Name": "NORTH_DIRECTION",
+   "Element_Type": "Mtext",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-035",
+   "Rule_No": 22,
+   "Bye_Law_Check": "FAR (Proposed Construction)",
+   "Layer_Name": "BLK_n_FLR_n_BLT_UP_AREA",
+   "Element_Type": "Polygon",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-036",
+   "Rule_No": 22,
+   "Bye_Law_Check": "FAR (Proposed) deduction",
+   "Layer_Name": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT",
+   "Element_Type": "Polygon",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-037",
+   "Rule_No": 23,
+   "Bye_Law_Check": "FAR (Existing)",
+   "Layer_Name": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "Element_Type": "Polygon",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-038",
+   "Rule_No": 23,
+   "Bye_Law_Check": "FAR (Existing) deduction",
+   "Layer_Name": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING",
+   "Element_Type": "Polygon",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-039",
+   "Rule_No": 24,
+   "Bye_Law_Check": "Demolition Area",
+   "Layer_Name": "BLK_n_FLR_n_DEM_AREA",
+   "Element_Type": "Polygon",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-040",
+   "Rule_No": 25,
+   "Bye_Law_Check": "Roof Area",
+   "Layer_Name": "BLK_n_FLR_n_ROOF_AREA",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-041",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n",
+   "Element_Type": "Polygon + Mtext (FLR_HT_M=n)",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-042",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase \u2013 Flight",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-043",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase \u2013 Flight",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "Element_Type": "Dimension",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-044",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase \u2013 Flight",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "Element_Type": "Dimension",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-045",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase \u2013 Flight",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "Element_Type": "Line",
+   "Color_Code": "3"
+  },
+  {
+   "Layer_ID": "LYR-046",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase \u2013 Landing",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n_LANDING_n",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-047",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase \u2013 Landing",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n_LANDING_n",
+   "Element_Type": "Dimension",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-048",
+   "Rule_No": 26,
+   "Bye_Law_Check": "General Staircase \u2013 Landing",
+   "Layer_Name": "BLK_n_FLR_n_STAIR_n_LANDING_n",
+   "Element_Type": "Dimension",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-049",
+   "Rule_No": 27,
+   "Bye_Law_Check": "Exit Travel Distance",
+   "Layer_Name": "DIST_EXIT",
+   "Element_Type": "Multiple Dimensions",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-050",
+   "Rule_No": 28,
+   "Bye_Law_Check": "Lifts",
+   "Layer_Name": "BLK_n_FLR_n_LIFT_n",
+   "Element_Type": "Polygon",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-051",
+   "Rule_No": 29,
+   "Bye_Law_Check": "Chajja / Projections over setback",
+   "Layer_Name": "BLK_n_FLR_n_CHAJJA",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-052",
+   "Rule_No": 30,
+   "Bye_Law_Check": "Water Closet",
+   "Layer_Name": "BLK_n_FLR_n_WATER_CLOSET",
+   "Element_Type": "Polygon",
+   "Color_Code": "1"
+  },
+  {
+   "Layer_ID": "LYR-053",
+   "Rule_No": 30,
+   "Bye_Law_Check": "Water Closet",
+   "Layer_Name": "BLK_n_FLR_n_WATER_CLOSET",
+   "Element_Type": "Polygon",
+   "Color_Code": "2"
+  },
+  {
+   "Layer_ID": "LYR-054",
+   "Rule_No": 30,
+   "Bye_Law_Check": "Water Closet",
+   "Layer_Name": "BLK_n_FLR_n_WATER_CLOSET",
+   "Element_Type": "Polygon",
+   "Color_Code": "3"
+  },
+  {
+   "Layer_ID": "LYR-055",
+   "Rule_No": 31,
+   "Bye_Law_Check": "Toilet / Bathroom",
+   "Layer_Name": "BLK_n_FLR_n_WC_BATH",
+   "Element_Type": "Polygon + Dimension",
+   "Color_Code": "3"
+  },
+  {
+   "Layer_ID": "LYR-056",
+   "Rule_No": 32,
+   "Bye_Law_Check": "Stilt Floor Proposed",
+   "Layer_Name": "BLK_n_FLR_n_STILT_FLOOR",
+   "Element_Type": "Polygon + Dimension",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-057",
+   "Rule_No": 33,
+   "Bye_Law_Check": "Service Floor Proposed",
+   "Layer_Name": "BLK_n_FLR_n_SERVICE_FLOOR",
+   "Element_Type": "Polygon + Dimension",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-058",
+   "Rule_No": 34,
+   "Bye_Law_Check": "Mezzanine Floor",
+   "Layer_Name": "BLK_n_FLR_n_ROOM_n_MEZ_AREA_n",
+   "Element_Type": "Polygon + Dimension",
+   "Color_Code": "Building Use"
+  },
+  {
+   "Layer_ID": "LYR-059",
+   "Rule_No": 35,
+   "Bye_Law_Check": "Room Ventilation",
+   "Layer_Name": "BLK_n_FLR_n_ROOM_n_LIGHT_VENTILATION_n",
+   "Element_Type": "Polygon",
+   "Color_Code": "RGB 19,155,72"
+  },
+  {
+   "Layer_ID": "LYR-060",
+   "Rule_No": 36,
+   "Bye_Law_Check": "Building Height",
+   "Layer_Name": "BLK_n_HT_OF_BLDG",
+   "Element_Type": "Dimension",
+   "Color_Code": "5"
+  },
+  {
+   "Layer_ID": "LYR-061",
+   "Rule_No": 37,
+   "Bye_Law_Check": "Floor Height",
+   "Layer_Name": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-062",
+   "Rule_No": 38,
+   "Bye_Law_Check": "Roof Water Tank",
+   "Layer_Name": "BLK_n_ROOF_WATER_TANK_HT",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-063",
+   "Rule_No": 39,
+   "Bye_Law_Check": "Roof Service Equipment",
+   "Layer_Name": "BLK_n_ROOF_SERV_EQUIP_HT_n",
+   "Element_Type": "Dimension (height) + Mtext (equipment name)",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-064",
+   "Rule_No": 40,
+   "Bye_Law_Check": "Other Roof Feature",
+   "Layer_Name": "BLK_n_OTHER_ROOF_FEATURE_HT_n",
+   "Element_Type": "Dimension (height) + Mtext (feature name)",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-065",
+   "Rule_No": 41,
+   "Bye_Law_Check": "Basement Projection above ground level",
+   "Layer_Name": "BLK_n_FLR_n_BASEMENT_HT_ABOVE_GL",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-066",
+   "Rule_No": 42,
+   "Bye_Law_Check": "Plinth Height",
+   "Layer_Name": "BLK_n_PLINTH_HEIGHT",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-067",
+   "Rule_No": 43,
+   "Bye_Law_Check": "Staircase Headroom / Flight Headroom",
+   "Layer_Name": "BLK_n_STAIR_HEADROOM",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-068",
+   "Rule_No": 44,
+   "Bye_Law_Check": "Mumty",
+   "Layer_Name": "BLK_n_MUMTY_HT",
+   "Element_Type": "Dimension",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-069",
+   "Rule_No": 45,
+   "Bye_Law_Check": "Guard Room",
+   "Layer_Name": "GUARD_ROOM",
+   "Element_Type": "Polygon",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-070",
+   "Rule_No": 46,
+   "Bye_Law_Check": "Text",
+   "Layer_Name": "MTEXT",
+   "Element_Type": "Mtext",
+   "Color_Code": "250"
+  },
+  {
+   "Layer_ID": "LYR-071",
+   "Rule_No": 47,
+   "Bye_Law_Check": "Site Plan",
+   "Layer_Name": "SITE_PLAN",
+   "Element_Type": "(not specified)",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-072",
+   "Rule_No": 48,
+   "Bye_Law_Check": "Floor Plan",
+   "Layer_Name": "BLK_n_FLR_n_FLOOR_PLAN",
+   "Element_Type": "(not specified)",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-073",
+   "Rule_No": 49,
+   "Bye_Law_Check": "Elevation",
+   "Layer_Name": "ELEVATION_PLAN_n",
+   "Element_Type": "(not specified)",
+   "Color_Code": "7"
+  },
+  {
+   "Layer_ID": "LYR-074",
+   "Rule_No": 50,
+   "Bye_Law_Check": "Section",
+   "Layer_Name": "SECTION_PLAN_1",
+   "Element_Type": "(not specified)",
+   "Color_Code": "7"
+  }
+ ],
+ "plan_info_keys": [
+  {
+   "Key_No": 1,
+   "Plan_Info_Key": "ARCHITECT_OR_ENGINEER_NAME",
+   "Expected_Format": "Full Name",
+   "Report_Label_Equivalent": "Technical Person Licensee Name"
+  },
+  {
+   "Key_No": 2,
+   "Plan_Info_Key": "PLOT_NO",
+   "Expected_Format": "Plot Number",
+   "Report_Label_Equivalent": "Plot No"
+  },
+  {
+   "Key_No": 3,
+   "Plan_Info_Key": "PLOT_AREA_M2",
+   "Expected_Format": "Numeric value",
+   "Report_Label_Equivalent": "Plot Area (as per declaration) in m\u00b2"
+  },
+  {
+   "Key_No": 4,
+   "Plan_Info_Key": "PROJECT_FALLING_UNDER_ZONE",
+   "Expected_Format": "I1/I2/I3",
+   "Report_Label_Equivalent": "Zone"
+  },
+  {
+   "Key_No": 5,
+   "Plan_Info_Key": "DOES_THE_PROJECT_HAVE_SLOPING_SITE",
+   "Expected_Format": "YES/NO",
+   "Report_Label_Equivalent": ""
+  },
+  {
+   "Key_No": 6,
+   "Plan_Info_Key": "HIGHEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+   "Expected_Format": "Numeric value",
+   "Report_Label_Equivalent": ""
+  },
+  {
+   "Key_No": 7,
+   "Plan_Info_Key": "LOWEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+   "Expected_Format": "Numeric value",
+   "Report_Label_Equivalent": ""
+  },
+  {
+   "Key_No": 8,
+   "Plan_Info_Key": "DOES_THE_BUILDING_HAVE_ONLY_ONE_ACCESS_FROM_LOWER_PORTION_OF_THE_BUILDING",
+   "Expected_Format": "YES/NO",
+   "Report_Label_Equivalent": ""
+  },
+  {
+   "Key_No": 9,
+   "Plan_Info_Key": "ESTIMATED_PROJECT_COST",
+   "Expected_Format": "Numeric value",
+   "Report_Label_Equivalent": "Questionnaire Q9 \u2013 Estimated Project Cost"
+  },
+  {
+   "Key_No": 10,
+   "Plan_Info_Key": "DISTANCE_FROM_THE_BOUNDARY_WALL_OF_CEMETERY_OR_CREMATORIUM_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_CEMETERY_OR_CREMATORIUM",
+   "Expected_Format": "Numeric value/NA",
+   "Report_Label_Equivalent": "Questionnaire Q1"
+  },
+  {
+   "Key_No": 11,
+   "Plan_Info_Key": "DISTANCE_FROM_THE_CENTRE_LINE_OF_HIGHWAY_OR_BYEPASS_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_NATIONAL_HIGHWAY_OR_STATE_BYEPASS",
+   "Expected_Format": "Numeric value/NA",
+   "Report_Label_Equivalent": "Questionnaire Q2"
+  },
+  {
+   "Key_No": 12,
+   "Plan_Info_Key": "DISTANCE_FROM_THE_BOUNDARY_OF_RAILWAY_PROPERTY_IF_THE_PROPERTY_IS_WITHIN_50_METERS_OF_THE_RAILWAY_LINE",
+   "Expected_Format": "Numeric value/NA",
+   "Report_Label_Equivalent": "Questionnaire Q3"
+  },
+  {
+   "Key_No": 13,
+   "Plan_Info_Key": "DISTANCE_FROM_HTL_IF_THE_PROPERTY_IS_WITHIN_1000_METERS_OF_THE_HIGH_TIDE_LINE_OF_THE_SEA",
+   "Expected_Format": "Numeric value/NA",
+   "Report_Label_Equivalent": "Questionnaire Q4"
+  },
+  {
+   "Key_No": 14,
+   "Plan_Info_Key": "DISTANCE_FROM_THE_RIVER_BANK_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_RIVER_BANK",
+   "Expected_Format": "Numeric value/NA",
+   "Report_Label_Equivalent": "Questionnaire Q5"
+  },
+  {
+   "Key_No": 15,
+   "Plan_Info_Key": "IS_THERE_ANY_UNDERGROUND_OR_OVER_GROUND_OR_OVERHEAD_TELEPHONES_OR_ELECTRICITY_LINES_AFFECTING_OR_CROSSING_THE_PLOT",
+   "Expected_Format": "YES/NO",
+   "Report_Label_Equivalent": "Questionnaire Q6"
+  },
+  {
+   "Key_No": 16,
+   "Plan_Info_Key": "WHETHER_ANY_EXTRA_FAR_IS_CLAIMED_ON_THE_BASIS_OF_ROAD_WIDENING_OR_PROPOSED_ROAD",
+   "Expected_Format": "YES/NO",
+   "Report_Label_Equivalent": "Questionnaire Q7"
+  },
+  {
+   "Key_No": 17,
+   "Plan_Info_Key": "WHETHER_SUCH_ROAD_WIDENING_AREA_OR_AREA_UNDER_PROPOSED_ROAD_HAS_BEEN_GIFTED_TO_THE_LOCAL_BODY",
+   "Expected_Format": "YES/NO",
+   "Report_Label_Equivalent": "Questionnaire Q8"
+  },
+  {
+   "Key_No": 18,
+   "Plan_Info_Key": "THE_ESTIMATED_PROJECT_COST_IS_CALCULATED_BASED_ON_THE_LATEST_PLINTH_AREA_RATES_INCLUDING_ALL_BUILDING_INFRASTRUCTURE_AND_SERVICES_COMPONENTS_WITHIN_THE_PROJECT",
+   "Expected_Format": "YES",
+   "Report_Label_Equivalent": ""
+  },
+  {
+   "Key_No": 19,
+   "Plan_Info_Key": "I_HEREBY_DECLARE_THAT_THE_PLAN_HAS_BEEN_PREPARED_IN_STRICT_COMPLIANCE_WITH_THE_GOA_REGULATION_OF_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_ACT_2008_AND_THE_GOA_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_REGULATIONS_2010",
+   "Expected_Format": "YES",
+   "Report_Label_Equivalent": ""
+  },
+  {
+   "Key_No": 20,
+   "Plan_Info_Key": "ROAD_WIDTH",
+   "Expected_Format": "Numeric value",
+   "Report_Label_Equivalent": "Road Width in m"
+  }
+ ]
+}

@@ -1,0 +1,571 @@
+{
+ "n": 6916,
+ "at_tau_0": {
+  "n": 6916,
+  "correct": 57,
+  "wrong": 1,
+  "unknown": 6858,
+  "wrong_rate": 0.0001,
+  "coverage": 0.0084,
+  "n_labelled": 1023,
+  "labelled_recall": 0.0557,
+  "tau": 0.0
+ },
+ "tau": 1.0,
+ "at_tau": {
+  "n": 6916,
+  "correct": 0,
+  "wrong": 0,
+  "unknown": 6916,
+  "wrong_rate": 0.0,
+  "coverage": 0.0,
+  "n_labelled": 1023,
+  "labelled_recall": 0.0,
+  "tau": 1.0
+ },
+ "wrong0": {
+  "n": 6916,
+  "correct": 0,
+  "wrong": 0,
+  "unknown": 6916,
+  "wrong_rate": 0.0,
+  "coverage": 0.0,
+  "n_labelled": 1023,
+  "labelled_recall": 0.0,
+  "tau": 1.0,
+  "objects_behind_tau_per_class": {}
+ },
+ "per_class_at_tau": {
+  "BLK_n_COVERED_AREA": {
+   "n_gold": 73,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA": {
+   "n_gold": 42,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT": {
+   "n_gold": 26,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING": {
+   "n_gold": 7,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_EXISTING": {
+   "n_gold": 93,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_CHAJJA": {
+   "n_gold": 2,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_COVERED_PARKING": {
+   "n_gold": 2,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_DEM_AREA": {
+   "n_gold": 3,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_FLOOR_HEIGHT": {
+   "n_gold": 38,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_LIFT_n": {
+   "n_gold": 10,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_ROOF_AREA": {
+   "n_gold": 70,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_ROOM_n_MEZ_AREA_n": {
+   "n_gold": 3,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_STAIR_n": {
+   "n_gold": 25,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_STAIR_n_FLIGHT_n": {
+   "n_gold": 87,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_STAIR_n_LANDING_n": {
+   "n_gold": 51,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_WATER_CLOSET": {
+   "n_gold": 28,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_FLR_n_WC_BATH": {
+   "n_gold": 21,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_HT_OF_BLDG": {
+   "n_gold": 25,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_BLDG_FOOT_PRINT": {
+   "n_gold": 74,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_FRONT_SETBACK": {
+   "n_gold": 25,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_REAR_SETBACK": {
+   "n_gold": 25,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK1": {
+   "n_gold": 24,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK2": {
+   "n_gold": 23,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_PLINTH_HEIGHT": {
+   "n_gold": 11,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_ROOF_WATER_TANK_HT": {
+   "n_gold": 2,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_SETBACK_DIM": {
+   "n_gold": 77,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "BLK_n_STAIR_HEADROOM": {
+   "n_gold": 2,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "DIST_BETWEEN_BLK_n_BLK_n": {
+   "n_gold": 19,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "GUARD_ROOM": {
+   "n_gold": 37,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "MAIN_GATE": {
+   "n_gold": 16,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "NORTH_DIRECTION": {
+   "n_gold": 23,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "OPEN_PARKING": {
+   "n_gold": 23,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "PLAN_INFO": {
+   "n_gold": 16,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "PLOT_BOUNDARY": {
+   "n_gold": 16,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  },
+  "RWH": {
+   "n_gold": 4,
+   "n_pred": 0,
+   "precision": null,
+   "recall": 0.0
+  }
+ },
+ "confusion_at_tau": {
+  "PLOT_BOUNDARY": {
+   "unknown": 16
+  },
+  "BLK_n_LVL_n_BLDG_FOOT_PRINT": {
+   "unknown": 74
+  },
+  "BLK_n_LVL_n_FRONT_SETBACK": {
+   "unknown": 25
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK1": {
+   "unknown": 24
+  },
+  "BLK_n_LVL_n_SIDE_SETBACK2": {
+   "unknown": 23
+  },
+  "BLK_n_COVERED_AREA": {
+   "unknown": 73
+  },
+  "PLAN_INFO": {
+   "unknown": 16
+  },
+  "BLK_n_LVL_n_REAR_SETBACK": {
+   "unknown": 25
+  },
+  "OPEN_PARKING": {
+   "unknown": 23
+  },
+  "RWH": {
+   "unknown": 4
+  },
+  "NORTH_DIRECTION": {
+   "unknown": 23
+  },
+  "BLK_n_FLR_n_COVERED_PARKING": {
+   "unknown": 2
+  },
+  "BLK_n_FLR_n_STAIR_n": {
+   "unknown": 25
+  },
+  "BLK_n_FLR_n_LIFT_n": {
+   "unknown": 10
+  },
+  "BLK_n_FLR_n_STAIR_n_FLIGHT_n": {
+   "unknown": 87
+  },
+  "BLK_n_FLR_n_STAIR_n_LANDING_n": {
+   "unknown": 51
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT": {
+   "unknown": 26
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA": {
+   "unknown": 42
+  },
+  "BLK_n_HT_OF_BLDG": {
+   "unknown": 25
+  },
+  "BLK_n_ROOF_WATER_TANK_HT": {
+   "unknown": 2
+  },
+  "BLK_n_FLR_n_FLOOR_HEIGHT": {
+   "unknown": 38
+  },
+  "BLK_n_PLINTH_HEIGHT": {
+   "unknown": 11
+  },
+  "BLK_n_FLR_n_WATER_CLOSET": {
+   "unknown": 28
+  },
+  "BLK_n_FLR_n_ROOM_n_MEZ_AREA_n": {
+   "unknown": 3
+  },
+  "BLK_n_SETBACK_DIM": {
+   "unknown": 77
+  },
+  "BLK_n_FLR_n_DEM_AREA": {
+   "unknown": 3
+  },
+  "DIST_BETWEEN_BLK_n_BLK_n": {
+   "unknown": 19
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_EXISTING": {
+   "unknown": 93
+  },
+  "MAIN_GATE": {
+   "unknown": 16
+  },
+  "unknown": {
+   "unknown": 5893
+  },
+  "GUARD_ROOM": {
+   "unknown": 37
+  },
+  "BLK_n_FLR_n_ROOF_AREA": {
+   "unknown": 70
+  },
+  "BLK_n_FLR_n_WC_BATH": {
+   "unknown": 21
+  },
+  "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING": {
+   "unknown": 7
+  },
+  "BLK_n_STAIR_HEADROOM": {
+   "unknown": 2
+  },
+  "BLK_n_FLR_n_CHAJJA": {
+   "unknown": 2
+  }
+ },
+ "per_fold": {
+  "folds": {
+   "P-0599b89d73": {
+    "n": 328,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 328,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 82,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0152
+   },
+   "P-0744c38d12": {
+    "n": 74,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 74,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 30,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0405
+   },
+   "P-3cf5591a59": {
+    "n": 3711,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 3711,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 179,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0013
+   },
+   "P-6073c2a6ba": {
+    "n": 64,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 64,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 64,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0
+   },
+   "P-73bec27336": {
+    "n": 347,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 347,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 26,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0
+   },
+   "P-75e7b3e5bc": {
+    "n": 752,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 752,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 188,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0093
+   },
+   "P-78592d8181": {
+    "n": 188,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 188,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 47,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0319
+   },
+   "P-7949c7daba": {
+    "n": 118,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 118,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 32,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0339
+   },
+   "P-81fa43b6a3": {
+    "n": 68,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 68,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 38,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0441
+   },
+   "P-975c4d649c": {
+    "n": 559,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 559,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 76,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0054
+   },
+   "P-9c988ff6a8": {
+    "n": 63,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 63,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 61,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0952
+   },
+   "P-a0fc981ea6": {
+    "n": 164,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 164,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 41,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0366
+   },
+   "P-b0767d4e87": {
+    "n": 240,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 240,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 60,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0125
+   },
+   "P-bf5f11283e": {
+    "n": 188,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 188,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 47,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0
+   },
+   "P-c160064eda": {
+    "n": 52,
+    "correct": 0,
+    "wrong": 0,
+    "unknown": 52,
+    "wrong_rate": 0.0,
+    "coverage": 0.0,
+    "n_labelled": 52,
+    "labelled_recall": 0.0,
+    "tau": 1.0,
+    "own_wrong0_coverage": 0.0
+   }
+  },
+  "spread": {
+   "wrong_rate": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "folds": 15
+   },
+   "coverage": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "folds": 15
+   },
+   "labelled_recall": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "folds": 15
+   },
+   "own_wrong0_coverage": {
+    "mean": 0.0217,
+    "min": 0.0,
+    "max": 0.0952,
+    "folds": 15
+   }
+  }
+ },
+ "projects": 15
+}

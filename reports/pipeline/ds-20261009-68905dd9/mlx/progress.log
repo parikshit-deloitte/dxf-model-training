@@ -1,0 +1,6 @@
+2026-10-09 08:18:51 START stage_b_b1b2
+2026-10-09 09:39:19 DONE stage_b_b1b2
+2026-10-09 09:39:19 START stage_d_zeroshot
+2026-10-09 11:05:54 STOPPED stage_d_zeroshot (reordered: seed A trains first; cached scores resume later)
+2026-10-09 11:05:55 START train_s20261007
+2026-10-09 14:27:31 STOPPED train_s20261007 by user at step 725 of 3942 (epoch 1 not finished; no adapter saved)

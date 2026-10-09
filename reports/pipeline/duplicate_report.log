@@ -1,0 +1,147 @@
+
+sunita.dxf                                    declared=367.85 matches=2
+   cand layer=LINE                         area=367.851      verts=31   hash=5dce81d0a2f39fa8 bbox=[3386590.76, -704995.231, 3386608.112, -704972.568]
+   cand layer=PLOT_BOUNDARY                area=367.848      verts=25   hash=947c73c26ab6c6fd bbox=[3386590.76, -704995.231, 3386608.112, -704972.568]
+    {'H1_identical': False, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+BHUBAN CH DAS.dxf                             declared=388.0 matches=0
+   closest layer=line                         area=426.927      diff=+10.03%
+   closest layer=line                         area=433.092      diff=+11.62%
+   closest layer=line                         area=433.092      diff=+11.62%
+   closest layer=PLOT_BOUNDARY                area=559.116      diff=+44.10%
+
+file_SUB-7.dxf                                declared=8060.0 matches=0
+   closest layer=HILL-CUTTING-AREA            area=6602.484     diff=-18.08%
+   closest layer=0                            area=6602.484     diff=-18.08%
+   closest layer=0                            area=6602.484     diff=-18.08%
+   closest layer=PLOT_BOUNDARY                area=42324.316    diff=+425.12%
+
+TEST_G+III_20_02_2026.dxf                     declared=336.17 matches=0
+   closest layer=_OtherDetail                 area=387.469      diff=+15.26%
+   closest layer=PLOT_BOUNDARY                area=389.12       diff=+15.75%
+   closest layer=0                            area=274.152      diff=-18.45%
+
+MRS REENA SHAHI GMDA COMMERCIAL 06.01.26.dxf  declared=535.18 matches=2
+   cand layer=0                            area=535.182      verts=4    hash=33f8afac89e4a53b bbox=[482.93, 360.639, 509.93, 380.461]
+   cand layer=PLOT_BOUNDARY                area=535.182      verts=4    hash=33f8afac89e4a53b bbox=[482.93, 360.639, 509.93, 380.461]
+    {'H1_identical': True, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+02_NEW-CONST.dxf                              declared=86240.0 matches=0
+   closest layer=0                            area=66081.944    diff=-23.37%
+   closest layer=0                            area=25300.0      diff=-70.66%
+   closest layer=BLK_1_FLR_0_STAIR_1_FLIGHT_1 area=24080.0      diff=-72.08%
+   closest layer=PLOT_BOUNDARY                area=3953.104     diff=-95.42%
+
+GEETAMANDIR PERMISSION 8.1.26 finaal.dxf      declared=367.85 matches=2
+   cand layer=LINE                         area=367.851      verts=31   hash=5dce81d0a2f39fa8 bbox=[3386590.76, -704995.231, 3386608.112, -704972.568]
+   cand layer=PLOT_BOUNDARY                area=367.849      verts=25   hash=947c73c26ab6c6fd bbox=[3386590.76, -704995.231, 3386608.112, -704972.568]
+    {'H1_identical': False, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+KRIS.dxf                                      declared=1291.0 matches=0
+   closest layer=PLOT_BOUNDARY                area=1343.285     diff=+4.05%
+   closest layer=SITE_PLAN                    area=1343.285     diff=+4.05%
+   closest layer=PL--roof                     area=813.235      diff=-37.01%
+
+BINU 29.dxf                                   declared=314.6 matches=2
+   cand layer=0                            area=314.592      verts=4    hash=3d2c2868b3f91a16 bbox=[904.519, 554.591, 931.639, 566.191]
+   cand layer=PLOT_BOUNDARY                area=314.592      verts=4    hash=3d2c2868b3f91a16 bbox=[904.519, 554.591, 931.639, 566.191]
+    {'H1_identical': True, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+KHARGULI EDCR.dxf                             declared=399.69 matches=2
+   cand layer=BOUNDARY                     area=399.687      verts=23   hash=1d440beb6a57d007 bbox=[1022.082, 91.627, 1035.933, 130.104]
+   cand layer=PLOT_BOUNDARY                area=399.687      verts=31   hash=841e3b17374de359 bbox=[1022.082, 91.627, 1035.933, 130.104]
+    {'H1_identical': False, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+SHREE NAINA -test  -08 oct  2025.dxf          declared=8710.0 matches=0
+   closest layer=PLOT_BOUNDARY                area=9121.997     diff=+4.73%
+   closest layer=0                            area=10233.533    diff=+17.49%
+   closest layer=BLK_1_LVL_0_BLDG_FOOT_PRINT  area=5719.943     diff=-34.33%
+
+01_ADD-ALT.dxf                                declared=109700.0 matches=0
+   closest layer=0                            area=62254.203    diff=-43.25%
+   closest layer=0                            area=26450.0      diff=-75.89%
+   closest layer=BLK_1_FLR_0_STAIR_1_FLIGHT_1 area=25200.0      diff=-77.03%
+   closest layer=PLOT_BOUNDARY                area=3476.552     diff=-96.83%
+
+PP1 OBPAS SUB9_R0.dxf                         declared=3000.0 matches=2
+   cand layer=SITE_PLAN                    area=2963.861     verts=4    hash=2b8fd1c78da8fe45 bbox=[76.058, 19.19, 117.094, 93.436]
+   cand layer=PLOT_BOUNDARY                area=3016.56      verts=4    hash=837867232fee9e82 bbox=[75.823, 18.96, 117.326, 93.668]
+    {'H1_identical': False, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+OBPAS_na.dxf                                  declared=3000.0 matches=2
+   cand layer=SITE_PLAN                    area=2963.861     verts=4    hash=2b8fd1c78da8fe45 bbox=[76.058, 19.19, 117.094, 93.436]
+   cand layer=PLOT_BOUNDARY                area=3016.56      verts=4    hash=837867232fee9e82 bbox=[75.823, 18.96, 117.326, 93.668]
+    {'H1_identical': False, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+TRY1 EXTRA RE.dxf                             declared=800.0 matches=2
+   cand layer=PLOT_BOUNDARY                area=800.0        verts=4    hash=d95b99923e48340d bbox=[594.24, 32.445, 614.24, 72.445]
+   cand layer=SITE_PLAN                    area=800.0        verts=4    hash=d95b99923e48340d bbox=[594.24, 32.445, 614.24, 72.445]
+    {'H1_identical': True, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf declared=5013.0 matches=2
+   cand layer=SITE_PLAN                    area=5013.035     verts=5    hash=4124036bd1e01c1c bbox=[112.914, 74.276, 187.09, 159.036]
+   cand layer=PLOT_BOUNDARY                area=5013.035     verts=5    hash=4124036bd1e01c1c bbox=[112.914, 74.276, 187.09, 159.036]
+    {'H1_identical': True, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+NISANT PAHARIA.dxf                            declared=353.3 matches=4
+   cand layer=0                            area=353.296      verts=4    hash=8a7e07fade352451 bbox=[2508.919, 111.886, 2530.786, 128.042]
+   cand layer=0                            area=353.296      verts=4    hash=9426fa56247b82fb bbox=[2540.829, 111.886, 2562.696, 128.042]
+   cand layer=0                            area=353.296      verts=4    hash=39a2ab3e48ddda70 bbox=[2569.449, 111.886, 2591.316, 128.042]
+   cand layer=PLOT_BOUNDARY                area=353.296      verts=4    hash=21844684d77a82cb bbox=[2469.131, 80.161, 2490.998, 96.317]
+    {'H1_identical': False, 'H2_nested': False, 'H3_one_on_PLOT_BOUNDARY': True}
+
+SARA FINE FOODS - 24 FEB 2026.dxf             declared=1576.0 matches=0
+   closest layer=PLOT_BOUNDARY                area=952.0        diff=-39.59%
+   closest layer=BLK_2_COVERED_AREA           area=624.0        diff=-60.41%
+   closest layer=0                            area=412.0        diff=-73.86%
+
+Approval_Koteshwar tiles22-6-26.dxf           declared=2100.0 matches=0
+   closest layer=PLOT_BOUNDARY                area=2357.508     diff=+12.26%
+   closest layer=BLK_1_LVL_0_BLDG_FOOT_PRINT  area=768.031      diff=-63.43%
+   closest layer=BLK_1_COVERED_AREA           area=768.037      diff=-63.43%
+
+MACBROUT-4.dxf                                declared=4005.0 matches=0
+   closest layer=PLOT_BOUNDARY                area=3850.1       diff=-3.87%
+   closest layer=BLK_1_FLR_0_BLT_UP_AREA      area=2141.32      diff=-46.53%
+   closest layer=SITE_PLAN                    area=2141.32      diff=-46.53%
+
+Bharat_Conductors_Sancoale_Online[2].dxf      declared=8060.0 matches=2
+   cand layer=0                            area=8070.193     verts=14   hash=9704935e2252dcb7 bbox=[661.913, -151.047, 811.093, -75.685]
+   cand layer=PLOT_BOUNDARY                area=8070.193     verts=14   hash=9704935e2252dcb7 bbox=[661.913, -151.047, 811.093, -75.685]
+    {'H1_identical': True, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+SUB-7.dxf                                     declared=8060.0 matches=0
+   closest layer=HILL-CUTTING-AREA            area=6602.484     diff=-18.08%
+   closest layer=LAYER-2                      area=9664.866     diff=+19.91%
+   closest layer=LAYER-1                      area=9664.866     diff=+19.91%
+   closest layer=PLOT_BOUNDARY                area=42324.316    diff=+425.12%
+
+T-RON.dxf                                     declared=3490.0 matches=3
+   cand layer=SITE_PLAN                    area=3454.844     verts=28   hash=17d512447abc4c89 bbox=[143.262, 31.067, 232.948, 70.867]
+   cand layer=SITE_PLAN                    area=3480.005     verts=30   hash=95d88be55cb521d7 bbox=[143.162, 30.967, 233.062, 70.967]
+   cand layer=PLOT_BOUNDARY                area=3480.51      verts=8    hash=391f6008c2155e31 bbox=[143.162, 30.967, 233.162, 70.967]
+    {'H1_identical': False, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+PRACTICE 05-01-25.dxf                         declared=359.7 matches=3
+   cand layer=PLOT_BOUNDARY                area=359.7        verts=4    hash=f6476c7bccb866ba bbox=[264.307, 77.799, 280.807, 99.599]
+   cand layer=0                            area=355.575      verts=4    hash=3e6888f69bdb6911 bbox=[290.713, 90.321, 309.004, 109.761]
+   cand layer=0                            area=355.575      verts=4    hash=3e7cb7dca4ee198b bbox=[290.713, 70.881, 309.004, 90.321]
+    {'H1_identical': False, 'H2_nested': False, 'H3_one_on_PLOT_BOUNDARY': True}
+
+BHUBAN CH DAS.dxf                             declared=388.0 matches=0
+   closest layer=line                         area=426.927      diff=+10.03%
+   closest layer=line                         area=433.092      diff=+11.62%
+   closest layer=line                         area=433.092      diff=+11.62%
+   closest layer=PLOT_BOUNDARY                area=559.116      diff=+44.10%
+
+GEETAMANDIR PERMISSION 02.01.26.dxf           declared=367.85 matches=2
+   cand layer=LINE                         area=367.851      verts=31   hash=5dce81d0a2f39fa8 bbox=[3386590.76, -704995.231, 3386608.112, -704972.568]
+   cand layer=PLOT_BOUNDARY                area=367.849      verts=25   hash=947c73c26ab6c6fd bbox=[3386590.76, -704995.231, 3386608.112, -704972.568]
+    {'H1_identical': False, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+ASTRA_CONCRETE (CLIENT).dxf                   declared=6225.0 matches=2
+   cand layer=PLOT_BOUNDARY                area=6225.233     verts=11   hash=45473ff78397681e bbox=[108.901, 187.566, 223.173, 260.73]
+   cand layer=SITE_PLAN                    area=6225.233     verts=11   hash=45473ff78397681e bbox=[108.901, 187.566, 223.173, 260.73]
+    {'H1_identical': True, 'H2_nested': True, 'H3_one_on_PLOT_BOUNDARY': True}
+
+-> /Users/parikshitsmac/Desktop/CAD/m-clone/dxf-model-training/data/plot_match_report.json

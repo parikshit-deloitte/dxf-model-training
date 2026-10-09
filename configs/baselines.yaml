@@ -1,0 +1,2 @@
+zero_shot_model: mlx-community/Qwen2.5-7B-Instruct-4bit   # MLX 4-bit of Qwen2.5-7B-Instruct (Apple Silicon); CUDA: Qwen/Qwen2.5-7B-Instruct
+cv: lopo_below_40_projects
