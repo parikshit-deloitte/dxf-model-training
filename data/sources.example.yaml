@@ -1,0 +1,7 @@
+# Copy to data/sources.yaml and list the folders that hold DXF drawings on THIS machine.
+# Files are deduplicated by SHA-256. source: real | synthetic (synthetic folders are listed only to be EXCLUDED).
+# data/ is never committed: drawings are applicant data.
+folders:
+  - {path: "data/raw/real", source: real, recursive: true}      # put real DXFs here (convert DWG first)
+  # - {path: "/mnt/drawings/approved", source: real, recursive: true}
+  # - {path: "/mnt/drawings/synthetic", source: synthetic}

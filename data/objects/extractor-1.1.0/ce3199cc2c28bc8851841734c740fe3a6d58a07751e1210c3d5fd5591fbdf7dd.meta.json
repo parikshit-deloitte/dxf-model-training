@@ -1,0 +1,3541 @@
+{
+ "file_sha256": "ce3199cc2c28bc8851841734c740fe3a6d58a07751e1210c3d5fd5591fbdf7dd",
+ "size_bytes": 78487707,
+ "extractor_version": "1.1.0",
+ "source_name": "CIPLA II -10 JAN 2026.dxf",
+ "dxf_version": "AC1021",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "HATCH": 1956,
+  "LWPOLYLINE": 28954,
+  "LINE": 123788,
+  "TEXT": 5472,
+  "SOLID": 1666,
+  "ARC": 16603,
+  "CIRCLE": 4840,
+  "SPLINE": 1449,
+  "ELLIPSE": 906,
+  "LEADER": 83,
+  "MTEXT": 475,
+  "DIMENSION": 349,
+  "INSERT": 2279,
+  "MULTILEADER": 1,
+  "REGION": 3,
+  "POINT": 40,
+  "POLYLINE": 168
+ },
+ "inserts_not_exploded": 2279,
+ "layers": {
+  "FALSE CEILING": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SITE_PLAN": {
+   "entities": 72796,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MTEXT": {
+   "entities": 8,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1 - SITE PLAN": {
+   "entities": 97,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TEXT": {
+   "entities": 177,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "6MM": {
+   "entities": 37,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TXT": {
+   "entities": 621,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT_BOUNDARY": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLOT_BOUNDARY",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BORDER": {
+   "entities": 367,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIM": {
+   "entities": 38,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_-1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "note": "edit distance 2 to BLK_n_FLR_n_BLT_UP_AREA_EXISTING"
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "WALL": {
+   "entities": 4079,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "STEEL": {
+   "entities": 117,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0": {
+   "entities": 18878,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_10_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_10_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_11_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_11_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_12_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_12_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_13_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_13_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_14_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_14_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_15_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_15_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_18_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_18_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROAD": {
+   "entities": 26,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "HATCH": {
+   "entities": 2070,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LEVEL": {
+   "entities": 195,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "WINDOW": {
+   "entities": 106,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Steps": {
+   "entities": 16,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIMENSION": {
+   "entities": 31,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLDG": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "wall1": {
+   "entities": 33,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "COLUMN": {
+   "entities": 1847,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BASE PLATE": {
+   "entities": 15,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BOLT": {
+   "entities": 120,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "structures": {
+   "entities": 30,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SHEETS": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FIRE HYDRANT": {
+   "entities": 22,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "2MM": {
+   "entities": 1150,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0-SNJ-P-200mm RWP": {
+   "entities": 21,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0dim": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TITEL BLOCK": {
+   "entities": 193,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLAN_INFO": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLAN_INFO",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_28_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_28_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_27_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_27_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_26_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_26_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_29_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_29_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_33_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_33_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_34_COVERED_AREA": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_34_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_32_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_32_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_30_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_30_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_25_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_25_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_24_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_24_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_41_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_20_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_20_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_39_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_39_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_40_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_40_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_42_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_42_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_38_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_38_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_8_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_8_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_10_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_11_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_37_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_37_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_43_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_43_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_19_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_19_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_8_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_36_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_7_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_7_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_21_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_9_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_22_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_22_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_23_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_23_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_31_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_21_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_9_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_12_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_13_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_14_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_15_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_18_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_19_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_20_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_21_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_22_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_23_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_25_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_24_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_26_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_27_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_28_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_29_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_30_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_32_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_40_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_41_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_42_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_3_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_33_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_38_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_43_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_44_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_44_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_45_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_45_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_45_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_46_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_46_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_35_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_35_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_35_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_44_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_39_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_37_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_36_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_36_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_34_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_16_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_16_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_16_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_9_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_7_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_2_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_3_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_3_FLR_2_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_FLR_2_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_FLR_3_BLT_UP_AREA_EXISTING": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_FLR_2_BLT_UP_AREA_EXISTING": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_FLR_2_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_FLR_3_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_8_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_3_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_3_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_47_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_FLR_4_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_47_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_8_FLR_2_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_17_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_17_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_17_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_17_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_46_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_47_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_31_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_31_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 3,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYOUT": {
+   "entities": 96,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "walls": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "L EMERGENCY DOOR": {
+   "entities": 726,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "L DOORS": {
+   "entities": 4071,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "3MM": {
+   "entities": 1234,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROOM-NAME": {
+   "entities": 335,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "New Columns": {
+   "entities": 194,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CHAJJA-PRO": {
+   "entities": 51,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1MM": {
+   "entities": 353,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_HATCH": {
+   "entities": 32,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Columns": {
+   "entities": 34,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "room-no": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TH": {
+   "entities": 274,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DEFPOINTS": {
+   "entities": 52,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "EQPT": {
+   "entities": 97,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROOM NAME": {
+   "entities": 112,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROOM-DIM": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GRID": {
+   "entities": 73,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PARTITION GMP": {
+   "entities": 169,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "WINDOW 1": {
+   "entities": 21,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_PARTITIONS": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_WINDOW": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_WALL_IN PLAN & SECTION": {
+   "entities": 48,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_DOOR": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "part": {
+   "entities": 92,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_RAMP_STAIRCASE": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AU_COLUMNS_R.C.C._SLAB_BEAM": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_RAILING": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "No print": {
+   "entities": 86,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$WALL": {
+   "entities": 125,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "HATCH FINISH SCHEDULE": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$HATCH": {
+   "entities": 15,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$FFL": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$DOOR": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$M.S. COUMN & BEAM": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$ROOM NAME": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$STAIRCASE": {
+   "entities": 45,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-201-RC5$0$A-WALL": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "WALL EXISTING": {
+   "entities": 267,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROOM NAME & SIZE EXISTING": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A-DOOR": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "XR01$0$A_FURNITURE": {
+   "entities": 627,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "STAIRCASE": {
+   "entities": 203,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  ". TEXT": {
+   "entities": 511,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LATEST MODIFICATIONS": {
+   "entities": 52,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$PARTITION GMP": {
+   "entities": 79,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CIVIL": {
+   "entities": 138,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "5-Quote": {
+   "entities": 20,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "EQP": {
+   "entities": 9314,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_8": {
+   "entities": 164,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "New room numbers": {
+   "entities": 35,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "4": {
+   "entities": 214,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PILASTER": {
+   "entities": 47,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Plaster": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$HATCH": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$3MM": {
+   "entities": 23,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$HATCH": {
+   "entities": 102,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$A-new panel": {
+   "entities": 240,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$MOBILE RACK": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$COLUMN": {
+   "entities": 153,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$WALL": {
+   "entities": 624,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$A_EQUPMENT": {
+   "entities": 26595,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Door": {
+   "entities": 119,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "RWP": {
+   "entities": 11,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "EXIST": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MRC-VP": {
+   "entities": 342,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROOMNO": {
+   "entities": 434,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FITTINGS": {
+   "entities": 316,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "wall cladding": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$A-RMNAME": {
+   "entities": 123,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MOD-PARTI": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "door 1": {
+   "entities": 75,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "partition wall": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "panel": {
+   "entities": 79,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "partition doors": {
+   "entities": 16,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GRP": {
+   "entities": 5695,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MRC-1200-1": {
+   "entities": 123,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MRC-PASS-BOX": {
+   "entities": 14,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Equip no": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MRC-WALL": {
+   "entities": 111,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GROUND P.B.": {
+   "entities": 124,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BEAM": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "4-Nascoste": {
+   "entities": 628,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_11": {
+   "entities": 90,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DNC": {
+   "entities": 18,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DURCHTR-AM_0": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_3": {
+   "entities": 5883,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_7": {
+   "entities": 3250,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1032_DTE_1000_4979-AM_0": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "R": {
+   "entities": 104,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_0": {
+   "entities": 542,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_4": {
+   "entities": 418,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "V": {
+   "entities": 126,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1990573_Bedientableauhalter-AM_11": {
+   "entities": 12,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_2": {
+   "entities": 36,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "3": {
+   "entities": 144,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "7": {
+   "entities": 210,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "3A": {
+   "entities": 20,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "7A": {
+   "entities": 82,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "2N": {
+   "entities": 126,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "2A": {
+   "entities": 24,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "G": {
+   "entities": 1180,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Impianti": {
+   "entities": 16,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "2SEZIONI----013": {
+   "entities": 14,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "7NASCOSTA---013": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SATINATURA": {
+   "entities": 30,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "3-Assi": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "6ASSI-------018": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "RM": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_2N": {
+   "entities": 78,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GRUNDBAU-AM_3": {
+   "entities": 44,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GRUNDBAU-AM_0": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GRUNDBAU_BLECHVERKLEIDUNG-AM_0": {
+   "entities": 26,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_CL": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ACHSEN": {
+   "entities": 24,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TRU-AM_7": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "M": {
+   "entities": 54,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SCHN-AM_2": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_7N": {
+   "entities": 108,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_0N": {
+   "entities": 242,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_3N": {
+   "entities": 792,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ZAN-AM_2": {
+   "entities": 1656,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ZAN-AM_0": {
+   "entities": 144,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ZAN-AM_0N": {
+   "entities": 432,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROT-AM_2": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_5": {
+   "entities": 98,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GEV_FROZEN": {
+   "entities": 156,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_6": {
+   "entities": 118,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_4N": {
+   "entities": 16,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_9N": {
+   "entities": 28,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "2-Sezioni": {
+   "entities": 882,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_1": {
+   "entities": 40,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1308_G35844803_Einlaufband-AM_7": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_9": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AM_8N": {
+   "entities": 128,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "204": {
+   "entities": 12,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "-BHMU": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BHMM": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CON1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "motor": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "New panels$0$MRC-1200-2": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AHUGROUPING": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1": {
+   "entities": 4496,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "100": {
+   "entities": 134,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "110": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "partition": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "C-CHANNEL": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CLEAN ROOM PANEL": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DOOR NO": {
+   "entities": 21,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$ROOM-NAME": {
+   "entities": 34,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "D1000": {
+   "entities": 15,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "80mm thk.wall panel": {
+   "entities": 52,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "C   CHANEL": {
+   "entities": 11,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROOM DIMENSION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$New room numbers": {
+   "entities": 176,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MOBILE RACK": {
+   "entities": 21,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC5$0$SANITARY": {
+   "entities": 233,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC5$0$EQUIPMENT EXISTING": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$WALL": {
+   "entities": 176,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$SANITARY": {
+   "entities": 221,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$WINDOW": {
+   "entities": 63,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$EQUIPMENT EXISTING": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DFVK6000_5496-AM_4": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ICTL Panel Dimension": {
+   "entities": 12,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MRC-1200-2": {
+   "entities": 64,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PASS BOX EXISTING": {
+   "entities": 270,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PARTITION window": {
+   "entities": 65,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$STAIRCASE EXISTING": {
+   "entities": 92,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$DOOR & WINDOW EXISTING": {
+   "entities": 16,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$WALL EXISTING": {
+   "entities": 23,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Lines": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SAN": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "IPS_STAY": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "1516-01-ABA-202-RC6A$0$ROOM NAME": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CEILING OPENING": {
+   "entities": 42,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "L-Angle": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$CLOUD": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$EQP": {
+   "entities": 504,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$COLUMN": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$GRP": {
+   "entities": 78,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$PARTITION window": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$new-panel": {
+   "entities": 41,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$A-RMNAME": {
+   "entities": 28,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$new-panel": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_VP": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "HV-BOUNDRY": {
+   "entities": 34,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$eqp ver 0.5": {
+   "entities": 406,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$DOOR": {
+   "entities": 48,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$MRC-VP": {
+   "entities": 206,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$PARTITION 80MM [CLEAN ROOM]": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$STAIRCASE": {
+   "entities": 93,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$2MM": {
+   "entities": 46,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$A_VP": {
+   "entities": 79,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$A-DEMOLITION PANEL": {
+   "entities": 27,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$1MM": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$partition doors": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$PARTITION window": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$ROOM NAME": {
+   "entities": 161,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$AHUGROUPING": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$CHAJJA-PRO": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$GRID": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$CLADDING GMP": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$door 1": {
+   "entities": 53,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$changes": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$EQPT- No delete": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$EQP": {
+   "entities": 283,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$1$TH": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CENN": {
+   "entities": 144,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$CLADDING GMP": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$PARTITION GMP": {
+   "entities": 25,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$TH": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$new-panel": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "H-PRESSURE -TAG": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_FLOOR_PLAN": {
+   "entities": 113,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$drain": {
+   "entities": 7,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$GRP": {
+   "entities": 24,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$ROOM-NAME": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$1516-01-ABA-202-RC6A$0$WINDOW": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$A-new panel": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$XR1P$0$A-WALL": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A-Anno-Scrn": {
+   "entities": 18,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_RWP": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "C_COL": {
+   "entities": 21,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A_FLASE CELING": {
+   "entities": 24,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "E-LEGEND": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "AC-RISER _R1B 900x80": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$%S&S GI PARTITION-80": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0-IPSM COMMENTS": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$WINDOW 1": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$WALL EXISTING": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$A-EXISTING PANEL": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$SYS NAME": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$ICTL-1000X80MM DOOR": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "$NDD19001-XR-LINE 3&4$0$$NDD19001-XR-LINE 3&4$0$M.S. COUMN & BEAM": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LINE": {
+   "entities": 176,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CUTOUT": {
+   "entities": 134,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MAN MATERIAL FLOW ARROWS": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SLAB PROJECTION": {
+   "entities": 35,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ELEVATIONAL EXISTING": {
+   "entities": 65,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "bailwick AHUs": {
+   "entities": 224,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Electrical Panels": {
+   "entities": 90,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  ". TEXT @ 2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MCC PANEL": {
+   "entities": 21,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PENDANT": {
+   "entities": 15,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FB": {
+   "entities": 71,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "VU": {
+   "entities": 71,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "slab openings": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CL-OF-FTG": {
+   "entities": 18,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "4MM": {
+   "entities": 36,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROM-NAME": {
+   "entities": 22,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FD": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PAPER": {
+   "entities": 9,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ANNUNCIATION PANEL": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "_-0": {
+   "entities": 56,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PARTI": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ICTPL 80 MM SS PANEL": {
+   "entities": 19,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "IC_ View Panel": {
+   "entities": 20,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "swap": {
+   "entities": 12,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ED": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  ". TEXT @ 1": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CUTOUT EXISITNG": {
+   "entities": 74,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TERRACE": {
+   "entities": 14,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "COLUMN EXISTING": {
+   "entities": 35,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DOOR & WINDOW EXISTING": {
+   "entities": 93,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DEMOLISHED": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "STAIRCASE EXISTING": {
+   "entities": 137,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "S-COLS": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "WINDOWS": {
+   "entities": 17,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROOM NO EXISITNG": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "L BMS TEMP. SENSOR": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Dimensions": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FUR": {
+   "entities": 440,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FURNITURE": {
+   "entities": 186,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PROPOSED MACHINERY": {
+   "entities": 24,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "WALLS & BOUNDARIES": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_3_FLOOR_PLAN": {
+   "entities": 1,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_3_BLT_UP_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DOOR & WINDOW ELEVATION": {
+   "entities": 319,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GROOVE": {
+   "entities": 198,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TEXT DETAIL EXISTING": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ELEVATIONAL": {
+   "entities": 133,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "GRID NO": {
+   "entities": 123,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SLAB PROPOSED": {
+   "entities": 319,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "CEILING": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PARTITION 80MM [CLEAN ROOM]": {
+   "entities": 24,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "COLUMN & BEAM IN SECTION": {
+   "entities": 33,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "text detail": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIMENSION DETAIL": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SLAB EXISTNG": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LEADER": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_FRONT_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_LVL_0_SIDE_SETBACK2": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK2",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_LVL_0_REAR_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_REAR_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_LVL_0_FRONT_SETBACK": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_LVL_0_SIDE_SETBACK1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_SETBACK_DIM": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_SETBACK_DIM",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_3_BLT_UP_AREA_DEDUCT": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK2": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK2",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_REAR_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_REAR_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_SETBACK_DIM": {
+   "entities": 4,
+   "class": "category",
+   "category": "BLK_n_SETBACK_DIM",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_41_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": "layer",
+ "plan_info_candidates": 1,
+ "declared_plot_area_m2": 117338.23,
+ "_plan_info_private": {
+  "LESSEE_NAME": "Cipla Limited",
+  "PLOT_NO": "L-147/2 & L-150##L-147/1##L-138##L-147/3##L-147##S-103, 108, 109##S-104, S-105##S-110##S-107, 111 & 112",
+  "PROJECT_FALLING_UNDER_ZONE": "I3"
+ },
+ "plan_info_keys": [
+  "ARCHITECT_OR_TECHNICAL_PERSON_NAME",
+  "AREA_TYPE",
+  "AVG_PLOT_DEPTH",
+  "AVG_PLOT_WIDTH",
+  "DISTANCE_FROM_HTL_IF_THE_PROPERTY_IS_WITHIN_1000_METERS_OF_THE_HIGH_TIDE_LINE_OF_THE_SEA",
+  "DISTANCE_FROM_THE_BOUNDARY_OF_RAILWAY_PROPERTY_IF_THE_PROPERTY_IS_WITHIN_50_METERS_OF_THE_RAILWAY_LINE",
+  "DISTANCE_FROM_THE_BOUNDARY_WALL_OF_CEMETERY_OR_CREMATORIUM_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_CEMETERY_OR_CREMATORIUM",
+  "DISTANCE_FROM_THE_CENTRE_LINE_OF_HIGHWAY_OR_BYEPASS_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_NATIONAL_HIGHWAY_OR_STATE_BYEPASS",
+  "DISTANCE_FROM_THE_RIVER_BANK_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_RIVER_BANK",
+  "DISTRICT",
+  "DOES_THE_BUILDING_HAVE_ONLY_ONE_ACCESS_FROM_LOWER_PORTION_OF_THE_BUILDING",
+  "DOES_THE_PROJECT_HAVE_SLOPING_SITE",
+  "ESTATE",
+  "ESTIMATED_PROJECT_COST",
+  "HIGHEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "IS_THERE_ANY_UNDERGROUND_OR_OVER_GROUND_OR_OVERHEAD_TELEPHONES_OR_ELECTRICITY_LINES_AFFECTING_OR_CROSSING_THE_PLOT",
+  "I_HEREBY_DECLARE_THAT_THE_PLAN_HAS_BEEN_PREPARED_IN_STRICT_COMPLIANCE_WITH_THE_GOA_REGULATION_OF_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_ACT_2008_AND_THE_GOA_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_REGULATIONS_2010",
+  "LESSEE_EMAIL",
+  "LESSEE_NAME",
+  "LOWEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "PHASE",
+  "PLOT_AREA_M2",
+  "PLOT_NO",
+  "PROJECT_FALLING_UNDER_ZONE",
+  "ROAD_WIDTH",
+  "THE_ESTIMATED_PROJECT_COST_IS_CALCULATED_BASED_ON_THE_LATEST_PLINTH_AREA_RATES_INCLUDING_ALL_BUILDING_INFRASTRUCTURE_AND_SERVICES_COMPONENTS_WITHIN_THE_PROJECT",
+  "THE_SETBACKS_SHALL_BE_KEPT_PERMANENTLY_OPEN_TO_SKY",
+  "WHAT_IS_THE_INDUSTRY_CLASSIFICATION",
+  "WHETHER_ANY_EXTRA_FAR_IS_CLAIMED_ON_THE_BASIS_OF_ROAD_WIDENING_OR_PROPOSED_ROAD",
+  "WHETHER_SUCH_ROAD_WIDENING_AREA_OR_AREA_UNDER_PROPOSED_ROAD_HAS_BEEN_GIFTED_TO_THE_LOCAL_BODY"
+ ],
+ "plot_candidates": [
+  {
+   "handle": "393B6B",
+   "layer": "PLOT_BOUNDARY",
+   "area": 116871.566,
+   "n_vertices": 36,
+   "bbox": [
+    1244.296,
+    1047.622,
+    1896.783,
+    1466.945
+   ],
+   "vertex_hash": "80fdc31ab86f3e99"
+  }
+ ],
+ "plot_match_count": 1,
+ "plot_resolved_by": "unique",
+ "objects": 12513,
+ "seconds": 17.17
+}

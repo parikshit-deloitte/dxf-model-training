@@ -1,0 +1,46 @@
+{
+ "file_sha256": "d8e50c7a049eb7da50087bc655338087c1478daa443cc4c820fb1b8dd0382c46",
+ "size_bytes": 26344684,
+ "extractor_version": "1.0.0",
+ "source_name": "004_TEST DWG.dxf",
+ "dxf_version": "AC1032",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "LWPOLYLINE": 2768,
+  "HATCH": 568,
+  "LINE": 4168,
+  "TEXT": 419,
+  "CIRCLE": 283,
+  "ARC": 351,
+  "MTEXT": 265,
+  "LEADER": 111,
+  "DIMENSION": 145,
+  "ELLIPSE": 25,
+  "INSERT": 9,
+  "SPLINE": 565
+ },
+ "inserts_not_exploded": 9,
+ "layers": {
+  "0": {
+   "entities": 9677,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": null,
+ "plan_info_candidates": 0,
+ "declared_plot_area_m2": null,
+ "_plan_info_private": {
+  "LESSEE_NAME": null,
+  "PLOT_NO": null,
+  "PROJECT_FALLING_UNDER_ZONE": null
+ },
+ "plan_info_keys": [],
+ "plot_candidates": [],
+ "plot_match_count": 0,
+ "objects": 0,
+ "seconds": 2.59
+}

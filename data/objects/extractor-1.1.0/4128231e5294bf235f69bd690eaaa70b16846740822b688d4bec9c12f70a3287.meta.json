@@ -1,0 +1,128 @@
+{
+ "file_sha256": "4128231e5294bf235f69bd690eaaa70b16846740822b688d4bec9c12f70a3287",
+ "size_bytes": 3214516,
+ "extractor_version": "1.1.0",
+ "source_name": "003_TEST DWG.dxf",
+ "dxf_version": "AC1032",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "LWPOLYLINE": 57,
+  "LINE": 768,
+  "MTEXT": 146,
+  "TEXT": 7,
+  "LEADER": 10,
+  "ARC": 15,
+  "DIMENSION": 47,
+  "CIRCLE": 27,
+  "HATCH": 1
+ },
+ "inserts_not_exploded": 0,
+ "layers": {
+  "0": {
+   "entities": 629,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MTEXT": {
+   "entities": 89,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Text-150": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_PLINTH_HEIGHT": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_PLINTH_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_FLOOR_PLAN": {
+   "entities": 34,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ELEVATION_PLAN_1": {
+   "entities": 129,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SECTION_PLAN_1": {
+   "entities": 183,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_2_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 5,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_SETBACK_DIM": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_SETBACK_DIM",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "OPEN_PARKING": {
+   "entities": 1,
+   "class": "category",
+   "category": "OPEN_PARKING",
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": null,
+ "plan_info_candidates": 0,
+ "declared_plot_area_m2": null,
+ "_plan_info_private": {
+  "LESSEE_NAME": null,
+  "PLOT_NO": null,
+  "PROJECT_FALLING_UNDER_ZONE": null
+ },
+ "plan_info_keys": [],
+ "plot_candidates": [],
+ "plot_match_count": 0,
+ "plot_resolved_by": null,
+ "objects": 0,
+ "seconds": 0.46
+}

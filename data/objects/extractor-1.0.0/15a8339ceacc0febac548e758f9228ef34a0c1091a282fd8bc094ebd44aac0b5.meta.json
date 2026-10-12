@@ -1,0 +1,322 @@
+{
+ "file_sha256": "15a8339ceacc0febac548e758f9228ef34a0c1091a282fd8bc094ebd44aac0b5",
+ "size_bytes": 4489581,
+ "extractor_version": "1.0.0",
+ "source_name": "SARA INDUSTRIES.dxf",
+ "dxf_version": "AC1015",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "MTEXT": 164,
+  "LWPOLYLINE": 521,
+  "LINE": 3164,
+  "HATCH": 67,
+  "ARC": 114,
+  "SPLINE": 408,
+  "LEADER": 51,
+  "DIMENSION": 51,
+  "INSERT": 18,
+  "TEXT": 104,
+  "ELLIPSE": 39,
+  "CIRCLE": 172
+ },
+ "inserts_not_exploded": 18,
+ "layers": {
+  "PLAN_INFO": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLAN_INFO",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0": {
+   "entities": 3426,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TEXT": {
+   "entities": 30,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FFL": {
+   "entities": 101,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "3MM": {
+   "entities": 1143,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "HATCH": {
+   "entities": 20,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_HT_OF_BLDG": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_HT_OF_BLDG",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_STAIR_1_FLIGHT_1": {
+   "entities": 39,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "6MM": {
+   "entities": 15,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TXT": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "2MM": {
+   "entities": 22,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER1": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DWG. TITLE": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BOUNDARY": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_FLOOR_PLAN": {
+   "entities": 9,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A-----TEP": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_SETBACK_DIM": {
+   "entities": 5,
+   "class": "category",
+   "category": "BLK_n_SETBACK_DIM",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ROAD": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT 60": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Elevation 1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Window and Door Elevation": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT_BOUNDARY": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLOT_BOUNDARY",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK2": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK2",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_FRONT_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_REAR_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_REAR_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_COVERED_AREA": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Elevation": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 2,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "OPEN_PARKING": {
+   "entities": 6,
+   "class": "category",
+   "category": "OPEN_PARKING",
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": "layer",
+ "plan_info_candidates": 1,
+ "declared_plot_area_m2": 1223.0,
+ "_plan_info_private": {
+  "LESSEE_NAME": "Sachin J.Patil",
+  "PLOT_NO": "9",
+  "PROJECT_FALLING_UNDER_ZONE": "I3"
+ },
+ "plan_info_keys": [
+  "ARCHITECT_OR_TECHNICAL_PERSON_NAME",
+  "AREA_TYPE",
+  "AVG_PLOT_DEPTH",
+  "AVG_PLOT_WIDTH",
+  "DISTANCE_FROM_HTL_IF_THE_PROPERTY_IS_WITHIN_1000_METERS_OF_THE_HIGH_TIDE_LINE_OF_THE_SEA",
+  "DISTANCE_FROM_THE_BOUNDARY_OF_RAILWAY_PROPERTY_IF_THE_PROPERTY_IS_WITHIN_50_METERS_OF_THE_RAILWAY_LINE",
+  "DISTANCE_FROM_THE_BOUNDARY_WALL_OF_CEMETERY_OR_CREMATORIUM_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_CEMETERY_OR_CREMATORIUM",
+  "DISTANCE_FROM_THE_CENTRE_LINE_OF_HIGHWAY_OR_BYEPASS_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_NATIONAL_HIGHWAY_OR_STATE_BYEPASS",
+  "DISTANCE_FROM_THE_RIVER_BANK_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_RIVER_BANK",
+  "DISTRICT",
+  "DOES_THE_BUILDING_HAVE_ONLY_ONE_ACCESS_FROM_LOWER_PORTION_OF_THE_BUILDING",
+  "DOES_THE_PROJECT_HAVE_SLOPING_SITE",
+  "ESTATE",
+  "ESTIMATED_PROJECT_COST",
+  "HIGHEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "IS_THERE_ANY_UNDERGROUND_OR_OVER_GROUND_OR_OVERHEAD_TELEPHONES_OR_ELECTRICITY_LINES_AFFECTING_OR_CROSSING_THE_PLOT",
+  "I_HEREBY_DECLARE_THAT_THE_PLAN_HAS_BEEN_PREPARED_IN_STRICT_COMPLIANCE_WITH_THE_GOA_REGULATION_OF_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_ACT_2008_AND_THE_GOA_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_REGULATIONS_2010",
+  "LESSEE_EMAIL",
+  "LESSEE_NAME",
+  "LOWEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "PHASE",
+  "PLOT_AREA_M2",
+  "PLOT_NO",
+  "PROJECT_FALLING_UNDER_ZONE",
+  "ROAD_WIDTH",
+  "THE_ESTIMATED_PROJECT_COST_IS_CALCULATED_BASED_ON_THE_LATEST_PLINTH_AREA_RATES_INCLUDING_ALL_BUILDING_INFRASTRUCTURE_AND_SERVICES_COMPONENTS_WITHIN_THE_PROJECT",
+  "THE_SETBACKS_SHALL_BE_KEPT_PERMANENTLY_OPEN_TO_SKY",
+  "WHAT_IS_THE_INDUSTRY_CLASSIFICATION",
+  "WHETHER_ANY_EXTRA_FAR_IS_CLAIMED_ON_THE_BASIS_OF_ROAD_WIDENING_OR_PROPOSED_ROAD",
+  "WHETHER_SUCH_ROAD_WIDENING_AREA_OR_AREA_UNDER_PROPOSED_ROAD_HAS_BEEN_GIFTED_TO_THE_LOCAL_BODY"
+ ],
+ "plot_candidates": [
+  {
+   "handle": "5D86",
+   "layer": "PLOT_BOUNDARY",
+   "area": 1223.94,
+   "n_vertices": 4,
+   "bbox": [
+    973.755,
+    166.817,
+    1019.615,
+    208.622
+   ],
+   "vertex_hash": "a4057242797f85c6"
+  }
+ ],
+ "plot_match_count": 1,
+ "objects": 372,
+ "seconds": 0.56
+}

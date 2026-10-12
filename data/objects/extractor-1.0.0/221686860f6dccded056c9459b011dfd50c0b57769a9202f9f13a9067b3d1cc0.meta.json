@@ -1,0 +1,521 @@
+{
+ "file_sha256": "221686860f6dccded056c9459b011dfd50c0b57769a9202f9f13a9067b3d1cc0",
+ "size_bytes": 1733686,
+ "extractor_version": "1.0.0",
+ "source_name": "mezzanine floor issue.dxf",
+ "dxf_version": "AC1032",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "DIMENSION": 52,
+  "CIRCLE": 7,
+  "HATCH": 20,
+  "TEXT": 46,
+  "LWPOLYLINE": 522,
+  "MTEXT": 216,
+  "LINE": 1382,
+  "INSERT": 35,
+  "MULTILEADER": 10,
+  "ELLIPSE": 14,
+  "SOLID": 3,
+  "ARC": 12,
+  "ACAD_TABLE": 1,
+  "LEADER": 4
+ },
+ "inserts_not_exploded": 35,
+ "layers": {
+  "Text": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SITE_PLAN": {
+   "entities": 32,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Text-150": {
+   "entities": 46,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 6,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0": {
+   "entities": 121,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BOX": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MTEXT": {
+   "entities": 154,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DOOR WINDOWS": {
+   "entities": 122,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PL-WALL": {
+   "entities": 532,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "HATCH": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Elevation 0.05": {
+   "entities": 17,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ELEVATION 0.20": {
+   "entities": 43,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Wall": {
+   "entities": 216,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BEAM": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "OPENING": {
+   "entities": 39,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "hidden": {
+   "entities": 591,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PL--roof": {
+   "entities": 19,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_HT_OF_BLDG": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_HT_OF_BLDG",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_PLINTH_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_PLINTH_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_FLR_0_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_FLR_1_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_HT_OF_BLDG": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_HT_OF_BLDG",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLAN_INFO": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLAN_INFO",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "COLUMN": {
+   "entities": 62,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Bay": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "walll": {
+   "entities": 31,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LINE": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "EQUIPEMENTS": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DOOR": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "grid": {
+   "entities": 135,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FACILITATION": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "glass": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIMENTIONS": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "furni": {
+   "entities": 36,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_FLR_0_WATER_CLOSET": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_WATER_CLOSET",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_WATER_CLOSET": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_WATER_CLOSET",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "seperator": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_FLR_1_ROOM_0_MEZ_AREA_0": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_FLR_n_ROOM_n_MEZ_AREA_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_SETBACK_DIM": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_SETBACK_DIM",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_SETBACK_DIM": {
+   "entities": 5,
+   "class": "category",
+   "category": "BLK_n_SETBACK_DIM",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_DEM_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_DEM_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_1_BLK_2": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_FRONT_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_REAR_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_REAR_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_SIDE_SETBACK2": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK2",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_SIDE_SETBACK1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_FRONT_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK2": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK2",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_REAR_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_REAR_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "OPEN_PARKING": {
+   "entities": 3,
+   "class": "category",
+   "category": "OPEN_PARKING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT_BOUNDARY": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLOT_BOUNDARY",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MAIN_GATE": {
+   "entities": 2,
+   "class": "category",
+   "category": "MAIN_GATE",
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": "layer",
+ "plan_info_candidates": 1,
+ "declared_plot_area_m2": 1600.0,
+ "_plan_info_private": {
+  "LESSEE_NAME": "Menezes Packaging and Printing Pvt Ltd",
+  "PLOT_NO": "P-33 & 34",
+  "PROJECT_FALLING_UNDER_ZONE": "I1"
+ },
+ "plan_info_keys": [
+  "ARCHITECT_OR_TECHNICAL_PERSON_NAME",
+  "AREA_TYPE",
+  "AVG_PLOT_DEPTH",
+  "AVG_PLOT_WIDTH",
+  "DISTANCE_FROM_HTL_IF_THE_PROPERTY_IS_WITHIN_1000_METERS_OF_THE_HIGH_TIDE_LINE_OF_THE_SEA",
+  "DISTANCE_FROM_THE_BOUNDARY_OF_RAILWAY_PROPERTY_IF_THE_PROPERTY_IS_WITHIN_50_METERS_OF_THE_RAILWAY_LINE",
+  "DISTANCE_FROM_THE_BOUNDARY_WALL_OF_CEMETERY_OR_CREMATORIUM_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_CEMETERY_OR_CREMATORIUM",
+  "DISTANCE_FROM_THE_CENTRE_LINE_OF_HIGHWAY_OR_BYEPASS_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_NATIONAL_HIGHWAY_OR_STATE_BYEPASS",
+  "DISTANCE_FROM_THE_RIVER_BANK_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_RIVER_BANK",
+  "DISTRICT",
+  "DOES_THE_BUILDING_HAVE_ONLY_ONE_ACCESS_FROM_LOWER_PORTION_OF_THE_BUILDING",
+  "DOES_THE_PROJECT_HAVE_SLOPING_SITE",
+  "ESTATE",
+  "ESTIMATED_PROJECT_COST",
+  "HIGHEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "IS_THERE_ANY_UNDERGROUND_OR_OVER_GROUND_OR_OVERHEAD_TELEPHONES_OR_ELECTRICITY_LINES_AFFECTING_OR_CROSSING_THE_PLOT",
+  "I_HEREBY_DECLARE_THAT_THE_PLAN_HAS_BEEN_PREPARED_IN_STRICT_COMPLIANCE_WITH_THE_GOA_REGULATION_OF_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_ACT_2008_AND_THE_GOA_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_REGULATIONS_2010",
+  "LESSEE_EMAIL",
+  "LESSEE_NAME",
+  "LOWEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "PHASE",
+  "PLOT_AREA_M2",
+  "PLOT_NO",
+  "PROJECT_FALLING_UNDER_ZONE",
+  "ROAD_WIDTH",
+  "STATE",
+  "THE_ESTIMATED_PROJECT_COST_IS_CALCULATED_BASED_ON_THE_LATEST_PLINTH_AREA_RATES_INCLUDING_ALL_BUILDING_INFRASTRUCTURE_AND_SERVICES_COMPONENTS_WITHIN_THE_PROJECT",
+  "THE_SETBACKS_SHALL_BE_KEPT_PERMANENTLY_OPEN_TO_SKY",
+  "WHAT_IS_THE_INDUSTRY_CLASSIFICATION",
+  "WHETHER_ANY_EXTRA_FAR_IS_CLAIMED_ON_THE_BASIS_OF_ROAD_WIDENING_OR_PROPOSED_ROAD",
+  "WHETHER_SUCH_ROAD_WIDENING_AREA_OR_AREA_UNDER_PROPOSED_ROAD_HAS_BEEN_GIFTED_TO_THE_LOCAL_BODY"
+ ],
+ "plot_candidates": [
+  {
+   "handle": "5B33B9",
+   "layer": "PLOT_BOUNDARY",
+   "area": 1600.0,
+   "n_vertices": 4,
+   "bbox": [
+    4380.398,
+    -157.809,
+    4420.593,
+    -117.614
+   ],
+   "vertex_hash": "f6527dcf3c9ca835"
+  }
+ ],
+ "plot_match_count": 1,
+ "objects": 605,
+ "seconds": 0.24
+}

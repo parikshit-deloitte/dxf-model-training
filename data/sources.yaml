@@ -1,0 +1,17 @@
+# Local paths to DXF folders. Never committed (data/ is git-ignored). Files are deduplicated by SHA-256.
+# source: real | synthetic  — synthetic folders are listed so they can be EXCLUDED and counted, never mixed in.
+folders:
+  - {path: "data/raw/real", source: real, recursive: true}   # DXFs saved inside this repo (git-ignored)
+  - {path: "~/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data", source: real, recursive: true}
+  - {path: "~/Documents/CAD-GOA/archive/approved/Client test", source: real}
+  - {path: "~/Downloads/cad--2-main/Client test", source: real}
+  - {path: "~/Desktop/cad--2-main/Client test", source: real}
+  - {path: "~/Documents/CAD-GOA/archive/dxf/Test file -no layer", source: real}
+  - {path: "~/Downloads/Test file -no layer", source: real}
+  - {path: "~/Desktop/Test file -no layer", source: real}
+  - {path: "~/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad", source: real}
+  - {path: "~/Downloads/cad-main/cad", source: real}
+  - {path: "~/Downloads/cad-3-main/111", source: real}
+  - {path: "~/Desktop/cad-3-main/111", source: real}
+  - {path: "~/Documents/Codex/2026-09-25/i-wanted-to-create-a-system-2/outputs/cad-review-fastapi/examples", source: synthetic}
+  - {path: "~/Documents/CAD-GOA/archive/synthetic/dxf", source: synthetic}

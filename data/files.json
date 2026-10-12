@@ -1,0 +1,1326 @@
+{
+ "41ed76a9063fa63654f196a443fbd7dfdfffc8048e97882f7de55f93f9254e8a": {
+  "sha256": "41ed76a9063fa63654f196a443fbd7dfdfffc8048e97882f7de55f93f9254e8a",
+  "paths": [
+   "data/raw/real/DWG_02.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/DWG_02.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/DWG_02.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/DWG_02.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/DWG_02.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 889742
+ },
+ "140bc46167d32b4eec7c5d2bb25002c01225fd08545b2741af663752f4128390": {
+  "sha256": "140bc46167d32b4eec7c5d2bb25002c01225fd08545b2741af663752f4128390",
+  "paths": [
+   "data/raw/real/MRS REENA SHAHI GMDA COMMERCIAL 06.01.26.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 3533765
+ },
+ "ce3199cc2c28bc8851841734c740fe3a6d58a07751e1210c3d5fd5591fbdf7dd": {
+  "sha256": "ce3199cc2c28bc8851841734c740fe3a6d58a07751e1210c3d5fd5591fbdf7dd",
+  "paths": [
+   "data/raw/real/CIPLA II -10 JAN 2026.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/CIPLA II -10 JAN 2026.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/CIPLA II -10 JAN 2026.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/CIPLA II -10 JAN 2026.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/CIPLA II -10 JAN 2026.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 78487707
+ },
+ "4d530cb57ff888362d3f17d8c5c5e777004460a6b1c0528d30f4933688d478a5": {
+  "sha256": "4d530cb57ff888362d3f17d8c5c5e777004460a6b1c0528d30f4933688d478a5",
+  "paths": [
+   "data/raw/real/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/PP1 OBPAS SUB9_R0.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/PP1 OBPAS SUB9_R0.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 12987819
+ },
+ "db31b8c77a661913a725e680f26e14dfb1410295ab339a3db472bb3414531eac": {
+  "sha256": "db31b8c77a661913a725e680f26e14dfb1410295ab339a3db472bb3414531eac",
+  "paths": [
+   "data/raw/real/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/rev1 prop r__tracing (2)- 28-01-2026.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/rev1 prop r__tracing (2)- 28-01-2026.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 16525332
+ },
+ "4ca9af6f3564a8b20ceb3570f495997fa71870f7d86c7933b4c73e440c9508c2": {
+  "sha256": "4ca9af6f3564a8b20ceb3570f495997fa71870f7d86c7933b4c73e440c9508c2",
+  "paths": [
+   "data/raw/real/Sub16 GDW.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/Sub16 GDW.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/Sub16 GDW.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/Sub16 GDW.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/Sub16 GDW.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 7414148
+ },
+ "56f0d7f6fa5769c4bd44713e04b19443c60a79f016baaad67c85492debc73d9f": {
+  "sha256": "56f0d7f6fa5769c4bd44713e04b19443c60a79f016baaad67c85492debc73d9f",
+  "paths": [
+   "data/raw/real/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/MS MILLTECH WORKS-GIDC SUBMISSION _21.11.25.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1704012
+ },
+ "74a9120d1878e8586f0eb80e73e21c12f278545ba414fca0e0dcd2c370bf5c5e": {
+  "sha256": "74a9120d1878e8586f0eb80e73e21c12f278545ba414fca0e0dcd2c370bf5c5e",
+  "paths": [
+   "data/raw/real/NISANT PAHARIA.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2295738
+ },
+ "9aa5957110137c52121ff8e834e3afa1f895d87631c22a9987a47d7551987511": {
+  "sha256": "9aa5957110137c52121ff8e834e3afa1f895d87631c22a9987a47d7551987511",
+  "paths": [
+   "data/raw/real/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/Bharat_Conductors_Sancoale_Online[2].dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/Bharat_Conductors_Sancoale_Online[2].dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2720482
+ },
+ "221686860f6dccded056c9459b011dfd50c0b57769a9202f9f13a9067b3d1cc0": {
+  "sha256": "221686860f6dccded056c9459b011dfd50c0b57769a9202f9f13a9067b3d1cc0",
+  "paths": [
+   "data/raw/real/mezzanine floor issue.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/mezzanine floor issue.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/mezzanine floor issue.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/mezzanine floor issue.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/mezzanine floor issue.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1733686
+ },
+ "6943ccdcc1269df88d893b59ea9fb1b2fec130b671395ab00f66302e143d34c2": {
+  "sha256": "6943ccdcc1269df88d893b59ea9fb1b2fec130b671395ab00f66302e143d34c2",
+  "paths": [
+   "data/raw/real/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/TRY1 EXTRA RE.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/TRY1 EXTRA RE.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 4263526
+ },
+ "b08526d200ad08f03c9f3fea8aae14b5adb69b303d4b1016ee336fbf20f8d568": {
+  "sha256": "b08526d200ad08f03c9f3fea8aae14b5adb69b303d4b1016ee336fbf20f8d568",
+  "paths": [
+   "data/raw/real/SUB-7.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/SUB-7.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/SUB-7.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/SUB-7.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/SUB-7.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/SUB-7.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/SUB-7.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/SUB-7.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/SUB-7.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 60416947
+ },
+ "557cb7585dce90fdbd113ad9742322ae01b080ca16043fecc44a9eaa873475fa": {
+  "sha256": "557cb7585dce90fdbd113ad9742322ae01b080ca16043fecc44a9eaa873475fa",
+  "paths": [
+   "data/raw/real/OBPAS_na.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/OBPAS_na.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/OBPAS_na.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/OBPAS_na.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/OBPAS_na.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 12987590
+ },
+ "34c0726f47574d0c7242811275a61a60771c9781789e14bc449a5c821304e5e1": {
+  "sha256": "34c0726f47574d0c7242811275a61a60771c9781789e14bc449a5c821304e5e1",
+  "paths": [
+   "data/raw/real/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/SHREE NAINA -test  -08 oct  2025.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/SHREE NAINA -test  -08 oct  2025.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 20203938
+ },
+ "bfab39aa1d0d0f02ef8bdfc01baaf7cd63dd06d89e102d645003b485b4b4c91c": {
+  "sha256": "bfab39aa1d0d0f02ef8bdfc01baaf7cd63dd06d89e102d645003b485b4b4c91c",
+  "paths": [
+   "data/raw/real/ONLINE SUBMISSION 16 sc PRAVEENA INDUSTRIES _09.05.2026.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/ONLINE SUBMISSION 16 sc PRAVEENA INDUSTRIES _09.05.2026.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/ONLINE SUBMISSION 16 sc PRAVEENA INDUSTRIES _09.05.2026.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/ONLINE SUBMISSION 16 sc PRAVEENA INDUSTRIES _09.05.2026.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/ONLINE SUBMISSION 16 sc PRAVEENA INDUSTRIES _09.05.2026.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 612234
+ },
+ "657d88f300b8fcc805f14e86add4dfb60bafc2a18fa45a18afd11fb4d84d26b0": {
+  "sha256": "657d88f300b8fcc805f14e86add4dfb60bafc2a18fa45a18afd11fb4d84d26b0",
+  "paths": [
+   "data/raw/real/compound wall drawing.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/compound wall drawing.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/compound wall drawing.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/compound wall drawing.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/compound wall drawing.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 906549
+ },
+ "0686ee6adb980d5a48eb74d31bb9d76331fcfed65bf6c8dbbff47e213c67afe9": {
+  "sha256": "0686ee6adb980d5a48eb74d31bb9d76331fcfed65bf6c8dbbff47e213c67afe9",
+  "paths": [
+   "data/raw/real/file_SUB-7.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/file_SUB-7.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/file_SUB-7.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/file_SUB-7.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/file_SUB-7.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 88684016
+ },
+ "c851b8d6283f74cb96b104e919502e621b2a7ecb937779db969afdaacc183b39": {
+  "sha256": "c851b8d6283f74cb96b104e919502e621b2a7ecb937779db969afdaacc183b39",
+  "paths": [
+   "data/raw/real/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/SD-PAULO-R4.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/SD-PAULO-R4.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1519980
+ },
+ "2dfce147f9b726aa7c8fcf1f901fbbe18140f8b0e734fe81a0e08773a23e75c4": {
+  "sha256": "2dfce147f9b726aa7c8fcf1f901fbbe18140f8b0e734fe81a0e08773a23e75c4",
+  "paths": [
+   "data/raw/real/KRIS.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/KRIS.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/KRIS.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/KRIS.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/KRIS.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/KRIS.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/KRIS.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/KRIS.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/KRIS.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 5435152
+ },
+ "6dcebd5981796d1203c0989a9089fb31d6889c6325bb133a14afa99cea99b63f": {
+  "sha256": "6dcebd5981796d1203c0989a9089fb31d6889c6325bb133a14afa99cea99b63f",
+  "paths": [
+   "data/raw/real/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 4666829
+ },
+ "9fa23d4263cfcaeae363f45922086288468906db12476ee9b66b8db2e8ee7c80": {
+  "sha256": "9fa23d4263cfcaeae363f45922086288468906db12476ee9b66b8db2e8ee7c80",
+  "paths": [
+   "data/raw/real/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/REV FINAL SIYARAM (1).dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/REV FINAL SIYARAM (1).dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1474772
+ },
+ "375718647a93fa5a2ecf28b8aa328740d7b0a1a92e3d7c3ae3f76851e0a4e400": {
+  "sha256": "375718647a93fa5a2ecf28b8aa328740d7b0a1a92e3d7c3ae3f76851e0a4e400",
+  "paths": [
+   "data/raw/real/TIRON.FINAL2.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/TIRON.FINAL2.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/TIRON.FINAL2.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/TIRON.FINAL2.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/TIRON.FINAL2.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2353260
+ },
+ "131f17083aacbdd01dd998a299fdc63b53c9b706f4f4aac46a489643c8c00c1c": {
+  "sha256": "131f17083aacbdd01dd998a299fdc63b53c9b706f4f4aac46a489643c8c00c1c",
+  "paths": [
+   "data/raw/real/TEST_G+III_20_02_2026.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 5018694
+ },
+ "c6970a4c714492817da57021543b296dd0042003122f8513ceaddfdc4d5a5d01": {
+  "sha256": "c6970a4c714492817da57021543b296dd0042003122f8513ceaddfdc4d5a5d01",
+  "paths": [
+   "data/raw/real/GEETAMANDIR PERMISSION 02.01.26.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1879524
+ },
+ "29a751b61c3dccb377a26018b3b301c33a9921fe4328beef0559f22acfb93789": {
+  "sha256": "29a751b61c3dccb377a26018b3b301c33a9921fe4328beef0559f22acfb93789",
+  "paths": [
+   "data/raw/real/Astra Concrete Products Online Pissurlem _ 7.12.25.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/Astra Concrete Products Online Pissurlem _ 7.12.25.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/Astra Concrete Products Online Pissurlem _ 7.12.25.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/Astra Concrete Products Online Pissurlem _ 7.12.25.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/Astra Concrete Products Online Pissurlem _ 7.12.25.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 25399821
+ },
+ "02d3b9d20a2079694f07fb1416b30cc7c21e9630e161097a811c53fb95b92894": {
+  "sha256": "02d3b9d20a2079694f07fb1416b30cc7c21e9630e161097a811c53fb95b92894",
+  "paths": [
+   "data/raw/real/sunita.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1456663
+ },
+ "31b2f739d8c48436ebce408ab810e8bdc24f7f1e8b6afde80140323913792f9f": {
+  "sha256": "31b2f739d8c48436ebce408ab810e8bdc24f7f1e8b6afde80140323913792f9f",
+  "paths": [
+   "data/raw/real/KHARGULI EDCR.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1510698
+ },
+ "9193709e8e012ff0346cdb8fcd0170c981497e705ce7ac82c12a9bcaf0ef7c57": {
+  "sha256": "9193709e8e012ff0346cdb8fcd0170c981497e705ce7ac82c12a9bcaf0ef7c57",
+  "paths": [
+   "data/raw/real/MACBROUT-4.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/MACBROUT-4.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/MACBROUT-4.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/MACBROUT-4.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/MACBROUT-4.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 996982
+ },
+ "843b9836580db7c8649f611413df434a77df66d1d3f3d549381e08b5d0ea9df0": {
+  "sha256": "843b9836580db7c8649f611413df434a77df66d1d3f3d549381e08b5d0ea9df0",
+  "paths": [
+   "data/raw/real/Approval_Koteshwar tiles22-6-26.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/Approval_Koteshwar tiles22-6-26.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/Approval_Koteshwar tiles22-6-26.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/Approval_Koteshwar tiles22-6-26.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/Approval_Koteshwar tiles22-6-26.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 3003898
+ },
+ "04055c805b63232147b3a7ddf64aaec73da7a00f833f110c5a7018e016260d29": {
+  "sha256": "04055c805b63232147b3a7ddf64aaec73da7a00f833f110c5a7018e016260d29",
+  "paths": [
+   "data/raw/real/BHUBAN CH DAS.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1772786
+ },
+ "b309dee7ea4d160046abb3e2bf890c2a06b7b98134aae310b0a3db10de0ab4a4": {
+  "sha256": "b309dee7ea4d160046abb3e2bf890c2a06b7b98134aae310b0a3db10de0ab4a4",
+  "paths": [
+   "data/raw/real/T-RON.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/T-RON.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/T-RON.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/T-RON.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/T-RON.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1761557
+ },
+ "15a8339ceacc0febac548e758f9228ef34a0c1091a282fd8bc094ebd44aac0b5": {
+  "sha256": "15a8339ceacc0febac548e758f9228ef34a0c1091a282fd8bc094ebd44aac0b5",
+  "paths": [
+   "data/raw/real/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/SARA INDUSTRIES.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/SARA INDUSTRIES.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 4489581
+ },
+ "bea865aaf33c9ff8d939ad2f210097844c9f7a0245f18bc09e1ca7e0967605e3": {
+  "sha256": "bea865aaf33c9ff8d939ad2f210097844c9f7a0245f18bc09e1ca7e0967605e3",
+  "paths": [
+   "data/raw/real/PRACTICE 05-01-25.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 4179298
+ },
+ "30b45370081bab6096739384bda72e3f15f48c541a1b8a68595f86fd56c4c79b": {
+  "sha256": "30b45370081bab6096739384bda72e3f15f48c541a1b8a68595f86fd56c4c79b",
+  "paths": [
+   "data/raw/real/BINU 29.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1924530
+ },
+ "79552a27623dbf72f1885d6d4b64782c19c7f1f9852d389c4db3f8d445d264f6": {
+  "sha256": "79552a27623dbf72f1885d6d4b64782c19c7f1f9852d389c4db3f8d445d264f6",
+  "paths": [
+   "data/raw/real/SARA FINE FOODS - 24 FEB 2026.dxf",
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Client test/SARA FINE FOODS - 24 FEB 2026.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/approved/Client test/SARA FINE FOODS - 24 FEB 2026.dxf",
+   "/Users/parikshitsmac/Downloads/cad--2-main/Client test/SARA FINE FOODS - 24 FEB 2026.dxf",
+   "/Users/parikshitsmac/Desktop/cad--2-main/Client test/SARA FINE FOODS - 24 FEB 2026.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 4879235
+ },
+ "a2e6784b5b7d8e6cc3c7d8b3e962364ca73cd1ab077c4676e4ac0c76fd49ef4c": {
+  "sha256": "a2e6784b5b7d8e6cc3c7d8b3e962364ca73cd1ab077c4676e4ac0c76fd49ef4c",
+  "paths": [
+   "data/raw/real/converted_from_dwg/obpas.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2391536
+ },
+ "bf198357b03ef819416d7366e9e9bfc9ff4833f77a126f9e466b587e5d73add1": {
+  "sha256": "bf198357b03ef819416d7366e9e9bfc9ff4833f77a126f9e466b587e5d73add1",
+  "paths": [
+   "data/raw/real/converted_from_dwg/BHUBAN CH DAS.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2093513
+ },
+ "286078ebdf5d08bbfc3d169d861f32e1f3636d31182efaf881f08115fb90be41": {
+  "sha256": "286078ebdf5d08bbfc3d169d861f32e1f3636d31182efaf881f08115fb90be41",
+  "paths": [
+   "data/raw/real/converted_from_dwg/GEETAMANDIR PERMISSION 8.1.26 finaal.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2169978
+ },
+ "200d46bd9903318d61532425321df1f2cef3b801353e019c49957c765bd7fac6": {
+  "sha256": "200d46bd9903318d61532425321df1f2cef3b801353e019c49957c765bd7fac6",
+  "paths": [
+   "data/raw/real/converted_from_dwg/obpas (1).dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2391927
+ },
+ "4cf4a40485f9385533e92142d9be3f5dc7f704c8c44d51592d82d197832ec9f7": {
+  "sha256": "4cf4a40485f9385533e92142d9be3f5dc7f704c8c44d51592d82d197832ec9f7",
+  "paths": [
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/01_ADD-ALT.dxf",
+   "/Users/parikshitsmac/Downloads/cad-3-main/111/01_ADD-ALT.dxf",
+   "/Users/parikshitsmac/Desktop/cad-3-main/111/01_ADD-ALT.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2308403
+ },
+ "ee68106f373de6d49c6b3298eb503236c8b4e184d46c5082d7a2f6f6f53e1092": {
+  "sha256": "ee68106f373de6d49c6b3298eb503236c8b4e184d46c5082d7a2f6f6f53e1092",
+  "paths": [
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/ASTRA_CONCRETE (CLIENT).dxf",
+   "/Users/parikshitsmac/Downloads/cad-3-main/111/ASTRA_CONCRETE (CLIENT).dxf",
+   "/Users/parikshitsmac/Desktop/cad-3-main/111/ASTRA_CONCRETE (CLIENT).dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 25895804
+ },
+ "1866c427236c90725e88cf088bd4c06e7e15154a20885749a44c86d49dc8e64d": {
+  "sha256": "1866c427236c90725e88cf088bd4c06e7e15154a20885749a44c86d49dc8e64d",
+  "paths": [
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/02_NEW-CONST.dxf",
+   "/Users/parikshitsmac/Downloads/cad-3-main/111/02_NEW-CONST.dxf",
+   "/Users/parikshitsmac/Desktop/cad-3-main/111/02_NEW-CONST.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2722887
+ },
+ "597b072b377e62886501d6f39808f60c179005a857295128ebf597f78195c781": {
+  "sha256": "597b072b377e62886501d6f39808f60c179005a857295128ebf597f78195c781",
+  "paths": [
+   "/Users/parikshitsmac/Desktop/CAD/gidc-obpas-ai-enhancements/dxf-scrutiny-training/data/Test file -no layer/DWG_02.dxf",
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/dxf/Test file -no layer/DWG_02.dxf",
+   "/Users/parikshitsmac/Downloads/Test file -no layer/DWG_02.dxf",
+   "/Users/parikshitsmac/Desktop/Test file -no layer/DWG_02.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 889003
+ },
+ "34495c48ff1b781fb4a04eee7bfde67815f7716caa20c20d2067daebedf63edd": {
+  "sha256": "34495c48ff1b781fb4a04eee7bfde67815f7716caa20c20d2067daebedf63edd",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/006_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2261053
+ },
+ "663a246577ca9665cec2da23c2cfadae92aece8b01fe304ad51db7385489f505": {
+  "sha256": "663a246577ca9665cec2da23c2cfadae92aece8b01fe304ad51db7385489f505",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/001_TEST DWG.dxf",
+   "/Users/parikshitsmac/Downloads/cad-main/cad/001_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 3843938
+ },
+ "e7d3d91b65df7d3aae0ff354478d1c32d3e51544c43ebef131d7c23e72b6996e": {
+  "sha256": "e7d3d91b65df7d3aae0ff354478d1c32d3e51544c43ebef131d7c23e72b6996e",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/007_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 1340671
+ },
+ "b7c6b47982262b37c73b265f89d452c8b72d0ce4ba4774baef79db3d7ade35f0": {
+  "sha256": "b7c6b47982262b37c73b265f89d452c8b72d0ce4ba4774baef79db3d7ade35f0",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/009_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 3975634
+ },
+ "71f66a1c95bdeea400126992b8c3e5d829781abd17a3d9d86e5947d2a481004e": {
+  "sha256": "71f66a1c95bdeea400126992b8c3e5d829781abd17a3d9d86e5947d2a481004e",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/008_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 58115058
+ },
+ "1fce7b5b6e6cc6c30d80a16b3631ca85bcf8d7ca017f0edec3045e013e83445c": {
+  "sha256": "1fce7b5b6e6cc6c30d80a16b3631ca85bcf8d7ca017f0edec3045e013e83445c",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/010_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 856057
+ },
+ "f9cbe6af7cba98e55b6bed67b6965e40818d307b06232c147fa9f86c0caa87b2": {
+  "sha256": "f9cbe6af7cba98e55b6bed67b6965e40818d307b06232c147fa9f86c0caa87b2",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/005_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 2671963
+ },
+ "56b641bf5c3087328204aad1724bc1e67c88a938d4fb906c4ecd6a02206e2442": {
+  "sha256": "56b641bf5c3087328204aad1724bc1e67c88a938d4fb906c4ecd6a02206e2442",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/002_TEST DWG.dxf",
+   "/Users/parikshitsmac/Downloads/cad-main/cad/002_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 4122069
+ },
+ "4128231e5294bf235f69bd690eaaa70b16846740822b688d4bec9c12f70a3287": {
+  "sha256": "4128231e5294bf235f69bd690eaaa70b16846740822b688d4bec9c12f70a3287",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/003_TEST DWG.dxf",
+   "/Users/parikshitsmac/Downloads/cad-main/cad/003_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 3214516
+ },
+ "d8e50c7a049eb7da50087bc655338087c1478daa443cc4c820fb1b8dd0382c46": {
+  "sha256": "d8e50c7a049eb7da50087bc655338087c1478daa443cc4c820fb1b8dd0382c46",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/gidc-obpas-ai-enhancements/data/cad/004_TEST DWG.dxf"
+  ],
+  "sources": [
+   "real"
+  ],
+  "size": 26344684
+ },
+ "320b59c88ed64ae916e7b8435253d2fcfdd79cf4508c1cec531f4b91738c5359": {
+  "sha256": "320b59c88ed64ae916e7b8435253d2fcfdd79cf4508c1cec531f4b91738c5359",
+  "paths": [
+   "/Users/parikshitsmac/Documents/Codex/2026-09-25/i-wanted-to-create-a-system-2/outputs/cad-review-fastapi/examples/invalid_boundary.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 18033
+ },
+ "b307bd80217f939c3bb13961eac061eae983152d138346dacf8f59352294f6cd": {
+  "sha256": "b307bd80217f939c3bb13961eac061eae983152d138346dacf8f59352294f6cd",
+  "paths": [
+   "/Users/parikshitsmac/Documents/Codex/2026-09-25/i-wanted-to-create-a-system-2/outputs/cad-review-fastapi/examples/missing_layers.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 17944
+ },
+ "58130b20c767fa2cf2ddd4391294ec5b59c2277c1c4a6d3d6729c7f13c8664f9": {
+  "sha256": "58130b20c767fa2cf2ddd4391294ec5b59c2277c1c4a6d3d6729c7f13c8664f9",
+  "paths": [
+   "/Users/parikshitsmac/Documents/Codex/2026-09-25/i-wanted-to-create-a-system-2/outputs/cad-review-fastapi/examples/named_layers.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 18033
+ },
+ "2f9472df42b947a9979135ff28c0a86aa1b42536acf9e3a8f1df87eb4a2a8cc0": {
+  "sha256": "2f9472df42b947a9979135ff28c0a86aa1b42536acf9e3a8f1df87eb4a2a8cc0",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/c573db18.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19189
+ },
+ "1454943510e54457344623b7d2920de6e30535906f8981247452fabe4138bc61": {
+  "sha256": "1454943510e54457344623b7d2920de6e30535906f8981247452fabe4138bc61",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/d2938534.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19207
+ },
+ "bc3ad2d0b35eb7c593c76347654beec771ccb4259c7ec7f311eb20bf25b8a69d": {
+  "sha256": "bc3ad2d0b35eb7c593c76347654beec771ccb4259c7ec7f311eb20bf25b8a69d",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/3b788974.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19195
+ },
+ "86cc845052d2cb2fae1b17a78226b828eb4ec538a902f86c468f6671632d73c5": {
+  "sha256": "86cc845052d2cb2fae1b17a78226b828eb4ec538a902f86c468f6671632d73c5",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/dab88ff4.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19208
+ },
+ "2c2ef8045f63832c51bd32eae767e477562367bf5416f4d1725d6b28416a3118": {
+  "sha256": "2c2ef8045f63832c51bd32eae767e477562367bf5416f4d1725d6b28416a3118",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/6a662db8.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19213
+ },
+ "bc4200c168a82d05a65d4daaeb7a96b89a020bb1c9b98f3b6beb86da167a0637": {
+  "sha256": "bc4200c168a82d05a65d4daaeb7a96b89a020bb1c9b98f3b6beb86da167a0637",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/c2bf1fb7.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19213
+ },
+ "4c6abf3b347d4b68b523dc33425013754857e473072e88882f8e8c8e1b628a5e": {
+  "sha256": "4c6abf3b347d4b68b523dc33425013754857e473072e88882f8e8c8e1b628a5e",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/b0f5522e.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19211
+ },
+ "3a4d77a425f66916e8d808f8d77e610895e98d3593a019ce14791efab1de527d": {
+  "sha256": "3a4d77a425f66916e8d808f8d77e610895e98d3593a019ce14791efab1de527d",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/b905c2b7.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19183
+ },
+ "5d64c37021cc439bbae58b1109de36bc66a7f435f4f5d6b08954ef34f32a01ef": {
+  "sha256": "5d64c37021cc439bbae58b1109de36bc66a7f435f4f5d6b08954ef34f32a01ef",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/86e4daba.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19211
+ },
+ "d712b1f776a321f9e2d874e1f4e985ad9881eb97198d765bb6f5861f41430caf": {
+  "sha256": "d712b1f776a321f9e2d874e1f4e985ad9881eb97198d765bb6f5861f41430caf",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/25380593.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19206
+ },
+ "c80985bee3f4d2653d501e07967bb48fded1bfa82366307f301ac3e080089009": {
+  "sha256": "c80985bee3f4d2653d501e07967bb48fded1bfa82366307f301ac3e080089009",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/d4029721.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19188
+ },
+ "7e6e5646a89d83dc307e443323dd9cbb10770b974c40e522cc296aa7250e178c": {
+  "sha256": "7e6e5646a89d83dc307e443323dd9cbb10770b974c40e522cc296aa7250e178c",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/7cc5d97a.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19203
+ },
+ "f514cb154fc36361045f79074bf0d2a7e74a7f428af6142db04b251b3bbf6fb3": {
+  "sha256": "f514cb154fc36361045f79074bf0d2a7e74a7f428af6142db04b251b3bbf6fb3",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/fd8190ae.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19197
+ },
+ "3bddbe4321fbab82e7c64adb96f57ed674a0edec15ed11def6cdf9d290444514": {
+  "sha256": "3bddbe4321fbab82e7c64adb96f57ed674a0edec15ed11def6cdf9d290444514",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/4c24a98c.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19193
+ },
+ "a80bb74f645d904d9e343935857543d6a9355672fe9c766b3d3d68c0341198ad": {
+  "sha256": "a80bb74f645d904d9e343935857543d6a9355672fe9c766b3d3d68c0341198ad",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/a9a1f91b.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19195
+ },
+ "1eb6e4c18f638b1535c962eb8987a8ed05f5e978f59449e144cd2237fd858150": {
+  "sha256": "1eb6e4c18f638b1535c962eb8987a8ed05f5e978f59449e144cd2237fd858150",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/04424c0d.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19206
+ },
+ "99bd3b1f0eb15c882871e21bc62796e448a31860ebf68899c11e5d890e68bf4f": {
+  "sha256": "99bd3b1f0eb15c882871e21bc62796e448a31860ebf68899c11e5d890e68bf4f",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/c21e8f1c.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19207
+ },
+ "5117f910af7dc4cc7cdf7e53eac6be63a00b5e2a01e28b7f6a0f02f9a825cf50": {
+  "sha256": "5117f910af7dc4cc7cdf7e53eac6be63a00b5e2a01e28b7f6a0f02f9a825cf50",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/7055960d.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19197
+ },
+ "3d0d111bb8fa9bc9039b2aadd5594adfac1c7bb077c3fd813e7cb7936467106d": {
+  "sha256": "3d0d111bb8fa9bc9039b2aadd5594adfac1c7bb077c3fd813e7cb7936467106d",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/d7191f5a.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19197
+ },
+ "0db6210118409c8a0354135a34baffb68b0e85f24ad77e016df5ff5a2b0387f4": {
+  "sha256": "0db6210118409c8a0354135a34baffb68b0e85f24ad77e016df5ff5a2b0387f4",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/9414d364.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19197
+ },
+ "b21d6ccbf221949b7b8e18493667dd6beb4db7e9426917bca716e6c07e32220d": {
+  "sha256": "b21d6ccbf221949b7b8e18493667dd6beb4db7e9426917bca716e6c07e32220d",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/5a82ab67.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19199
+ },
+ "5fcf3a522e48cfed13ab36e41f97807da657e55ac2d2b1926df1f5c484959971": {
+  "sha256": "5fcf3a522e48cfed13ab36e41f97807da657e55ac2d2b1926df1f5c484959971",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/95b9793c.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19213
+ },
+ "c900698563054d9970227514874c877a9d9142fce4918655adf00fa3417699f6": {
+  "sha256": "c900698563054d9970227514874c877a9d9142fce4918655adf00fa3417699f6",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/bfd6644e.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19208
+ },
+ "873d7c2b2968e686282f5bdeee18ee262857053482f7c892c7eb0183e75138cb": {
+  "sha256": "873d7c2b2968e686282f5bdeee18ee262857053482f7c892c7eb0183e75138cb",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/22047c8c.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19175
+ },
+ "ce768080752a053e0bc63d0a3e48065e99e0e11f9dd59ee2c935cff611ac13f2": {
+  "sha256": "ce768080752a053e0bc63d0a3e48065e99e0e11f9dd59ee2c935cff611ac13f2",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/469cf523.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19198
+ },
+ "43d6054671962927e312ba759f0e595601bcb6f3ec1acf7d106d21e7bddacf79": {
+  "sha256": "43d6054671962927e312ba759f0e595601bcb6f3ec1acf7d106d21e7bddacf79",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/621872f0.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19208
+ },
+ "514e309c624c8cac3104957434f13b42dab285bcfd13908480dab73f175a671e": {
+  "sha256": "514e309c624c8cac3104957434f13b42dab285bcfd13908480dab73f175a671e",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/c67a096d.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19207
+ },
+ "7f04ec558435ed99f522bc6cd8a0fc72601e352e43fd0b1bcbed9413c53297be": {
+  "sha256": "7f04ec558435ed99f522bc6cd8a0fc72601e352e43fd0b1bcbed9413c53297be",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/6df24615.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19206
+ },
+ "33e8675b6b24b7b1878cd7ab0a240f17ebbec0236b9ff981bd661844f7981a65": {
+  "sha256": "33e8675b6b24b7b1878cd7ab0a240f17ebbec0236b9ff981bd661844f7981a65",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/3ededa8b.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19197
+ },
+ "e58991fcc873eff362db4f53e9cfaebe8e0b2a113d5ce5cbf36726db72a27214": {
+  "sha256": "e58991fcc873eff362db4f53e9cfaebe8e0b2a113d5ce5cbf36726db72a27214",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/cc3e1386.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19194
+ },
+ "2ee67413ace657d24e1e10a786bb2e3e548ced7aece0e02bfc976a7d7929171c": {
+  "sha256": "2ee67413ace657d24e1e10a786bb2e3e548ced7aece0e02bfc976a7d7929171c",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/5ab96e6b.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19213
+ },
+ "c47365d49ac6f5deedd912c66e1a21a90732bbfb600b5eb8037bc30e9a5fe231": {
+  "sha256": "c47365d49ac6f5deedd912c66e1a21a90732bbfb600b5eb8037bc30e9a5fe231",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/dec2010b.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19204
+ },
+ "889b268988dc25e88c8d8487c8ac9a55a71d7f4e24ffb88d3db2bda9b5343c85": {
+  "sha256": "889b268988dc25e88c8d8487c8ac9a55a71d7f4e24ffb88d3db2bda9b5343c85",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/80566736.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19199
+ },
+ "dd347228d287edc2239ccc3f27362214423b746bd846629cbfee8634fb750318": {
+  "sha256": "dd347228d287edc2239ccc3f27362214423b746bd846629cbfee8634fb750318",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/ef3b448d.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19178
+ },
+ "0e1d2dce43cce3fc50cc20bea714e0a53ad528dba89af80378015d63e1ac56de": {
+  "sha256": "0e1d2dce43cce3fc50cc20bea714e0a53ad528dba89af80378015d63e1ac56de",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/1418f8ed.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19197
+ },
+ "f98c3a7348da37407dc68b6de66b23145750b114e440f0d161dde7d261e98382": {
+  "sha256": "f98c3a7348da37407dc68b6de66b23145750b114e440f0d161dde7d261e98382",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/9110643f.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19209
+ },
+ "1380da8b9571a65738e0e036ebfc3cf93582c8e0be34971548eeecbb7e700cc3": {
+  "sha256": "1380da8b9571a65738e0e036ebfc3cf93582c8e0be34971548eeecbb7e700cc3",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/1bd02e09.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19206
+ },
+ "8484b1cf1b80c9b91c0419c66e76b11f478ab394940dc3538bd19e2779996e20": {
+  "sha256": "8484b1cf1b80c9b91c0419c66e76b11f478ab394940dc3538bd19e2779996e20",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/20f02e76.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19212
+ },
+ "b340127d3dae5bcb839ae71b7c8b9857cec8040ab2361a601abd4b6d9c98d960": {
+  "sha256": "b340127d3dae5bcb839ae71b7c8b9857cec8040ab2361a601abd4b6d9c98d960",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/651813c3.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19210
+ },
+ "261a9b49eb4301796f5b69906937c785990d88be391ecebe2c1c441da32915b9": {
+  "sha256": "261a9b49eb4301796f5b69906937c785990d88be391ecebe2c1c441da32915b9",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/00a5456b.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19195
+ },
+ "ed9b9ed46f8112646ae763b6bdfd809ab8ed87da8b2a6d132f0489f082e80dc7": {
+  "sha256": "ed9b9ed46f8112646ae763b6bdfd809ab8ed87da8b2a6d132f0489f082e80dc7",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/d0ff4e95.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19211
+ },
+ "d643f3502c00a96a3feba87eb5b5ccb4c805097ac4617f8801e72bab38c84ab9": {
+  "sha256": "d643f3502c00a96a3feba87eb5b5ccb4c805097ac4617f8801e72bab38c84ab9",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/b067200f.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19198
+ },
+ "54e347a1eb5efd9c7e7b95088395af338c83e7bebc8e7fdd3ee8cde9bfc8a038": {
+  "sha256": "54e347a1eb5efd9c7e7b95088395af338c83e7bebc8e7fdd3ee8cde9bfc8a038",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/fe43d83d.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19208
+ },
+ "c90f0259e537cf5a24ce24bd242ed7b0148435c4ab4d63619e8ed680ab81cac7": {
+  "sha256": "c90f0259e537cf5a24ce24bd242ed7b0148435c4ab4d63619e8ed680ab81cac7",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/ed029008.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19215
+ },
+ "17317124e965b574da722e7ff5882d10f1c874d440b260d7f276153a52643333": {
+  "sha256": "17317124e965b574da722e7ff5882d10f1c874d440b260d7f276153a52643333",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/17fd737b.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19208
+ },
+ "61b28656ee38b22bd5a0950596aafa136f53b6c2787dd5857cee1ab5d823e710": {
+  "sha256": "61b28656ee38b22bd5a0950596aafa136f53b6c2787dd5857cee1ab5d823e710",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/d90c5eda.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19195
+ },
+ "623582719b79ddb46150e6b977045aa35c6e38916726a62ec4c1c3df3a70dc84": {
+  "sha256": "623582719b79ddb46150e6b977045aa35c6e38916726a62ec4c1c3df3a70dc84",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/17f73713.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19212
+ },
+ "ad741de18c53bd5ed6e7f8b0ef26ba7c6e1160019866d12c88fa9c55743c09ca": {
+  "sha256": "ad741de18c53bd5ed6e7f8b0ef26ba7c6e1160019866d12c88fa9c55743c09ca",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/5f2ac47f.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19209
+ },
+ "25934d22f10668e9eef254b37c79fa0933d98b18ffa6e81313138e7d902d9fbb": {
+  "sha256": "25934d22f10668e9eef254b37c79fa0933d98b18ffa6e81313138e7d902d9fbb",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/b43b6ca4.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19205
+ },
+ "ec6cd1dee5d88d25de5cd5f02a15a4b2c80f0a7444ebb16f694513ceefb7ec96": {
+  "sha256": "ec6cd1dee5d88d25de5cd5f02a15a4b2c80f0a7444ebb16f694513ceefb7ec96",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/e03b503f.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19208
+ },
+ "62006c35964ce444a4f16076358cd261f17c60c909ec9ca134bf9b96c95b1475": {
+  "sha256": "62006c35964ce444a4f16076358cd261f17c60c909ec9ca134bf9b96c95b1475",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/63925adc.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19200
+ },
+ "ea8eb0097e3570281972d730d52aaac15efb17d3c61974cc88f891342dbd8cca": {
+  "sha256": "ea8eb0097e3570281972d730d52aaac15efb17d3c61974cc88f891342dbd8cca",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/1609531e.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19210
+ },
+ "f809a0334d9b8a16f2a8f8b5b20586dbd2aec8700e6fadf905806b2bc1a0795d": {
+  "sha256": "f809a0334d9b8a16f2a8f8b5b20586dbd2aec8700e6fadf905806b2bc1a0795d",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/cbcaf146.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19210
+ },
+ "0a5666e894a10fd7f41489a5775b9979edcbbdbc1ee8465794e6991c071342b4": {
+  "sha256": "0a5666e894a10fd7f41489a5775b9979edcbbdbc1ee8465794e6991c071342b4",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/3f410099.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19195
+ },
+ "dcbe782d72dd577f287ab663341561c833b1ef9c4e3cde35bd12e89b1d49e888": {
+  "sha256": "dcbe782d72dd577f287ab663341561c833b1ef9c4e3cde35bd12e89b1d49e888",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/1335a8ad.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19212
+ },
+ "258db0a8b4fe6af85c1a40cb1544a8aaaec6110b5b3016d98ad42628ab4a91e1": {
+  "sha256": "258db0a8b4fe6af85c1a40cb1544a8aaaec6110b5b3016d98ad42628ab4a91e1",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/8980a095.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19193
+ },
+ "b1bbd8b3a39235bd99aea25b1603df79d33e27f076c82124a864bc65750ba858": {
+  "sha256": "b1bbd8b3a39235bd99aea25b1603df79d33e27f076c82124a864bc65750ba858",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/0ca44032.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19207
+ },
+ "0cb7f71c5bb625b7806d5bbd1aa49dd3814143ceaa07db75c1c13b30be432db4": {
+  "sha256": "0cb7f71c5bb625b7806d5bbd1aa49dd3814143ceaa07db75c1c13b30be432db4",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/f2245b84.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19205
+ },
+ "a33acd65f128d0cb0beafb09ccb98e235f08160dafa80663aea2e60159924a01": {
+  "sha256": "a33acd65f128d0cb0beafb09ccb98e235f08160dafa80663aea2e60159924a01",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/c24e8225.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19207
+ },
+ "179fdce58f08b2a056839c607a1fcf56009b13c052458cd7e0b6fbf9f211c2bb": {
+  "sha256": "179fdce58f08b2a056839c607a1fcf56009b13c052458cd7e0b6fbf9f211c2bb",
+  "paths": [
+   "/Users/parikshitsmac/Documents/CAD-GOA/archive/synthetic/dxf/57aa253c.dxf"
+  ],
+  "sources": [
+   "synthetic"
+  ],
+  "size": 19204
+ }
+}

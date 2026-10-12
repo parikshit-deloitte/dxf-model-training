@@ -1,0 +1,348 @@
+{
+ "file_sha256": "34c0726f47574d0c7242811275a61a60771c9781789e14bc449a5c821304e5e1",
+ "size_bytes": 20203938,
+ "extractor_version": "1.1.0",
+ "source_name": "SHREE NAINA -test  -08 oct  2025.dxf",
+ "dxf_version": "AC1032",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "TEXT": 3581,
+  "LINE": 36321,
+  "HATCH": 522,
+  "MTEXT": 110,
+  "SOLID": 85,
+  "LWPOLYLINE": 2207,
+  "ELLIPSE": 1682,
+  "DIMENSION": 356,
+  "LEADER": 109,
+  "CIRCLE": 1543,
+  "INSERT": 139,
+  "ARC": 8261,
+  "REGION": 6,
+  "ATTDEF": 2,
+  "POLYLINE": 14,
+  "SPLINE": 96
+ },
+ "inserts_not_exploded": 139,
+ "layers": {
+  "0": {
+   "entities": 9,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_FLOOR_PLAN": {
+   "entities": 2358,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_3_FLOOR_PLAN": {
+   "entities": 3587,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_FLOOR_PLAN": {
+   "entities": 1838,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SECTION_PLAN_1": {
+   "entities": 20954,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ELEVATION _PLAN_1": {
+   "entities": 10,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "ELEVATION_PLAN_n",
+   "note": "edit distance 1 to ELEVATION_PLAN_n"
+  },
+  "BLK_1_FLR_2_FLOOR_HEIGHT": {
+   "entities": 12,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_3_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA_DEDUCT_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_3_BLT_UP_AREA_DEDUCT_EXISTING": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_HT_OF_BLDG": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_HT_OF_BLDG",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_FLOOR_HEIGHT": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_FLOOR_PLAN": {
+   "entities": 25181,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA_DEDUCT_EXISTING": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_2_ROOF_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_ROOF_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_ROOF_AREA": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_ROOF_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_PLINTH_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_PLINTH_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLAN_INFO": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLAN_INFO",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TEXT": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_2_BLT_UP_AREA_EXISTING": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_3_BLT_UP_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "loop slc": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 3,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SITE_PLAN": {
+   "entities": 1033,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_FRONT_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_REAR_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_REAR_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT_BOUNDARY": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLOT_BOUNDARY",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_1_FRONT_SETBACK": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK2": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK2",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": "layer",
+ "plan_info_candidates": 1,
+ "declared_plot_area_m2": 8710.0,
+ "_plan_info_private": {
+  "LESSEE_NAME": "Shree Naina Containers Pvt Ltd",
+  "PLOT_NO": "Area-2, D-13",
+  "PROJECT_FALLING_UNDER_ZONE": "I3"
+ },
+ "plan_info_keys": [
+  "ARCHITECT_OR_TECHNICAL_PERSON_NAME",
+  "AREA_TYPE",
+  "AVG_PLOT_DEPTH",
+  "AVG_PLOT_WIDTH",
+  "DISTANCE_FROM_HTL_IF_THE_PROPERTY_IS_WITHIN_1000_METERS_OF_THE_HIGH_TIDE_LINE_OF_THE_SEA",
+  "DISTANCE_FROM_THE_BOUNDARY_OF_RAILWAY_PROPERTY_IF_THE_PROPERTY_IS_WITHIN_50_METERS_OF_THE_RAILWAY_LINE",
+  "DISTANCE_FROM_THE_BOUNDARY_WALL_OF_CEMETERY_OR_CREMATORIUM_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_CEMETERY_OR_CREMATORIUM",
+  "DISTANCE_FROM_THE_CENTRE_LINE_OF_HIGHWAY_OR_BYEPASS_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_NATIONAL_HIGHWAY_OR_STATE_BYEPASS",
+  "DISTANCE_FROM_THE_RIVER_BANK_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_RIVER_BANK",
+  "DISTRICT",
+  "DOES_THE_BUILDING_HAVE_ONLY_ONE_ACCESS_FROM_LOWER_PORTION_OF_THE_BUILDING",
+  "DOES_THE_PROJECT_HAVE_SLOPING_SITE",
+  "ESTATE",
+  "ESTIMATED_PROJECT_COST",
+  "HIGHEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "IS_THERE_ANY_UNDERGROUND_OR_OVER_GROUND_OR_OVERHEAD_TELEPHONES_OR_ELECTRICITY_LINES_AFFECTING_OR_CROSSING_THE_PLOT",
+  "I_HEREBY_DECLARE_THAT_THE_PLAN_HAS_BEEN_PREPARED_IN_STRICT_COMPLIANCE_WITH_THE_GOA_REGULATION_OF_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_ACT_2008_AND_THE_GOA_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_REGULATIONS_2010",
+  "LESSEE_EMAIL",
+  "LESSEE_NAME",
+  "LOWEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "PHASE",
+  "PLOT_AREA_M2",
+  "PLOT_NO",
+  "PROJECT_FALLING_UNDER_ZONE",
+  "ROAD_WIDTH",
+  "THE_ESTIMATED_PROJECT_COST_IS_CALCULATED_BASED_ON_THE_LATEST_PLINTH_AREA_RATES_INCLUDING_ALL_BUILDING_INFRASTRUCTURE_AND_SERVICES_COMPONENTS_WITHIN_THE_PROJECT",
+  "THE_SETBACKS_SHALL_BE_KEPT_PERMANENTLY_OPEN_TO_SKY",
+  "WHAT_IS_THE_INDUSTRY_CLASSIFICATION",
+  "WHETHER_ANY_EXTRA_FAR_IS_CLAIMED_ON_THE_BASIS_OF_ROAD_WIDENING_OR_PROPOSED_ROAD",
+  "WHETHER_SUCH_ROAD_WIDENING_AREA_OR_AREA_UNDER_PROPOSED_ROAD_HAS_BEEN_GIFTED_TO_THE_LOCAL_BODY"
+ ],
+ "plot_candidates": [],
+ "plot_match_count": 0,
+ "plot_resolved_by": null,
+ "objects": 0,
+ "seconds": 4.46
+}

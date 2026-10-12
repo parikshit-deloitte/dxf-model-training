@@ -1,0 +1,981 @@
+{
+ "file_sha256": "b08526d200ad08f03c9f3fea8aae14b5adb69b303d4b1016ee336fbf20f8d568",
+ "size_bytes": 60416947,
+ "extractor_version": "1.1.0",
+ "source_name": "SUB-7.dxf",
+ "dxf_version": "AC1032",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "TEXT": 778,
+  "LINE": 18248,
+  "ELLIPSE": 129,
+  "LWPOLYLINE": 44313,
+  "MTEXT": 3822,
+  "HATCH": 961,
+  "SPLINE": 648,
+  "ARC": 2590,
+  "CIRCLE": 1733,
+  "LEADER": 364,
+  "DIMENSION": 731,
+  "ACAD_TABLE": 13,
+  "SOLID": 82,
+  "INSERT": 82,
+  "ATTDEF": 30,
+  "REGION": 58,
+  "MLINE": 1,
+  "WIPEOUT": 3,
+  "POLYLINE": 645
+ },
+ "inserts_not_exploded": 82,
+ "layers": {
+  "BLK-NORTH": {
+   "entities": 93,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SHEET -PLAN-2": {
+   "entities": 260,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "logo": {
+   "entities": 412,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER-2": {
+   "entities": 8710,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MAIN-GATE-2": {
+   "entities": 1317,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "MAIN_GATE",
+   "note": "prefix 'MAIN-GATE' within 2 edits of MAIN_GATE"
+  },
+  "0": {
+   "entities": 210,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BASEMENT-PARKING": {
+   "entities": 4388,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SHEET -PLAN-3": {
+   "entities": 261,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER-3": {
+   "entities": 9240,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SHEET -PLAN-4": {
+   "entities": 257,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER-6": {
+   "entities": 2839,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER-5": {
+   "entities": 4870,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER-4": {
+   "entities": 2487,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SHEET -PLAN-5": {
+   "entities": 257,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LAYER-1": {
+   "entities": 4545,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-PLOT IN KEY PLAN": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-5-LIFT DEDUCTION": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SITE_PLANT": {
+   "entities": 1104,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "SITE_PLAN",
+   "note": "edit distance 1 to SITE_PLAN"
+  },
+  "PLOT-BOUNDARY": {
+   "entities": 9,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "PLOT_BOUNDARY",
+   "note": "edit distance 1 to PLOT_BOUNDARY"
+  },
+  "PLOT-ROAD": {
+   "entities": 14,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_LVL_0_FOOT _PRINT": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MAIN-GATE-6-7": {
+   "entities": 404,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "MAIN_GATE",
+   "note": "prefix 'MAIN-GATE' within 2 edits of MAIN_GATE"
+  },
+  "MAIN-GATE-1": {
+   "entities": 250,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "MAIN_GATE",
+   "note": "prefix 'MAIN-GATE' within 2 edits of MAIN_GATE"
+  },
+  "BLK_3_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MAIN-GATE-4": {
+   "entities": 211,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "MAIN_GATE",
+   "note": "prefix 'MAIN-GATE' within 2 edits of MAIN_GATE"
+  },
+  "MAIN-GATE-3": {
+   "entities": 270,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "MAIN_GATE",
+   "note": "prefix 'MAIN-GATE' within 2 edits of MAIN_GATE"
+  },
+  "BLK_2_LVL_0_FOOT _PRINT": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_LVL_0_FOOT _PRINT": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 2,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SHEET -PLAN-1": {
+   "entities": 172,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_FOOT _PRINT": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "OPEN _PARKING": {
+   "entities": 35,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "OPEN_PARKING",
+   "note": "edit distance 1 to OPEN_PARKING"
+  },
+  "MTEXT": {
+   "entities": 7,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_7_LVL_0_FOOT _PRINT": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "RWH-3": {
+   "entities": 28,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "RWH-2": {
+   "entities": 89,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "RWH-1": {
+   "entities": 30,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "RWH-4": {
+   "entities": 35,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "RWH": {
+   "entities": 20,
+   "class": "category",
+   "category": "RWH",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT-STORMWATER LINE": {
+   "entities": 60,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT-DRAINAGE": {
+   "entities": 129,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "KEY-PLAN": {
+   "entities": 19558,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "COMPOUND_WALL": {
+   "entities": 8,
+   "class": "category",
+   "category": "COMPOUND_WALL",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "COMPOUND_WALL-1": {
+   "entities": 339,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "COMPOUND_WALL",
+   "note": "edit distance 2 to COMPOUND_WALL"
+  },
+  "PLANTATION_TREE_COUNT": {
+   "entities": 15,
+   "class": "category",
+   "category": "PLANTATION_TREE_COUNT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT CHIMNEY": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT-COOLING TOWER": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-7-FLR-0-COVERED-PARKING": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-1-BUILT UP AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-1-LIFT DEDUCTION": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-1-STAIR DEDUCTION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_STILT PARKING": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-2-LIFT DEDUCTION": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-2-STAIR DEDUCTION": {
+   "entities": 12,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-2-DUCT DEDUCTION": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-3-BUILT UP AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-3-LIFT DEDUCTION": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-3-STAIR DEDUCTION": {
+   "entities": 14,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-3-DUCT DEDUCTION": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-5-BUILT UP AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-5-STAIR DEDUCTION": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-DUCT DEDUCTION": {
+   "entities": 9,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-6-BUILT UP AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-6-STAIR DEDUCTION": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-6-DUCT DEDUCTION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-BUILT UP AREA": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-STAIR DEDUCTION": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-LIFT DEDUCTION": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-7-BUILT UP AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-7-STAIR DEDUCTION": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-7-LIFT DEDUCTION": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-7-DUCT DEDUCTION": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT-DG SET": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT-TRANSFORMER": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_COVERED_AREA-DEDUCTED": {
+   "entities": 27,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "BLK_n_COVERED_AREA",
+   "note": "prefix 'BLK_n_COVERED_AREA' within 2 edits of BLK_n_COVERED_AREA"
+  },
+  "BLK_2_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-LVL-1-REAR-SET BACK": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-LVL-1-SIDE-SET BACK1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-LVL-1-SIDE-SET BACK2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST-BETWEEN-BLK-1BLK-2": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR1-VEHICLERAMP": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "HILL-CUTTING-AREA": {
+   "entities": 1,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "HILL_CUTTING_AREA",
+   "note": "edit distance 2 to HILL_CUTTING_AREA"
+  },
+  "MAIN-GATE-CHAINLINK FENCING": {
+   "entities": 223,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "MAIN_GATE",
+   "note": "prefix 'MAIN-GATE' within 2 edits of MAIN_GATE"
+  },
+  "SECURITY-7": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-7-ROOF-AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-2-LIFT-2": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-3-LIFT-2": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-5-LIFT-2": {
+   "entities": 5,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-7-LIFT-2": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-LIFT-2": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-1-LIFT-2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-1-WC-BATH": {
+   "entities": 10,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-WATER-CLOSET 3": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-WATER-CLOSET 1": {
+   "entities": 16,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-1-FLR-4-WATER-CLOSET 2": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_2_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_4_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_7_FLR_0_BLT_UP_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-5-FLR-1-BUILT UP AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ETP-5": {
+   "entities": 172,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK-6-FLR-1-BUILT UP AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLAN_INFO": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLAN_INFO",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TEXT": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT_BOUNDARY": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLOT_BOUNDARY",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_5_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_1_BLK_2": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_1_BLK_4": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_2_BLK_6": {
+   "entities": 2,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_3_LVL_0_FOOT _PRINT": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_2_BLK_3": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_2_BLK_7": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_2_BLK_5": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_2_BLK_4": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_3_BLK_4": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_3_BLK_5": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_3_BLK_6": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_3_BLK_7": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_1_BLK_7": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_1_BLK_6": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_1_BLK_3": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "DIST_BETWEEN_BLK_1_BLK_5": {
+   "entities": 1,
+   "class": "category",
+   "category": "DIST_BETWEEN_BLK_n_BLK_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_3_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_6_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ELEVATION _PLAN_1": {
+   "entities": 11596,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "ELEVATION_PLAN_n",
+   "note": "edit distance 1 to ELEVATION_PLAN_n"
+  }
+ },
+ "plan_info_found_by": "layer",
+ "plan_info_candidates": 1,
+ "declared_plot_area_m2": 8060.0,
+ "_plan_info_private": {
+  "LESSEE_NAME": "Bharat Conductors Private Limited",
+  "PLOT_NO": "3,4,5,6",
+  "PROJECT_FALLING_UNDER_ZONE": "I3"
+ },
+ "plan_info_keys": [
+  "ARCHITECT_OR_TECHNICAL_PERSON_NAME",
+  "AREA_TYPE",
+  "AVG_PLOT_DEPTH",
+  "AVG_PLOT_WIDTH",
+  "DISTANCE_FROM_HTL_IF_THE_PROPERTY_IS_WITHIN_1000_METERS_OF_THE_HIGH_TIDE_LINE_OF_THE_SEA",
+  "DISTANCE_FROM_THE_BOUNDARY_OF_RAILWAY_PROPERTY_IF_THE_PROPERTY_IS_WITHIN_50_METERS_OF_THE_RAILWAY_LINE",
+  "DISTANCE_FROM_THE_BOUNDARY_WALL_OF_CEMETERY_OR_CREMATORIUM_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_CEMETERY_OR_CREMATORIUM",
+  "DISTANCE_FROM_THE_CENTRE_LINE_OF_HIGHWAY_OR_BYEPASS_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_NATIONAL_HIGHWAY_OR_STATE_BYEPASS",
+  "DISTANCE_FROM_THE_RIVER_BANK_IF_THE_PROPERTY_IS_WITHIN_100_METERS_OF_THE_RIVER_BANK",
+  "DISTRICT",
+  "DOES_THE_BUILDING_HAVE_ONLY_ONE_ACCESS_FROM_LOWER_PORTION_OF_THE_BUILDING",
+  "DOES_THE_PROJECT_HAVE_SLOPING_SITE",
+  "ESTATE",
+  "ESTIMATED_PROJECT_COST",
+  "HIGHEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "IS_THERE_ANY_UNDERGROUND_OR_OVER_GROUND_OR_OVERHEAD_TELEPHONES_OR_ELECTRICITY_LINES_AFFECTING_OR_CROSSING_THE_PLOT",
+  "I_HEREBY_DECLARE_THAT_THE_PLAN_HAS_BEEN_PREPARED_IN_STRICT_COMPLIANCE_WITH_THE_GOA_REGULATION_OF_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_ACT_2008_AND_THE_GOA_LAND_DEVELOPMENT_AND_BUILDING_CONSTRUCTION_REGULATIONS_2010",
+  "LESSEE_EMAIL",
+  "LESSEE_NAME",
+  "LOWEST_LEVEL_OF_PLOT_IN_CASE_OF_SLOPING_SITE",
+  "PHASE",
+  "PLOT_AREA_M2",
+  "PLOT_NO",
+  "PROJECT_FALLING_UNDER_ZONE",
+  "ROAD_WIDTH",
+  "THE_ESTIMATED_PROJECT_COST_IS_CALCULATED_BASED_ON_THE_LATEST_PLINTH_AREA_RATES_INCLUDING_ALL_BUILDING_INFRASTRUCTURE_AND_SERVICES_COMPONENTS_WITHIN_THE_PROJECT",
+  "THE_SETBACKS_SHALL_BE_KEPT_PERMANENTLY_OPEN_TO_SKY",
+  "WHAT_IS_THE_INDUSTRY_CLASSIFICATION",
+  "WHETHER_ANY_EXTRA_FAR_IS_CLAIMED_ON_THE_BASIS_OF_ROAD_WIDENING_OR_PROPOSED_ROAD",
+  "WHETHER_SUCH_ROAD_WIDENING_AREA_OR_AREA_UNDER_PROPOSED_ROAD_HAS_BEEN_GIFTED_TO_THE_LOCAL_BODY"
+ ],
+ "plot_candidates": [],
+ "plot_match_count": 0,
+ "plot_resolved_by": null,
+ "objects": 0,
+ "seconds": 13.58
+}

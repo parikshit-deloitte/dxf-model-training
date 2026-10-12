@@ -1,0 +1,1203 @@
+{
+ "file_sha256": "a2e6784b5b7d8e6cc3c7d8b3e962364ca73cd1ab077c4676e4ac0c76fd49ef4c",
+ "size_bytes": 2391536,
+ "extractor_version": "1.0.0",
+ "source_name": "obpas.dxf",
+ "dxf_version": "AC1032",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "LINE": 1597,
+  "HATCH": 35,
+  "LWPOLYLINE": 260,
+  "MTEXT": 217,
+  "LEADER": 9,
+  "CIRCLE": 6,
+  "DIMENSION": 208,
+  "INSERT": 38,
+  "TEXT": 51
+ },
+ "inserts_not_exploded": 38,
+ "layers": {
+  "LOCATION_PLAN": {
+   "entities": 117,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0": {
+   "entities": 1883,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_STAIR_1_FLIGHT_1": {
+   "entities": 13,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_STAIR_1_LANDING_1": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_LANDING_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_STAIR_1": {
+   "entities": 10,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_STAIR_1_FLIGHT_2": {
+   "entities": 13,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_ENTRANCE_LOBBY": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_LIFT_1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_LIFT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_COVERED_PARKING": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_COVERED_PARKING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "FOUR_WHEELER_PARKING": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLAN_INFO": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLAN_INFO",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "_Floor": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_STAIR_1_FLIGHT_1": {
+   "entities": 13,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_PROJECTED_BALCONY": {
+   "entities": 11,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_ROOM_1_PROJECTION_1": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_STAIR_1_LANDING_2": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_LANDING_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_LIFT_1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_LIFT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_STAIR_1": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_STAIR_1_FLIGHT_2": {
+   "entities": 13,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_KITCHEN": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_ROOM_1_PROJECTION_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA": {
+   "entities": 9,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_TOILET_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_NON_HABITATIONAL_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_TOILET_1_VENTILATION": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_TOILET_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_TOILET_2_VENTILATION": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_NON_HABITATIONAL_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_1_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "_Door": {
+   "entities": 44,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_BALCONY_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_KITCHEN_DINING_VENTILATION_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_KITCHEN_DINING_VENTILATION_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_2_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_BALCONY_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_2_WINDOW_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_ROOM_2_PROJECTION_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_BALCONY_3": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_3": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_3_DOOR_1": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_3_DOOR_2": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_CARPET_AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1_REGULAR_ROOM_1_WINDOW_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_BALCONY_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_1_WINDOW_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_1_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_ROOM_2_PROJECTION_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_TOILET_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_NON_HABITATIONAL_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_TOILET_1_VENTILATION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_BALCONY_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_2_WINDOW_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_BALCONY_3": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_BALCONY_4": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_2_WINDOW_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_3": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_3_WINDOW_1": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_KITCHEN": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_KITCHEN_DINING_VENTILATION_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_KITCHEN_DINING_VENTILATION_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_TOILET_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_TOILET_2_VENTILATION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_REGULAR_ROOM_3_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_2_CARPET_AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_UNIT_1": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA_EXISTING": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_EXISTING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_STAIR_1_FLIGHT_1": {
+   "entities": 13,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_PROJECTED_BALCONY": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_PROJECTED_BALCONY": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_STAIR_1_LANDING_1": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_LANDING_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_LIFT_1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_LIFT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_STAIR_1_FLIGHT_2": {
+   "entities": 13,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n_FLIGHT_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_TOILET_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_NON_HABITATIONAL_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_TOILET_2_VENTILATION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_TOILET_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_TOILET_1_VENTILATION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_NON_HABITATIONAL_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_1_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_ROOM_1_PROJECTION_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_KITCHEN_DINING_VENTILATION_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_KITCHEN_DINING_VENTILATION_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_2_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_WINDOW_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_3_DOOR_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_3_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_3_WINDOW": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_3": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_3_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_2_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_NON_HABITATIONAL_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_TOILET_2_VENTILATION": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_2_WINDOW_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_2_WINDOW_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_KITCHEN_VENTILATION_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_KITCHEN": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_KITCHEN_VENTILATION_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_TOILET_1_VENTILATION": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_1_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_BALCONY_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_KITCHEN": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_3": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_TOILET_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_NON_HABITATIONAL_DOOR_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_TOILET_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_BALCONY_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_BALCONY_3": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_3_WINDOW_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_1_WINDOW_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_1_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_REGULAR_ROOM_2_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_2_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_REGULAR_ROOM_3_DOOR_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_BALCONY_1": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_BALCONY_2": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_BALCONY_3": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_BALCONY_4": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_BLT_UP_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_STAIR_1": {
+   "entities": 3,
+   "class": "category",
+   "category": "BLK_n_FLR_n_STAIR_n",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_1_CARPET_AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_UNIT_2_CARPET_AREA": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "_Section": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_MUMTY_HT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_MUMTY_HT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_HT_OF_BLDG": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_HT_OF_BLDG",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_HT_OF_BLDG_EXCLUDING_MP": {
+   "entities": 1,
+   "class": "near_miss",
+   "category": null,
+   "near_miss_of": "BLK_n_HT_OF_BLDG",
+   "note": "prefix 'BLK_n_HT_OF_BLDG' within 2 edits of BLK_n_HT_OF_BLDG"
+  },
+  "BLK_1_FLR_1_UNIT_2": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_CHIMNEY_HT": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_ROOF_WATER_TANK_HT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_ROOF_WATER_TANK_HT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_PLINTH_HEIGHT": {
+   "entities": 2,
+   "class": "category",
+   "category": "BLK_n_PLINTH_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_DA_RAMP_1": {
+   "entities": 13,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_DA_RAMP_1_LANDING": {
+   "entities": 3,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_FLOOR_HEIGHT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_FLOOR_HEIGHT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SEPTIC_TANK": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "INSITU_WASTE_TREATMENT_PLANT": {
+   "entities": 2,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_BLDG_FOOT_PRINT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_BLDG_FOOT_PRINT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LANDSCAPING_AREA": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_COVERED_AREA": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_COVERED_AREA",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_REAR_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_REAR_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "OPEN_PARKING": {
+   "entities": 1,
+   "class": "category",
+   "category": "OPEN_PARKING",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TWO_WHEELER_PARKING": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 2,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_FRONT_SETBACK": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_FRONT_SETBACK",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT_BOUNDARY": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLOT_BOUNDARY",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PARKING_DRIVEWAY": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_LVL_0_SIDE_SETBACK1": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_LVL_n_SIDE_SETBACK1",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_1_BLT_UP_AREA_DEDUCT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_4_BLT_UP_AREA_DEDUCT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_FLR_0_BLT_UP_AREA_DEDUCT": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_BLT_UP_AREA_DEDUCT",
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": "layer",
+ "plan_info_candidates": 1,
+ "declared_plot_area_m2": 417.79,
+ "_plan_info_private": {
+  "LESSEE_NAME": null,
+  "PLOT_NO": "286",
+  "PROJECT_FALLING_UNDER_ZONE": null
+ },
+ "plan_info_keys": [
+  "AREA_TYPE",
+  "AVG_PLOT_DEPTH",
+  "AVG_PLOT_WIDTH",
+  "CITY",
+  "CRZ",
+  "DEVELOPMENT_ZONE",
+  "DISTRICT",
+  "EXISTING_FLOOR_AREA_TO_BE_DEMOLISHED_M2",
+  "KHASRA_NO",
+  "KHATA_NO",
+  "LAND_USE_ZONE",
+  "MAUZA",
+  "MULTILEVEL_PARKING",
+  "PATWARI_HN",
+  "PLOT_AREA_M2",
+  "PLOT_NO",
+  "PROPOSED_ROAD_WIDTH",
+  "PROPOSED_ROAD_WIDTH_REQUIRED",
+  "PROVISION_FOR_GREEN_BUILDINGS_AND_SUSTAINABILITY",
+  "ROAD_WIDTH",
+  "RWH_DECLARED",
+  "SECOND_ROAD_WIDTH",
+  "TENEMENT_FOR_COMMERCIAL",
+  "TENEMENT_FOR_RESIDENTIAL",
+  "WARD_NO"
+ ],
+ "plot_candidates": [
+  {
+   "handle": "204D",
+   "layer": "PLOT_BOUNDARY",
+   "area": 417.806,
+   "n_vertices": 74,
+   "bbox": [
+    2889.719,
+    -1590.724,
+    2904.503,
+    -1557.407
+   ],
+   "vertex_hash": "e257513855de6473"
+  }
+ ],
+ "plot_match_count": 1,
+ "objects": 656,
+ "seconds": 1.02
+}

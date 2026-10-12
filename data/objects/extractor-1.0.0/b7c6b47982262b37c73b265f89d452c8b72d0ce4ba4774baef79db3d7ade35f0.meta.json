@@ -1,0 +1,214 @@
+{
+ "file_sha256": "b7c6b47982262b37c73b265f89d452c8b72d0ce4ba4774baef79db3d7ade35f0",
+ "size_bytes": 3975634,
+ "extractor_version": "1.0.0",
+ "source_name": "009_TEST DWG.dxf",
+ "dxf_version": "AC1032",
+ "insunits": 6,
+ "audit_errors": 0,
+ "entity_counts": {
+  "INSERT": 78,
+  "LWPOLYLINE": 1969,
+  "TEXT": 175,
+  "LINE": 266,
+  "MTEXT": 272,
+  "LEADER": 43,
+  "MLINE": 6,
+  "DIMENSION": 69,
+  "CIRCLE": 9,
+  "HATCH": 2,
+  "ELLIPSE": 1,
+  "ARC": 11
+ },
+ "inserts_not_exploded": 78,
+ "layers": {
+  "BLK_1_FLR_0_WATER_CLOSET": {
+   "entities": 1,
+   "class": "category",
+   "category": "BLK_n_FLR_n_WATER_CLOSET",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Text-150": {
+   "entities": 390,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BEAM": {
+   "entities": 324,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PL-window": {
+   "entities": 88,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MTEXT": {
+   "entities": 154,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PL-WALL": {
+   "entities": 184,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PL-door": {
+   "entities": 14,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PL--roof": {
+   "entities": 4,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "TEXT": {
+   "entities": 32,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A-FLOR-OVHD": {
+   "entities": 6,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "A-DOOR": {
+   "entities": 16,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Elevation 0.15": {
+   "entities": 106,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "PLOT_BOUNDARY": {
+   "entities": 1,
+   "class": "category",
+   "category": "PLOT_BOUNDARY",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SITE_PLAN": {
+   "entities": 15,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "BLK_1_SETBACK_DIM": {
+   "entities": 4,
+   "class": "category",
+   "category": "BLK_n_SETBACK_DIM",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "0": {
+   "entities": 73,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "MAIN_GATE": {
+   "entities": 2,
+   "class": "category",
+   "category": "MAIN_GATE",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "NORTH_DIRECTION": {
+   "entities": 2,
+   "class": "category",
+   "category": "NORTH_DIRECTION",
+   "near_miss_of": null,
+   "note": ""
+  },
+  "Elevation 0.05": {
+   "entities": 814,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "ELEVATION 0.09": {
+   "entities": 551,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "SECTION_PLAN_1": {
+   "entities": 88,
+   "class": "context",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "LEVELS": {
+   "entities": 22,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "HATCH (WD)": {
+   "entities": 1,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "S-STRS-ANNO": {
+   "entities": 8,
+   "class": "other",
+   "category": null,
+   "near_miss_of": null,
+   "note": ""
+  },
+  "OPEN_PARKING": {
+   "entities": 1,
+   "class": "category",
+   "category": "OPEN_PARKING",
+   "near_miss_of": null,
+   "note": ""
+  }
+ },
+ "plan_info_found_by": null,
+ "plan_info_candidates": 0,
+ "declared_plot_area_m2": null,
+ "_plan_info_private": {
+  "LESSEE_NAME": null,
+  "PLOT_NO": null,
+  "PROJECT_FALLING_UNDER_ZONE": null
+ },
+ "plan_info_keys": [],
+ "plot_candidates": [],
+ "plot_match_count": 0,
+ "objects": 0,
+ "seconds": 0.57
+}

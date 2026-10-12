@@ -1,0 +1,957 @@
+[
+ {
+  "file_sha256": "02d3b9d20a2079694f07fb1416b30cc7c21e9630e161097a811c53fb95b92894",
+  "name": "sunita.dxf",
+  "declared": 367.85,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "C42",
+    "layer": "LINE",
+    "area": 367.851,
+    "n_vertices": 31,
+    "bbox": [
+     3386590.76,
+     -704995.231,
+     3386608.112,
+     -704972.568
+    ],
+    "vertex_hash": "5dce81d0a2f39fa8"
+   },
+   {
+    "handle": "FFB",
+    "layer": "PLOT_BOUNDARY",
+    "area": 367.848,
+    "n_vertices": 25,
+    "bbox": [
+     3386590.76,
+     -704995.231,
+     3386608.112,
+     -704972.568
+    ],
+    "vertex_hash": "947c73c26ab6c6fd"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "04055c805b63232147b3a7ddf64aaec73da7a00f833f110c5a7018e016260d29",
+  "name": "BHUBAN CH DAS.dxf",
+  "declared": 388.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "line",
+    "area": 426.927,
+    "rel_diff": 0.1003
+   },
+   {
+    "layer": "line",
+    "area": 433.092,
+    "rel_diff": 0.1162
+   },
+   {
+    "layer": "line",
+    "area": 433.092,
+    "rel_diff": 0.1162
+   },
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 559.116,
+    "rel_diff": 0.441
+   }
+  ]
+ },
+ {
+  "file_sha256": "0686ee6adb980d5a48eb74d31bb9d76331fcfed65bf6c8dbbff47e213c67afe9",
+  "name": "file_SUB-7.dxf",
+  "declared": 8060.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "HILL-CUTTING-AREA",
+    "area": 6602.484,
+    "rel_diff": -0.1808
+   },
+   {
+    "layer": "0",
+    "area": 6602.484,
+    "rel_diff": -0.1808
+   },
+   {
+    "layer": "0",
+    "area": 6602.484,
+    "rel_diff": -0.1808
+   },
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 42324.316,
+    "rel_diff": 4.2512
+   }
+  ]
+ },
+ {
+  "file_sha256": "131f17083aacbdd01dd998a299fdc63b53c9b706f4f4aac46a489643c8c00c1c",
+  "name": "TEST_G+III_20_02_2026.dxf",
+  "declared": 336.17,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "_OtherDetail",
+    "area": 387.469,
+    "rel_diff": 0.1526
+   },
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 389.12,
+    "rel_diff": 0.1575
+   },
+   {
+    "layer": "0",
+    "area": 274.152,
+    "rel_diff": -0.1845
+   }
+  ]
+ },
+ {
+  "file_sha256": "140bc46167d32b4eec7c5d2bb25002c01225fd08545b2741af663752f4128390",
+  "name": "MRS REENA SHAHI GMDA COMMERCIAL 06.01.26.dxf",
+  "declared": 535.18,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "C422",
+    "layer": "0",
+    "area": 535.182,
+    "n_vertices": 4,
+    "bbox": [
+     482.93,
+     360.639,
+     509.93,
+     380.461
+    ],
+    "vertex_hash": "33f8afac89e4a53b"
+   },
+   {
+    "handle": "C490",
+    "layer": "PLOT_BOUNDARY",
+    "area": 535.182,
+    "n_vertices": 4,
+    "bbox": [
+     482.93,
+     360.639,
+     509.93,
+     380.461
+    ],
+    "vertex_hash": "33f8afac89e4a53b"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": true,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "1866c427236c90725e88cf088bd4c06e7e15154a20885749a44c86d49dc8e64d",
+  "name": "02_NEW-CONST.dxf",
+  "declared": 86240.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "0",
+    "area": 66081.944,
+    "rel_diff": -0.2337
+   },
+   {
+    "layer": "0",
+    "area": 25300.0,
+    "rel_diff": -0.7066
+   },
+   {
+    "layer": "BLK_1_FLR_0_STAIR_1_FLIGHT_1",
+    "area": 24080.0,
+    "rel_diff": -0.7208
+   },
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 3953.104,
+    "rel_diff": -0.9542
+   }
+  ]
+ },
+ {
+  "file_sha256": "286078ebdf5d08bbfc3d169d861f32e1f3636d31182efaf881f08115fb90be41",
+  "name": "GEETAMANDIR PERMISSION 8.1.26 finaal.dxf",
+  "declared": 367.85,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "9A339",
+    "layer": "LINE",
+    "area": 367.851,
+    "n_vertices": 31,
+    "bbox": [
+     3386590.76,
+     -704995.231,
+     3386608.112,
+     -704972.568
+    ],
+    "vertex_hash": "5dce81d0a2f39fa8"
+   },
+   {
+    "handle": "9C775",
+    "layer": "PLOT_BOUNDARY",
+    "area": 367.849,
+    "n_vertices": 25,
+    "bbox": [
+     3386590.76,
+     -704995.231,
+     3386608.112,
+     -704972.568
+    ],
+    "vertex_hash": "947c73c26ab6c6fd"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "2dfce147f9b726aa7c8fcf1f901fbbe18140f8b0e734fe81a0e08773a23e75c4",
+  "name": "KRIS.dxf",
+  "declared": 1291.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 1343.285,
+    "rel_diff": 0.0405
+   },
+   {
+    "layer": "SITE_PLAN",
+    "area": 1343.285,
+    "rel_diff": 0.0405
+   },
+   {
+    "layer": "PL--roof",
+    "area": 813.235,
+    "rel_diff": -0.3701
+   }
+  ]
+ },
+ {
+  "file_sha256": "30b45370081bab6096739384bda72e3f15f48c541a1b8a68595f86fd56c4c79b",
+  "name": "BINU 29.dxf",
+  "declared": 314.6,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "1D5D",
+    "layer": "0",
+    "area": 314.592,
+    "n_vertices": 4,
+    "bbox": [
+     904.519,
+     554.591,
+     931.639,
+     566.191
+    ],
+    "vertex_hash": "3d2c2868b3f91a16"
+   },
+   {
+    "handle": "1E05",
+    "layer": "PLOT_BOUNDARY",
+    "area": 314.592,
+    "n_vertices": 4,
+    "bbox": [
+     904.519,
+     554.591,
+     931.639,
+     566.191
+    ],
+    "vertex_hash": "3d2c2868b3f91a16"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": true,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "31b2f739d8c48436ebce408ab810e8bdc24f7f1e8b6afde80140323913792f9f",
+  "name": "KHARGULI EDCR.dxf",
+  "declared": 399.69,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "F90",
+    "layer": "BOUNDARY",
+    "area": 399.687,
+    "n_vertices": 23,
+    "bbox": [
+     1022.082,
+     91.627,
+     1035.933,
+     130.104
+    ],
+    "vertex_hash": "1d440beb6a57d007"
+   },
+   {
+    "handle": "1085",
+    "layer": "PLOT_BOUNDARY",
+    "area": 399.687,
+    "n_vertices": 31,
+    "bbox": [
+     1022.082,
+     91.627,
+     1035.933,
+     130.104
+    ],
+    "vertex_hash": "841e3b17374de359"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "34c0726f47574d0c7242811275a61a60771c9781789e14bc449a5c821304e5e1",
+  "name": "SHREE NAINA -test  -08 oct  2025.dxf",
+  "declared": 8710.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 9121.997,
+    "rel_diff": 0.0473
+   },
+   {
+    "layer": "0",
+    "area": 10233.533,
+    "rel_diff": 0.1749
+   },
+   {
+    "layer": "BLK_1_LVL_0_BLDG_FOOT_PRINT",
+    "area": 5719.943,
+    "rel_diff": -0.3433
+   }
+  ]
+ },
+ {
+  "file_sha256": "4cf4a40485f9385533e92142d9be3f5dc7f704c8c44d51592d82d197832ec9f7",
+  "name": "01_ADD-ALT.dxf",
+  "declared": 109700.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "0",
+    "area": 62254.203,
+    "rel_diff": -0.4325
+   },
+   {
+    "layer": "0",
+    "area": 26450.0,
+    "rel_diff": -0.7589
+   },
+   {
+    "layer": "BLK_1_FLR_0_STAIR_1_FLIGHT_1",
+    "area": 25200.0,
+    "rel_diff": -0.7703
+   },
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 3476.552,
+    "rel_diff": -0.9683
+   }
+  ]
+ },
+ {
+  "file_sha256": "4d530cb57ff888362d3f17d8c5c5e777004460a6b1c0528d30f4933688d478a5",
+  "name": "PP1 OBPAS SUB9_R0.dxf",
+  "declared": 3000.0,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "439",
+    "layer": "SITE_PLAN",
+    "area": 2963.861,
+    "n_vertices": 4,
+    "bbox": [
+     76.058,
+     19.19,
+     117.094,
+     93.436
+    ],
+    "vertex_hash": "2b8fd1c78da8fe45"
+   },
+   {
+    "handle": "20D38",
+    "layer": "PLOT_BOUNDARY",
+    "area": 3016.56,
+    "n_vertices": 4,
+    "bbox": [
+     75.823,
+     18.96,
+     117.326,
+     93.668
+    ],
+    "vertex_hash": "837867232fee9e82"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "557cb7585dce90fdbd113ad9742322ae01b080ca16043fecc44a9eaa873475fa",
+  "name": "OBPAS_na.dxf",
+  "declared": 3000.0,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "439",
+    "layer": "SITE_PLAN",
+    "area": 2963.861,
+    "n_vertices": 4,
+    "bbox": [
+     76.058,
+     19.19,
+     117.094,
+     93.436
+    ],
+    "vertex_hash": "2b8fd1c78da8fe45"
+   },
+   {
+    "handle": "20D38",
+    "layer": "PLOT_BOUNDARY",
+    "area": 3016.56,
+    "n_vertices": 4,
+    "bbox": [
+     75.823,
+     18.96,
+     117.326,
+     93.668
+    ],
+    "vertex_hash": "837867232fee9e82"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "6943ccdcc1269df88d893b59ea9fb1b2fec130b671395ab00f66302e143d34c2",
+  "name": "TRY1 EXTRA RE.dxf",
+  "declared": 800.0,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "879F",
+    "layer": "PLOT_BOUNDARY",
+    "area": 800.0,
+    "n_vertices": 4,
+    "bbox": [
+     594.24,
+     32.445,
+     614.24,
+     72.445
+    ],
+    "vertex_hash": "d95b99923e48340d"
+   },
+   {
+    "handle": "1011542",
+    "layer": "SITE_PLAN",
+    "area": 800.0,
+    "n_vertices": 4,
+    "bbox": [
+     594.24,
+     32.445,
+     614.24,
+     72.445
+    ],
+    "vertex_hash": "d95b99923e48340d"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": true,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "6dcebd5981796d1203c0989a9089fb31d6889c6325bb133a14afa99cea99b63f",
+  "name": "PISSURLEM ONLINE SUBMISSION PLAN -REVISED.dxf",
+  "declared": 5013.0,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "4CD5F",
+    "layer": "SITE_PLAN",
+    "area": 5013.035,
+    "n_vertices": 5,
+    "bbox": [
+     112.914,
+     74.276,
+     187.09,
+     159.036
+    ],
+    "vertex_hash": "4124036bd1e01c1c"
+   },
+   {
+    "handle": "4CD8A",
+    "layer": "PLOT_BOUNDARY",
+    "area": 5013.035,
+    "n_vertices": 5,
+    "bbox": [
+     112.914,
+     74.276,
+     187.09,
+     159.036
+    ],
+    "vertex_hash": "4124036bd1e01c1c"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": true,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "74a9120d1878e8586f0eb80e73e21c12f278545ba414fca0e0dcd2c370bf5c5e",
+  "name": "NISANT PAHARIA.dxf",
+  "declared": 353.3,
+  "matches": 4,
+  "candidates": [
+   {
+    "handle": "7D",
+    "layer": "0",
+    "area": 353.296,
+    "n_vertices": 4,
+    "bbox": [
+     2508.919,
+     111.886,
+     2530.786,
+     128.042
+    ],
+    "vertex_hash": "8a7e07fade352451"
+   },
+   {
+    "handle": "D4A",
+    "layer": "0",
+    "area": 353.296,
+    "n_vertices": 4,
+    "bbox": [
+     2540.829,
+     111.886,
+     2562.696,
+     128.042
+    ],
+    "vertex_hash": "9426fa56247b82fb"
+   },
+   {
+    "handle": "E11",
+    "layer": "0",
+    "area": 353.296,
+    "n_vertices": 4,
+    "bbox": [
+     2569.449,
+     111.886,
+     2591.316,
+     128.042
+    ],
+    "vertex_hash": "39a2ab3e48ddda70"
+   },
+   {
+    "handle": "165D",
+    "layer": "PLOT_BOUNDARY",
+    "area": 353.296,
+    "n_vertices": 4,
+    "bbox": [
+     2469.131,
+     80.161,
+     2490.998,
+     96.317
+    ],
+    "vertex_hash": "21844684d77a82cb"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": false,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "79552a27623dbf72f1885d6d4b64782c19c7f1f9852d389c4db3f8d445d264f6",
+  "name": "SARA FINE FOODS - 24 FEB 2026.dxf",
+  "declared": 1576.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 952.0,
+    "rel_diff": -0.3959
+   },
+   {
+    "layer": "BLK_2_COVERED_AREA",
+    "area": 624.0,
+    "rel_diff": -0.6041
+   },
+   {
+    "layer": "0",
+    "area": 412.0,
+    "rel_diff": -0.7386
+   }
+  ]
+ },
+ {
+  "file_sha256": "843b9836580db7c8649f611413df434a77df66d1d3f3d549381e08b5d0ea9df0",
+  "name": "Approval_Koteshwar tiles22-6-26.dxf",
+  "declared": 2100.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 2357.508,
+    "rel_diff": 0.1226
+   },
+   {
+    "layer": "BLK_1_LVL_0_BLDG_FOOT_PRINT",
+    "area": 768.031,
+    "rel_diff": -0.6343
+   },
+   {
+    "layer": "BLK_1_COVERED_AREA",
+    "area": 768.037,
+    "rel_diff": -0.6343
+   }
+  ]
+ },
+ {
+  "file_sha256": "9193709e8e012ff0346cdb8fcd0170c981497e705ce7ac82c12a9bcaf0ef7c57",
+  "name": "MACBROUT-4.dxf",
+  "declared": 4005.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 3850.1,
+    "rel_diff": -0.0387
+   },
+   {
+    "layer": "BLK_1_FLR_0_BLT_UP_AREA",
+    "area": 2141.32,
+    "rel_diff": -0.4653
+   },
+   {
+    "layer": "SITE_PLAN",
+    "area": 2141.32,
+    "rel_diff": -0.4653
+   }
+  ]
+ },
+ {
+  "file_sha256": "9aa5957110137c52121ff8e834e3afa1f895d87631c22a9987a47d7551987511",
+  "name": "Bharat_Conductors_Sancoale_Online[2].dxf",
+  "declared": 8060.0,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "EE952",
+    "layer": "0",
+    "area": 8070.193,
+    "n_vertices": 14,
+    "bbox": [
+     661.913,
+     -151.047,
+     811.093,
+     -75.685
+    ],
+    "vertex_hash": "9704935e2252dcb7"
+   },
+   {
+    "handle": "F0AF9",
+    "layer": "PLOT_BOUNDARY",
+    "area": 8070.193,
+    "n_vertices": 14,
+    "bbox": [
+     661.913,
+     -151.047,
+     811.093,
+     -75.685
+    ],
+    "vertex_hash": "9704935e2252dcb7"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": true,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "b08526d200ad08f03c9f3fea8aae14b5adb69b303d4b1016ee336fbf20f8d568",
+  "name": "SUB-7.dxf",
+  "declared": 8060.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "HILL-CUTTING-AREA",
+    "area": 6602.484,
+    "rel_diff": -0.1808
+   },
+   {
+    "layer": "LAYER-2",
+    "area": 9664.866,
+    "rel_diff": 0.1991
+   },
+   {
+    "layer": "LAYER-1",
+    "area": 9664.866,
+    "rel_diff": 0.1991
+   },
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 42324.316,
+    "rel_diff": 4.2512
+   }
+  ]
+ },
+ {
+  "file_sha256": "b309dee7ea4d160046abb3e2bf890c2a06b7b98134aae310b0a3db10de0ab4a4",
+  "name": "T-RON.dxf",
+  "declared": 3490.0,
+  "matches": 3,
+  "candidates": [
+   {
+    "handle": "735",
+    "layer": "SITE_PLAN",
+    "area": 3454.844,
+    "n_vertices": 28,
+    "bbox": [
+     143.262,
+     31.067,
+     232.948,
+     70.867
+    ],
+    "vertex_hash": "17d512447abc4c89"
+   },
+   {
+    "handle": "A14C",
+    "layer": "SITE_PLAN",
+    "area": 3480.005,
+    "n_vertices": 30,
+    "bbox": [
+     143.162,
+     30.967,
+     233.062,
+     70.967
+    ],
+    "vertex_hash": "95d88be55cb521d7"
+   },
+   {
+    "handle": "C48B",
+    "layer": "PLOT_BOUNDARY",
+    "area": 3480.51,
+    "n_vertices": 8,
+    "bbox": [
+     143.162,
+     30.967,
+     233.162,
+     70.967
+    ],
+    "vertex_hash": "391f6008c2155e31"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "bea865aaf33c9ff8d939ad2f210097844c9f7a0245f18bc09e1ca7e0967605e3",
+  "name": "PRACTICE 05-01-25.dxf",
+  "declared": 359.7,
+  "matches": 3,
+  "candidates": [
+   {
+    "handle": "AFC",
+    "layer": "PLOT_BOUNDARY",
+    "area": 359.7,
+    "n_vertices": 4,
+    "bbox": [
+     264.307,
+     77.799,
+     280.807,
+     99.599
+    ],
+    "vertex_hash": "f6476c7bccb866ba"
+   },
+   {
+    "handle": "D73",
+    "layer": "0",
+    "area": 355.575,
+    "n_vertices": 4,
+    "bbox": [
+     290.713,
+     90.321,
+     309.004,
+     109.761
+    ],
+    "vertex_hash": "3e6888f69bdb6911"
+   },
+   {
+    "handle": "DF4",
+    "layer": "0",
+    "area": 355.575,
+    "n_vertices": 4,
+    "bbox": [
+     290.713,
+     70.881,
+     309.004,
+     90.321
+    ],
+    "vertex_hash": "3e7cb7dca4ee198b"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": false,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "bf198357b03ef819416d7366e9e9bfc9ff4833f77a126f9e466b587e5d73add1",
+  "name": "BHUBAN CH DAS.dxf",
+  "declared": 388.0,
+  "matches": 0,
+  "candidates": [],
+  "closest": [
+   {
+    "layer": "line",
+    "area": 426.927,
+    "rel_diff": 0.1003
+   },
+   {
+    "layer": "line",
+    "area": 433.092,
+    "rel_diff": 0.1162
+   },
+   {
+    "layer": "line",
+    "area": 433.092,
+    "rel_diff": 0.1162
+   },
+   {
+    "layer": "PLOT_BOUNDARY",
+    "area": 559.116,
+    "rel_diff": 0.441
+   }
+  ]
+ },
+ {
+  "file_sha256": "c6970a4c714492817da57021543b296dd0042003122f8513ceaddfdc4d5a5d01",
+  "name": "GEETAMANDIR PERMISSION 02.01.26.dxf",
+  "declared": 367.85,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "9A339",
+    "layer": "LINE",
+    "area": 367.851,
+    "n_vertices": 31,
+    "bbox": [
+     3386590.76,
+     -704995.231,
+     3386608.112,
+     -704972.568
+    ],
+    "vertex_hash": "5dce81d0a2f39fa8"
+   },
+   {
+    "handle": "9C775",
+    "layer": "PLOT_BOUNDARY",
+    "area": 367.849,
+    "n_vertices": 25,
+    "bbox": [
+     3386590.76,
+     -704995.231,
+     3386608.112,
+     -704972.568
+    ],
+    "vertex_hash": "947c73c26ab6c6fd"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": false,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ },
+ {
+  "file_sha256": "ee68106f373de6d49c6b3298eb503236c8b4e184d46c5082d7a2f6f6f53e1092",
+  "name": "ASTRA_CONCRETE (CLIENT).dxf",
+  "declared": 6225.0,
+  "matches": 2,
+  "candidates": [
+   {
+    "handle": "9525",
+    "layer": "PLOT_BOUNDARY",
+    "area": 6225.233,
+    "n_vertices": 11,
+    "bbox": [
+     108.901,
+     187.566,
+     223.173,
+     260.73
+    ],
+    "vertex_hash": "45473ff78397681e"
+   },
+   {
+    "handle": "A7C1",
+    "layer": "SITE_PLAN",
+    "area": 6225.233,
+    "n_vertices": 11,
+    "bbox": [
+     108.901,
+     187.566,
+     223.173,
+     260.73
+    ],
+    "vertex_hash": "45473ff78397681e"
+   }
+  ],
+  "hypotheses": {
+   "H1_identical": true,
+   "H2_nested": true,
+   "H3_one_on_PLOT_BOUNDARY": true
+  }
+ }
+]
