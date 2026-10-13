@@ -1,0 +1,184 @@
+{
+ "categories_sha256": "cfaf43d47ac9e7831b97c292a7be81eafb8f031f0fb27f81c9433a85fdd1ce9a",
+ "configs": {
+  "augment": {
+   "colour_dropout_p": 0.3,
+   "copies_per_object": 1,
+   "enabled": true,
+   "rotate_flip": true,
+   "text_corrupt_p": 0.3
+  },
+  "data": {
+   "duplicate_policy": "H1",
+   "file_timeout_s": 900,
+   "not_learnable_min_real": 30,
+   "plot_match_tol": 0.02,
+   "seed": 20261007,
+   "triage": {
+    "conforming_min_match": 0.8,
+    "unlabeled_max_match": 0.3
+   },
+   "unknown_per_labelled_train": 3,
+   "workers": 3
+  },
+  "split": {
+   "frozen_test_projects": "configs/test_projects.v1.json",
+   "lopo_below_projects": 40,
+   "ratios": {
+    "test": 0.2,
+    "train": 0.6,
+    "val": 0.2
+   },
+   "seed": 20261007
+  }
+ },
+ "created": "2026-10-12T19:41:13.665262",
+ "dataset_sha256": "f79860fdce256e86384a10bc17f4240fa75bcaf3e684369f4ee9c9a1e5ff7c07",
+ "drops": {
+  "_text_redacted_not_dropped": 30,
+  "duplicate_of_labelled": 26,
+  "near_miss": 191,
+  "other_layer_in_near_conforming": 16713,
+  "train_unknown_capped": 3499,
+  "type_mismatch": 140
+ },
+ "extractor_version": "1.1.0",
+ "files": {
+  "140bc46167d32b4eec7c5d2bb25002c01225fd08545b2741af663752f4128390": {
+   "project": "P-6073c2a6ba",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "15a8339ceacc0febac548e758f9228ef34a0c1091a282fd8bc094ebd44aac0b5": {
+   "project": "P-ce24a2f002",
+   "split": "test",
+   "tier": "NEAR_CONFORMING"
+  },
+  "221686860f6dccded056c9459b011dfd50c0b57769a9202f9f13a9067b3d1cc0": {
+   "project": "P-78592d8181",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "29a751b61c3dccb377a26018b3b301c33a9921fe4328beef0559f22acfb93789": {
+   "project": "P-75e7b3e5bc",
+   "split": "train",
+   "tier": "CONFORMING"
+  },
+  "30b45370081bab6096739384bda72e3f15f48c541a1b8a68595f86fd56c4c79b": {
+   "project": "P-c160064eda",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "375718647a93fa5a2ecf28b8aa328740d7b0a1a92e3d7c3ae3f76851e0a4e400": {
+   "project": "P-73bec27336",
+   "split": "val",
+   "tier": "CONFORMING"
+  },
+  "41ed76a9063fa63654f196a443fbd7dfdfffc8048e97882f7de55f93f9254e8a": {
+   "project": "P-c866f377f1",
+   "split": "test",
+   "tier": "CONFORMING"
+  },
+  "4ca9af6f3564a8b20ceb3570f495997fa71870f7d86c7933b4c73e440c9508c2": {
+   "project": "P-9c988ff6a8",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "56f0d7f6fa5769c4bd44713e04b19443c60a79f016baaad67c85492debc73d9f": {
+   "project": "P-a0fc981ea6",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "597b072b377e62886501d6f39808f60c179005a857295128ebf597f78195c781": {
+   "project": "P-c866f377f1",
+   "split": "test",
+   "tier": "CONFORMING"
+  },
+  "657d88f300b8fcc805f14e86add4dfb60bafc2a18fa45a18afd11fb4d84d26b0": {
+   "project": "P-389c9b1fdd",
+   "split": "test",
+   "tier": "NEAR_CONFORMING"
+  },
+  "6943ccdcc1269df88d893b59ea9fb1b2fec130b671395ab00f66302e143d34c2": {
+   "project": "P-b0767d4e87",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "6dcebd5981796d1203c0989a9089fb31d6889c6325bb133a14afa99cea99b63f": {
+   "project": "P-81fa43b6a3",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "9aa5957110137c52121ff8e834e3afa1f895d87631c22a9987a47d7551987511": {
+   "project": "P-bf5f11283e",
+   "split": "train",
+   "tier": "CONFORMING"
+  },
+  "9fa23d4263cfcaeae363f45922086288468906db12476ee9b66b8db2e8ee7c80": {
+   "project": "P-7949c7daba",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "bfab39aa1d0d0f02ef8bdfc01baaf7cd63dd06d89e102d645003b485b4b4c91c": {
+   "project": "P-0744c38d12",
+   "split": "train",
+   "tier": "NEAR_CONFORMING"
+  },
+  "c851b8d6283f74cb96b104e919502e621b2a7ecb937779db969afdaacc183b39": {
+   "project": "P-975c4d649c",
+   "split": "val",
+   "tier": "CONFORMING"
+  },
+  "ce3199cc2c28bc8851841734c740fe3a6d58a07751e1210c3d5fd5591fbdf7dd": {
+   "project": "P-3cf5591a59",
+   "split": "val",
+   "tier": "NEAR_CONFORMING"
+  },
+  "db31b8c77a661913a725e680f26e14dfb1410295ab339a3db472bb3414531eac": {
+   "project": "P-0599b89d73",
+   "split": "val",
+   "tier": "NEAR_CONFORMING"
+  },
+  "ee68106f373de6d49c6b3298eb503236c8b4e184d46c5082d7a2f6f6f53e1092": {
+   "project": "P-75e7b3e5bc",
+   "split": "train",
+   "tier": "CONFORMING"
+  }
+ },
+ "git_commit": "HEAD+dirty",
+ "libraries": {
+  "ezdxf": "1.4.4",
+  "mlx": "0.32.3",
+  "mlx-lm": "0.32.0",
+  "numpy": "2.4.6",
+  "peft": "0.21.2",
+  "scikit-learn": "1.9.1",
+  "shapely": "2.1.2",
+  "torch": "2.14.1",
+  "transformers": "5.19.0",
+  "trl": "1.15.0"
+ },
+ "platform": "macOS-26.4-arm64-arm-64bit",
+ "prompt_sha256": "e5e67f5e6d0eb7d38e6981567ec2f8bc2623961181d7d29c04a52e2fa6825de6",
+ "python": "3.11.16",
+ "split_of_project": {
+  "P-0599b89d73": "val",
+  "P-0744c38d12": "train",
+  "P-389c9b1fdd": "test",
+  "P-3cf5591a59": "val",
+  "P-6073c2a6ba": "train",
+  "P-73bec27336": "val",
+  "P-75e7b3e5bc": "train",
+  "P-78592d8181": "train",
+  "P-7949c7daba": "train",
+  "P-81fa43b6a3": "train",
+  "P-975c4d649c": "val",
+  "P-9c988ff6a8": "train",
+  "P-a0fc981ea6": "train",
+  "P-b0767d4e87": "train",
+  "P-bf5f11283e": "train",
+  "P-c160064eda": "train",
+  "P-c866f377f1": "test",
+  "P-ce24a2f002": "test"
+ }
+}
