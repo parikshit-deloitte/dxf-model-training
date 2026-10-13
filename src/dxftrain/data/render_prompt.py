@@ -81,7 +81,10 @@ def redact_layer(text: str | None, layer: str) -> tuple[str | None, bool]:
     """Remove the object's own layer name from free text so the answer never leaks into the prompt."""
     if not text or len(layer) < 3:
         return text, False
-    pat = re.compile(re.escape(layer).replace(r"\_", r"[_ ]"), re.IGNORECASE)
+    # PLOT_BOUNDARY also matches 'PLOT BOUNDARY', 'Plot-Boundary', 'PLOT\nBOUNDARY' and 'PLOTBOUNDARY'.
+    # (re.escape leaves '_' alone, so the separator has to come from splitting, not from escaping.)
+    parts = [re.escape(w) for w in re.split(r"[_\s-]+", layer) if w]
+    pat = re.compile(r"[_\s-]*".join(parts), re.IGNORECASE)
     new = pat.sub("[…]", text)
     return new, new != text
 

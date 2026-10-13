@@ -93,6 +93,12 @@ def dtype_kw(dtype) -> dict:
     return {"dtype": dtype} if (major, minor) >= (4, 56) else {"torch_dtype": dtype}
 
 
+def _repo_rel(p: str) -> str:
+    """A path under the repo as repo-relative (the same on every machine); anything else (a hub id) unchanged."""
+    r = Path(p).resolve()
+    return str(r.relative_to(ROOT)) if r.exists() and r.is_relative_to(ROOT) else p
+
+
 def make_scorer(model_path: str, adapter_path: str | None = None, labels: list[str] | None = None,
                 backend: str = "mlx"):
     """A label-likelihood scorer with .labels and .scores(user_message) -> np.ndarray, for this backend.
@@ -103,9 +109,13 @@ def make_scorer(model_path: str, adapter_path: str | None = None, labels: list[s
         adapter_path = str(ROOT / adapter_path)
     if backend == "mlx":
         from dxftrain.infer.scorer import MLXScorer
-        return MLXScorer(model_path, adapter_path=adapter_path, labels=labels)
-    from dxftrain.infer.torch_scorer import TorchScorer
-    return TorchScorer(model_path, adapter_path=adapter_path, labels=labels, device=backend)
+        scorer = MLXScorer(model_path, adapter_path=adapter_path, labels=labels)
+    else:
+        from dxftrain.infer.torch_scorer import TorchScorer
+        scorer = TorchScorer(model_path, adapter_path=adapter_path, labels=labels, device=backend)
+    # What produced the scores; score_rows keys its disk cache on it, so another model never reuses them.
+    scorer.identity = f"{backend}|{_repo_rel(model_path)}|{_repo_rel(adapter_path) if adapter_path else ''}"
+    return scorer
 
 
 def main(argv: list[str]) -> int:

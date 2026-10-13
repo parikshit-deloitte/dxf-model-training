@@ -1,8 +1,11 @@
+SHELL := /bin/bash
+.SHELLFLAGS := -o pipefail -c
 PY := PYTHONPATH=src .venv/bin/python
 BACKEND ?= auto
 HOST ?= 127.0.0.1
 DS ?= $(shell ls -d data/datasets/ds-* | tail -1)
 RUN ?=
+SEED ?= 20261007
 ZRUN ?= runs/zeroshot-$(notdir $(DS))
 
 test:        ; $(PY) -m pytest -q tests
@@ -16,7 +19,15 @@ zero-shot-d: ; $(PY) -m dxftrain.calibrate.stage_d --dataset $(DS) --zero-shot
 package:     ; $(PY) -m dxftrain.package.package --run $(RUN)
 stage-e:     ; $(PY) -m dxftrain.gate.gate --dataset $(DS) --run $(RUN) --zero-shot-run $(ZRUN) --served models/$(notdir $(RUN))/served
 serve:       ; .venv/bin/uvicorn serve.wrapper.app:app --host $(HOST) --port 8090
-pipeline:    ; BACKEND=$(BACKEND) nohup scripts/run_pipeline.sh $(DS) >> reports/pipeline/runner.out 2>&1 &
+pipeline:    ; mkdir -p reports/pipeline && BACKEND=$(BACKEND) nohup scripts/run_pipeline.sh $(DS) >> reports/pipeline/runner.out 2>&1 & echo "pipeline started in background; watch it with: make watch"
+watch:       ; scripts/watch.sh $(DS)
+train-cuda:  ; mkdir -p reports/train && $(PY) -u -m dxftrain.train.train_lora --dataset $(DS) --seed $(SEED) 2>&1 | tee reports/train/$(notdir $(DS))-s$(SEED)-$$(date +%Y%m%d-%H%M%S).log
+# Data never goes through git (applicant drawings): copy it straight to the GPU box over SSH.
+#   make sync-data HOST=ubuntu@<ip> [DEST=~/dxf-model-training] [KEY=~/.ssh/key.pem]
+DEST ?= ~/dxf-model-training
+sync-data:   ; @test -n "$(HOST)" || { echo "usage: make sync-data HOST=ubuntu@<ip> [DEST=...] [KEY=...]"; exit 1; }; \
+               rsync -avh --progress $(if $(KEY),-e "ssh -i $(KEY)") data/raw data/datasets data/sources.yaml \
+               $(HOST):$(DEST)/data/
 backend:     ; @$(PY) -m dxftrain.infer.backend
 retrain-check: ; $(PY) -m dxftrain.feedback.feedback retrain-check
-.PHONY: test stage-a stage-b smoke smoke-cuda stage-c stage-d zero-shot-d package stage-e serve retrain-check pipeline backend
+.PHONY: sync-data watch train-cuda test stage-a stage-b smoke smoke-cuda stage-c stage-d zero-shot-d package stage-e serve retrain-check pipeline backend

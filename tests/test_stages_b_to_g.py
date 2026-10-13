@@ -3,7 +3,6 @@ import json
 import numpy as np
 import pytest
 
-from conftest import ROOT
 from dxftrain.calibrate import temperature
 from dxftrain.eval import metrics
 from dxftrain.eval.metrics import Pred
@@ -100,3 +99,25 @@ def test_corrections_reject_non_anonymised(tmp_path, monkeypatch):
     d = feedback.ingest_corrections(f)
     imp = json.loads((d / "import.json").read_text())
     assert imp["imported"] == 1 and sum(imp["rejected"].values()) == 3
+
+
+def test_score_cache_is_per_model(tmp_path):
+    """Two models sharing one cache file never get each other's scores."""
+    import numpy as np
+
+    from dxftrain.infer.scorer import score_rows
+
+    class Fake:
+        def __init__(self, identity, value):
+            self.identity, self.value, self.calls = identity, value, 0
+
+        def scores(self, user):
+            self.calls += 1
+            return np.array([self.value])
+
+    rows = [{"object_id": "o1", "variant": "v", "messages": [{}, {"content": "x"}]}]
+    cache = tmp_path / "scores.v.jsonl"
+    a, b = Fake("cuda|base|adapter_best", 1.0), Fake("cuda|base|adapter_ep1", 2.0)
+    assert score_rows(a, rows, cache)[0, 0] == 1.0
+    assert score_rows(b, rows, cache)[0, 0] == 2.0 and b.calls == 1
+    assert score_rows(a, rows, cache)[0, 0] == 1.0 and a.calls == 1  # its own cached score is reused

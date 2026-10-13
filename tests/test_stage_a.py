@@ -1,8 +1,6 @@
 import json
 import os
-import random
 import re
-import subprocess
 
 import pytest
 
@@ -28,6 +26,14 @@ def test_manual_names_only_no_alias_for_misspellings():
     assert manual.classify_layer("BLK_2_FLR_3_BLT_UP_AREA").category == "BLK_n_FLR_n_BLT_UP_AREA"
     assert manual.label_for("PLOT_BOUNDARY", "TEXT") == (None, "type_mismatch")
     assert manual.label_for("SITE_PLAN", "POLYGON") == ("unknown", "context")
+
+
+def test_redaction_catches_every_spelling_of_the_layer_name():
+    # re.escape leaves '_' alone: the separator must not depend on it (the old pattern missed 'PLOT BOUNDARY').
+    for text in ("PLOT BOUNDARY 450 SQM", "plot_boundary", "Plot-Boundary", "PLOT\nBOUNDARY", "PLOTBOUNDARY"):
+        new, hit = rp.redact_layer(text, "PLOT_BOUNDARY")
+        assert hit and "BOUNDARY" not in new.upper(), text
+    assert rp.redact_layer("PLOT AREA 450", "PLOT_BOUNDARY") == ("PLOT AREA 450", False)
 
 
 def test_plan_info_parse():

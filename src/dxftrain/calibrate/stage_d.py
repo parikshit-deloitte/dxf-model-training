@@ -46,7 +46,8 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--run")
     ap.add_argument("--adapter-dir", default="adapter_best")
     ap.add_argument("--zero-shot", action="store_true")
-    ap.add_argument("--model", default=None, help="override base model path (e.g. a fused model)")
+    ap.add_argument("--model", default=None, help="score this model instead (e.g. a fused model, which already holds the adapter: "
+                                                     "the run's adapter is then NOT applied)")
     ap.add_argument("--backend", default="auto", help="zero-shot only: mlx | cuda | cpu | auto (a run uses its own)")
     a = ap.parse_args(argv)
     from dxftrain.infer import backend as bk
@@ -65,7 +66,7 @@ def main(argv: list[str]) -> int:
         meta = json.loads((run / "run.json").read_text())
         backend = meta.get("backend", "mlx")  # a model is scored by the backend it was trained with
         base = a.model or meta.get("model") or meta.get("lora_cfg", {}).get("model") or bk.base_model(backend)
-        adapter = str(run / a.adapter_dir)
+        adapter = None if a.model else str(run / a.adapter_dir)  # a --model (fused) already holds the adapter
     nl = {c for c, v in json.loads((ds / "learnability.json").read_text()).items() if not v["learnable"]}
     scorer = bk.make_scorer(base, adapter_path=adapter, backend=backend)
     labels = scorer.labels

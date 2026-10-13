@@ -96,27 +96,36 @@ class MLXScorer:
 def score_rows(scorer: MLXScorer, rows: list[dict], cache_path: Path | None = None, log_every: int = 100) -> np.ndarray:
     """Scores for many rows, cached on disk by (object_id, variant, user-message hash) so reruns resume."""
     import hashlib
-    import time
     done: dict[str, list[float]] = {}
     if cache_path and cache_path.exists():
         for l in open(cache_path):
             d = json.loads(l)
             done[d["k"]] = d["s"]
+    from dxftrain.common.progress import Progress, gpu_mem
+    # The key includes the scorer's model identity (backend | base | adapter): the same cache file is shared by
+    # Stages B3, D and E, and must never hand one model's scores to another.
+    ident = "|" + hashlib.sha256(getattr(scorer, "identity", "").encode()).hexdigest()[:12]
     fh = open(cache_path, "a") if cache_path else None
     out = []
-    t0 = time.time()
+    label = f"score {cache_path.name}" if cache_path else "score"
+    prog = Progress(label, len(rows))
+    cached = sum(1 for k in done if k.endswith(ident))
+    if cached:
+        print(f"[{label}] resuming: {cached} scores for this model already cached", flush=True)
+    new = 0
     for i, r in enumerate(rows):
         user = r["messages"][1]["content"]
-        k = r["object_id"] + "|" + r["variant"] + "|" + hashlib.sha256(user.encode()).hexdigest()[:16]
+        k = r["object_id"] + "|" + r["variant"] + "|" + hashlib.sha256(user.encode()).hexdigest()[:16] + ident
         if k not in done:
             s = scorer.scores(user).tolist()
             done[k] = s
+            new += 1
             if fh:
                 fh.write(json.dumps({"k": k, "s": s}) + "\n")
                 fh.flush()
         out.append(done[k])
-        if log_every and (i + 1) % log_every == 0:
-            print(f"  scored {i + 1}/{len(rows)}  {(time.time() - t0) / (i + 1):.2f}s/object", flush=True)
+        if log_every:
+            prog.update(i + 1, extra=gpu_mem(), worked=new)
     if fh:
         fh.close()
     return np.array(out)

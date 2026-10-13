@@ -41,7 +41,7 @@ def write_card(out: Path, rows: dict, files: list, usable: list, split_of: dict,
 
     learn = learnability(rows, cfg["not_learnable_min_real"])
     (out / "learnability.json").write_text(json.dumps(learn, indent=1, sort_keys=True))
-    L.append(f"## Per class (real examples, no_colour variant; augmented in brackets)\n")
+    L.append("## Per class (real examples, no_colour variant; augmented in brackets)\n")
     L.append("| class | train | val | test | total real | learnable (≥%d real) |" % cfg["not_learnable_min_real"])
     L.append("|---|---:|---:|---:|---:|---|")
     cnt = defaultdict(Counter)

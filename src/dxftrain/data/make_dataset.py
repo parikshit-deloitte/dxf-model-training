@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import json
+import math
 import os
 import random
 import stat
@@ -21,6 +22,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 import yaml
+from shapely.geometry import Polygon
 
 from dxftrain.common.versions import environment
 from dxftrain.data import augment as aug
@@ -66,13 +68,25 @@ def label_objects(meta: dict, drops: Counter) -> list[dict]:
         (unknown if label == manual.UNKNOWN else labelled).append(o)
     # An 'unknown' polygon that duplicates a labelled polygon (same area within 0.5%, centroid within 0.10 m)
     # would teach two answers for one shape: drop it.
-    sig = [(o["features"]["area_m2"], o["features"]["rel_pos"]) for o in labelled if o["features"]["type"] == "POLYGON"]
+    # Centroids in drawing metres from the vertices (rel_pos is relative to the plot box, so its scale varies).
+    def centroid(o: dict) -> tuple[float, float]:
+        p = Polygon(o["_geom"]).buffer(0)
+        if p.is_empty:  # degenerate outline: the vertex mean
+            xs, ys = zip(*o["_geom"])
+            return sum(xs) / len(xs), sum(ys) / len(ys)
+        return p.centroid.x, p.centroid.y
+
+    def duplicates_labelled(o: dict) -> bool:
+        f = o["features"]
+        if f["type"] != "POLYGON" or not sig:
+            return False
+        cx, cy = centroid(o)
+        return any(abs(a - f["area_m2"]) <= 0.005 * a and math.hypot(x - cx, y - cy) <= 0.10 for a, (x, y) in sig)
+
+    sig = [(o["features"]["area_m2"], centroid(o)) for o in labelled if o["features"]["type"] == "POLYGON"]
     kept_unknown = []
     for o in unknown:
-        f = o["features"]
-        if f["type"] == "POLYGON" and any(abs(a - f["area_m2"]) <= 0.005 * a and
-                                           abs(p[0] - f["rel_pos"][0]) * 1 + abs(p[1] - f["rel_pos"][1]) * 1 < 1e-3
-                                           for a, p in sig):
+        if duplicates_labelled(o):
             drops["duplicate_of_labelled"] += 1
             continue
         kept_unknown.append(o)
@@ -185,8 +199,12 @@ def main(argv: list[str]) -> int:
                 "split_of_project": split_of, "drops": dict(drops), **environment(ROOT)}
     (out / "manifest.json").write_text(json.dumps(manifest, indent=1, sort_keys=True))
     write_card(out, rows, files, usable, split_of, drops, manifest, cfg)
+    keys: dict[str, dict] = {}  # every file of a project, not just the last one
+    for m in files:
+        k = keys.setdefault(m["project"], {"key": m["project_key"], "from": m["project_key_from"], "files": []})
+        k["files"].append(m["source_name"])
     (DATA / "project_keys.local.json").write_text(json.dumps(
-        {m["project"]: {"key": m["project_key"], "from": m["project_key_from"], "files": [m["source_name"]]} for m in files}, indent=1))
+        keys, indent=1))
     for p in out.iterdir():
         os.chmod(p, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
     os.chmod(out, stat.S_IRUSR | stat.S_IXUSR | stat.S_IRGRP | stat.S_IXGRP | stat.S_IROTH | stat.S_IXOTH)

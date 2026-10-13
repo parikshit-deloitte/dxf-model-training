@@ -23,11 +23,11 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
+import yaml  # noqa: E402
 from ezdxf import recover  # noqa: E402
 
 from dxftrain.data.extract_objects import EXTRACTOR_VERSION, collect_raw  # noqa: E402
 from dxftrain.data.projects import pseudonym, project_key, triage  # noqa: E402
-from dxftrain.dxf.mtext import parse_plan_info, to_float  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[3]
 DATA = ROOT / "data"
@@ -103,10 +103,11 @@ def main(argv: list[str]) -> int:
     n = 1 + max([int(p.name.split("-v")[1]) for p in sheets.glob("sheet-v*")] or [0])
     out = sheets / f"sheet-v{n}"
     (out / "thumbs").mkdir(parents=True)
+    tri = yaml.safe_load((ROOT / "configs" / "data.yaml").read_text())["triage"]  # same thresholds as the dataset
     rows = []
     for mp in sorted(OBJ_DIR.glob("*.meta.json")):
         meta = json.loads(mp.read_text())
-        if triage(meta, 0.8, 0.3)["tier"] != "UNLABELED":
+        if triage(meta, tri["conforming_min_match"], tri["unlabeled_max_match"])["tier"] != "UNLABELED":
             continue
         doc, _ = recover.readfile(files[meta["file_sha256"]]["paths"][0])
         layer_colours = {l.dxf.name.upper(): abs(l.dxf.get("color", 7)) for l in doc.layers}

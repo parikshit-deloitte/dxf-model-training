@@ -22,11 +22,11 @@ from pathlib import Path
 import ezdxf
 from ezdxf import recover
 from shapely import STRtree
-from shapely.geometry import Point, Polygon
+from shapely.geometry import LineString, Point, Polygon
 
 from dxftrain.dxf import manual
 from dxftrain.dxf.geometry import canonical_vertices, shape_measures, shoelace
-from dxftrain.dxf.mtext import parse_plan_info, plain, to_float
+from dxftrain.dxf.mtext import parse_plan_info, to_float
 
 EXTRACTOR_VERSION = "1.1.0"            # 1.1.0: duplicate-plot rule H1 (decision Q-A1, approved 2026-10-09)
 PLOT_MATCH_TOL = 0.02          # declared plot area vs polygon area, relative (rule unchanged until approved)
@@ -195,6 +195,8 @@ def extract(path: Path, policy: str | None = None) -> tuple[dict, list[dict]]:
         info = parsed[0] if len(areas) == 1 else {}
         meta["plan_info_conflict"] = len(areas) > 1
     declared = to_float(info.get("PLOT_AREA_M2"))
+    if declared is not None and declared <= 0:  # a zero/negative area would make every polygon a plot candidate
+        declared = None
     meta["declared_plot_area_m2"] = declared
     meta["_plan_info_private"] = {"LESSEE_NAME": info.get("LESSEE_NAME"), "PLOT_NO": info.get("PLOT_NO"),
                                   "PROJECT_FALLING_UNDER_ZONE": info.get("PROJECT_FALLING_UNDER_ZONE")}
@@ -228,7 +230,10 @@ def extract(path: Path, policy: str | None = None) -> tuple[dict, list[dict]]:
 def build_features(raw: list[dict], plot_o: dict, declared: float, plot_handles: set[str] | None = None) -> list[dict]:
     plot_handles = plot_handles or {plot_o["handle"]}
     plot = Polygon(plot_o["pts"]).buffer(0)
-    minx, miny, maxx, maxy = plot.bounds
+    # A self-crossing (bow-tie) plot outline becomes a MultiPolygon, a degenerate one empty: use .boundary, which
+    # every geometry has, and fall back to the drawn outline itself when nothing is left.
+    edge = plot.boundary if not plot.is_empty else LineString(list(plot_o["pts"]) + [plot_o["pts"][0]])
+    minx, miny, maxx, maxy = (plot if not plot.is_empty else edge).bounds
     w, h = max(maxx - minx, 1e-9), max(maxy - miny, 1e-9)
     shapes = []
     for o in raw:
@@ -260,7 +265,8 @@ def build_features(raw: list[dict], plot_o: dict, declared: float, plot_handles:
             f["perimeter_m"] = round(p.length, 3)
             f["n_vertices"] = o["n_vertices"]
             f.update(shape_measures(p) if not p.is_empty else {"aspect": None, "rectangularity": None})
-            f["touches_plot_edge"] = bool(p.exterior.distance(plot.exterior) < EDGE_TOL_M) if not p.is_empty and p.geom_type == "Polygon" else bool(p.distance(plot.exterior) < EDGE_TOL_M)
+            own = p.exterior if not p.is_empty and p.geom_type == "Polygon" else p
+            f["touches_plot_edge"] = bool(own.distance(edge) < EDGE_TOL_M)
             f["is_plot_candidate"] = o["handle"] in plot_handles
             containing = contained = 0
             if tree is not None and not p.is_empty:
@@ -286,7 +292,7 @@ def build_features(raw: list[dict], plot_o: dict, declared: float, plot_handles:
             f["dim_rank_pct"] = o.get("dim_rank_pct")
             f["dims_in_file"] = n_dims
             f["dim_text_override"] = o["override"][:TEXT_MAX] if o["override"] else None
-            f["touches_plot_edge"] = any(plot.exterior.distance(Point(x, y)) < EDGE_TOL_M for x, y in o["pts"])
+            f["touches_plot_edge"] = any(edge.distance(Point(x, y)) < EDGE_TOL_M for x, y in o["pts"])
             f["value_to_plot_width"] = round(o["value"] / w, 4)
             f["value_to_plot_height"] = round(o["value"] / h, 4)
             geom = [[round(x, 3), round(y, 3)] for x, y in o["pts"]]
@@ -294,7 +300,7 @@ def build_features(raw: list[dict], plot_o: dict, declared: float, plot_handles:
             f["text"] = o["text_full"][:TEXT_MAX]
             f["text_len"] = len(o["text_full"])
             f["text_height"] = o["text_height"]
-            f["touches_plot_edge"] = bool(plot.exterior.distance(pt) < EDGE_TOL_M)
+            f["touches_plot_edge"] = bool(edge.distance(pt) < EDGE_TOL_M)
             geom = [[round(o["cx"], 3), round(o["cy"], 3)]]
         out.append({"handle": o["handle"], "_layer": o["_layer"], "features": f, "_geom": geom})
     return out

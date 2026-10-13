@@ -59,6 +59,63 @@ def epoch_history(log_history: list[dict], n_val: int) -> dict:
             "train_log": [h for h in log_history if "loss" in h]}
 
 
+def progress_callback(trainer_callback_cls):
+    """A TrainerCallback printing one plain line per optimiser update (step/total, epoch, loss, lr, ETA, GPU memory)
+    and one per validation, instead of tqdm's \\r bar, which is unreadable in nohup logs."""
+    import time
+
+    from dxftrain.common.progress import gpu_mem, hms
+
+    class TrainProgress(trainer_callback_cls):
+        def __init__(self):
+            self.t0 = self.t_step = time.time()
+            self.loss = self.lr = None
+            self.best = None
+
+        def on_train_begin(self, args, state, control, **kw):
+            self.t0 = self.t_step = time.time()
+            print(f"[train] start: {state.max_steps} optimiser updates, {args.num_train_epochs:g} epoch(s) max",
+                  flush=True)
+
+        def on_log(self, args, state, control, logs=None, **kw):
+            logs = logs or {}
+            if "loss" in logs:
+                self.loss, self.lr = logs["loss"], logs.get("learning_rate")
+            if "eval_loss" in logs:
+                v = logs["eval_loss"]
+                rose = self.best is not None and v >= self.best
+                tag = "rose: training stops here, best epoch kept" if rose else "best so far"
+                self.best = v if self.best is None else min(self.best, v)
+                print(f"{time.strftime('%H:%M:%S')}  [val] epoch {state.epoch:.2f}  val_loss {v:.4f}  ({tag})",
+                      flush=True)
+
+        def on_step_end(self, args, state, control, **kw):
+            now, s = time.time(), state.global_step
+            per = (now - self.t0) / max(1, s)
+            parts = [time.strftime("%H:%M:%S"), "[train]", f"update {s}/{state.max_steps}",
+                     f"{100 * s / max(1, state.max_steps):5.1f}%", f"epoch {state.epoch or 0:.2f}",
+                     f"{now - self.t_step:.1f}s/update", f"elapsed {hms(now - self.t0)}",
+                     f"ETA {hms(per * (state.max_steps - s))}"]
+            if self.loss is not None:
+                parts.append(f"loss {self.loss:.4f}")
+            if self.lr is not None:
+                parts.append(f"lr {self.lr:.2e}")
+            if (m := gpu_mem()):
+                parts.append(m)
+            print("  ".join(parts), flush=True)
+            self.t_step = now
+
+        def on_epoch_end(self, args, state, control, **kw):
+            print(f"{time.strftime('%H:%M:%S')}  [train] epoch {state.epoch:.2f} finished; running validation ...",
+                  flush=True)
+
+        def on_train_end(self, args, state, control, **kw):
+            print(f"[train] done in {hms(time.time() - self.t0)}; best checkpoint {state.best_model_checkpoint}",
+                  flush=True)
+
+    return TrainProgress()
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dataset", required=True)
@@ -98,6 +155,7 @@ def main(argv: list[str]) -> int:
                          "to float16 in configs/qlora_12gb.yaml")
     four_bit = cuda and not a.no_4bit
     transformers.set_seed(a.seed)
+    print(f"[train] run {run_id}: loading {model_id} ...", flush=True)
     tok = AutoTokenizer.from_pretrained(model_id)
     if tok.pad_token_id is None:
         tok.pad_token = tok.eos_token
@@ -116,6 +174,8 @@ def main(argv: list[str]) -> int:
                                              target_modules=lc["targets"], task_type="CAUSAL_LM"))
     trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
 
+    print(f"[train] model {model_id} loaded ({'4-bit' if four_bit else 'full'}, {backend}); trainable params "
+          f"{trainable:,}; tokenising {len(train)} train + {len(val)} val rows", flush=True)
     train_ds = [encode(tok, r["messages"], cfg["max_length"]) for r in train]
     val_ds = [encode(tok, r["messages"], cfg["max_length"]) for r in val]
     trained = tok.decode([t for t in train_ds[0]["labels"] if t != IGNORE])
@@ -130,11 +190,12 @@ def main(argv: list[str]) -> int:
         per_device_eval_batch_size=1, gradient_accumulation_steps=grad_acc, learning_rate=cfg["learning_rate"],
         lr_scheduler_type=cfg["lr_schedule"], warmup_steps=max(1, int(cfg["warmup_ratio"] * updates)),
         num_train_epochs=epochs, max_steps=1 if a.smoke else -1, eval_strategy="epoch", save_strategy="epoch",
-        logging_strategy="steps", logging_steps=10, load_best_model_at_end=True, metric_for_best_model="eval_loss",
+        logging_strategy="steps", logging_steps=1, load_best_model_at_end=True, metric_for_best_model="eval_loss",
         greater_is_better=False, save_total_limit=2, optim=c["optim"] if four_bit else "adamw_torch",
         fp16=cuda and dtype is torch.float16, bf16=cuda and dtype is torch.bfloat16,
         gradient_checkpointing=False,  # enabled on the model above (prepare_model_for_kbit_training)
-        remove_unused_columns=False, report_to="none", dataloader_pin_memory=cuda)
+        remove_unused_columns=False, report_to="none", dataloader_pin_memory=cuda,
+        disable_tqdm=not sys.stderr.isatty())  # in nohup logs the TrainProgress lines replace the \r bar
     meta = {"run_id": run_id, "dataset": ds.name, "dataset_sha256": manifest["dataset_sha256"],
             "prompt_sha256": rp.prompt_sha256(), "seed": a.seed, "variant": v, "model": model_id, "backend": backend,
             "trainer": "transformers Trainer + peft, completion-only labels", "n_train": len(train), "n_val": len(val),
@@ -144,7 +205,8 @@ def main(argv: list[str]) -> int:
 
     trainer = Trainer(model=model, args=args, train_dataset=train_ds, eval_dataset=val_ds,
                       data_collator=DataCollatorForSeq2Seq(tok, padding=True, label_pad_token_id=IGNORE),
-                      callbacks=[EarlyStoppingCallback(early_stopping_patience=1)])
+                      callbacks=[EarlyStoppingCallback(early_stopping_patience=1),
+                                 progress_callback(transformers.TrainerCallback)])
     trainer.train()
     if a.smoke and not any("eval_loss" in h for h in trainer.state.log_history):
         trainer.state.log_history.append({**trainer.evaluate(), "epoch": 1.0})

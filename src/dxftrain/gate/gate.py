@@ -19,7 +19,6 @@ import json
 import sys
 from pathlib import Path
 
-import numpy as np
 import yaml
 
 from dxftrain.baselines import gbm, rules_mapper
@@ -118,12 +117,22 @@ def main(argv: list[str]) -> int:
         test_rep[v] = reps
         m = reps["MODEL"]["at_tau"]
         base = {k: r["at_tau"] for k, r in reps.items() if k.startswith("B")}
-        best_wrong = min(b["wrong_rate"] for b in base.values())
-        best_cov = max(b["coverage"] for b in base.values())
+        if m["n"] == 0 or m["wrong_rate"] is None:
+            g5_detail.append(f"{v}: no test objects")
+            checks[f"G1_wrong[{v}]"] = checks[f"G2_coverage[{v}]"] = {"pass": None, "detail": "no test objects"}
+            continue
+        # G1's bar comes only from baselines that label something: a baseline whose tau makes it abstain on every
+        # object has WRONG = 0 trivially (B1 has confidence 1.0, so one wrong val prediction does that), and would
+        # otherwise demand a perfect model. With no labelling baseline the bar stays 0 (the strictest).
+        labelling = {k: b for k, b in base.items() if b["coverage"]}
+        best_wrong = min((b["wrong_rate"] for b in labelling.values()), default=0.0)
+        best_cov = max(b["coverage"] or 0.0 for b in base.values())
         ok1, ok2 = m["wrong_rate"] <= best_wrong, m["coverage"] > best_cov
         g1 &= ok1
         g2 &= ok2
-        checks[f"G1_wrong[{v}]"] = {"pass": ok1, "detail": f"model {m['wrong_rate']} (n={m['n']}) vs best baseline {best_wrong}"}
+        silent = sorted(set(base) - set(labelling))
+        checks[f"G1_wrong[{v}]"] = {"pass": ok1, "detail": f"model {m['wrong_rate']} (n={m['n']}) vs best labelling "
+                                    f"baseline {best_wrong}" + (f"; ignored (coverage 0): {silent}" if silent else "")}
         checks[f"G2_coverage[{v}]"] = {"pass": ok2, "detail": f"model {m['coverage']} vs best baseline {best_cov}"}
         if "ACTIVE" in reps:
             ac = reps["ACTIVE"]["at_tau"]

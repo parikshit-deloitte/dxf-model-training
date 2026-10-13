@@ -31,12 +31,25 @@ trained with. Setup on a GPU server:
 ```bash
 git clone <this repo> && cd dxf-model-training
 python3.11 -m venv .venv && source .venv/bin/activate
-pip install torch && pip install -e ".[cuda,serve,dev]"
+pip install --upgrade pip && pip install -r requirements-cuda.txt   # pinned; torch CUDA 12.6 build (driver >= 560)
 make test                                   # no GPU needed
-# copy the dataset (never via git): data/datasets/ds-…, configs/test_projects.v1.json, reports/stage_b/ds-…
+# copy the data (never via git), from your Mac: make sync-data HOST=ubuntu@<ip> KEY=~/.ssh/<key>.pem
 make smoke-cuda DS=data/datasets/ds-…       # 1 step; measure s/step here before the full run
-make pipeline BACKEND=cuda DS=data/datasets/ds-…   # background; tail -f reports/pipeline/<ds>/cuda/progress.log
+make pipeline BACKEND=cuda DS=data/datasets/ds-…   # background; survives SSH disconnects
+make watch                                  # live view: runner alive?, GPU, step history, current step's progress
 ```
+
+**Progress on the terminal.** Every long step prints one plain line at a time (no `\r` bars), so the same lines
+appear on the terminal, in the pipeline logs and in `make watch`:
+
+| Step | Line |
+|---|---|
+| Stage A extract (`make stage-a`) | `[extract] 12/80  15.0%  ETA …  ok  plan.dxf  ({'ok': 10, 'plot_0': 2})` |
+| Training (`make train-cuda`, pipeline `train_s*`) | `[train] update 37/120  30.8%  epoch 0.93  52.1s/update  ETA 1:12:04  loss 0.41  lr 1.9e-04  GPU 11.2/15.6 GB`, then `[val] epoch 1.00  val_loss …` |
+| Scoring (Stages B3, D, E) | `[score scores.with_colour.jsonl] 400/1650  24.2%  ETA …  0.85s/it  GPU …` |
+
+Train one seed in the foreground instead of the full pipeline: `make train-cuda DS=data/datasets/ds-… SEED=20261007`
+(also saved to `reports/train/`). Use `tmux` so an SSH drop does not stop it.
 
 Serve it and let the scrutiny system call it: `CLASSIFIER_API_KEY=<long random> MODEL_ID=<run id> make serve`
 (127.0.0.1:8090; `HOST=0.0.0.0` only behind HTTPS). In the scrutiny system set `CLASSIFIER_URL` and

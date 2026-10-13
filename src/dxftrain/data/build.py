@@ -76,16 +76,24 @@ def main(argv: list[str]) -> int:
     files = collect(DATA / "sources.yaml")
     OBJ_DIR.mkdir(parents=True, exist_ok=True)
     (DATA / "files.json").write_text(json.dumps(files, indent=1))
+    from collections import Counter
+
+    from dxftrain.common.progress import Progress
+    todo = sorted(files.values(), key=lambda r: r["size"])
+    print(f"[extract] {len(todo)} unique DXF files, {cfg['workers']} workers, timeout {cfg['file_timeout_s']}s/file",
+          flush=True)
+    prog, counts, results = Progress("extract", len(todo), every_s=0), Counter(), []
     with ThreadPoolExecutor(max_workers=cfg["workers"]) as ex:
-        results = list(ex.map(lambda r: run_one(r, cfg["file_timeout_s"]),
-                              sorted(files.values(), key=lambda r: r["size"])))
+        for r in ex.map(lambda r: run_one(r, cfg["file_timeout_s"]), todo):
+            results.append(r)
+            counts[r["status"]] += 1
+            prog.update(len(results), extra=f"{r['status']:<10} {r['name']}  ({dict(counts)})")
     log_dir = DATA / "skip_logs"
     log_dir.mkdir(exist_ok=True)
     out = log_dir / f"{dt.datetime.now():%Y%m%d-%H%M%S}.jsonl"
     with open(out, "w") as fh:
         for r in results:
             fh.write(json.dumps(r) + "\n")
-    from collections import Counter
     print(json.dumps(Counter(r["status"] for r in results)), "->", out)
     return 0
 

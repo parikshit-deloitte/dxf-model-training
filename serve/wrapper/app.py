@@ -32,6 +32,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request  # noqa: E402
 from pydantic import BaseModel  # noqa: E402
+from starlette.concurrency import run_in_threadpool  # noqa: E402
 
 from dxftrain.calibrate import temperature  # noqa: E402
 from dxftrain.data import augment, render_prompt as rp  # noqa: E402
@@ -118,6 +119,7 @@ def classify(req: Req) -> dict:
     f = dict(req.features)
     if any(k.startswith("_") or k == "layer" for k in f):
         raise HTTPException(422, "layer names are never accepted as input")
+    f = augment.with_side(f)  # every training prompt has nearest_plot_box_side; so must this one
     return {**_decide(f, req.declared_plot_area_m2), **_info()}
 
 
@@ -154,6 +156,13 @@ async def classify_drawing(request: Request,
     if len(body) > MAX_DXF_BYTES:
         raise HTTPException(413, "DXF larger than 200 MB")
     wanted = {t.strip().upper() for t in types.split(",") if t.strip()}
+    # Parsing a large DXF and scoring hundreds of objects takes minutes: off the event loop, so /health and other
+    # requests are still answered meanwhile.
+    return await run_in_threadpool(_classify_dxf_bytes, body, wanted, min_area_m2, max_objects, with_colour)
+
+
+def _classify_dxf_bytes(body: bytes, wanted: set[str], min_area_m2: float, max_objects: int,
+                        with_colour: bool) -> dict:
     t0 = time.time()
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / "drawing.dxf"

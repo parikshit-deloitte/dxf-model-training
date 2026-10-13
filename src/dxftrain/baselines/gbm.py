@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import random
 import re
+from collections import Counter
 
 import numpy as np
 from sklearn.ensemble import HistGradientBoostingClassifier
@@ -19,6 +20,7 @@ NUMERIC = ["area_m2", "area_ratio_plot", "perimeter_m", "n_vertices", "aspect", 
            "is_plot_candidate", "contained_by_n", "contains_n", "dim_value_m", "dim_rank", "dim_rank_pct",
            "dims_in_file", "value_to_plot_width", "value_to_plot_height", "text_len", "text_height",
            "inside_plot", "touches_plot_edge"]
+MAX_CATEGORIES = 254  # codes 0..253: under HistGradientBoostingClassifier's max_bins (255), one bin left for missing
 CATEG = ["type", "dim_kind", "orientation", "nearest_side", "colour"]
 KEYWORDS = {"kw_plot_area": r"PLOT_AREA", "kw_eq": r"=", "kw_north": r"^\s*N\s*$|NORTH", "kw_m2": r"M2|SQ\.?\s*M",
             "kw_block": r"\bBL(OC)?K", "kw_floor": r"FLOOR|FLR", "kw_gate": r"GATE", "kw_park": r"PARK",
@@ -30,24 +32,25 @@ class Vectoriser:
     def __init__(self) -> None:
         self.vocab: dict[str, dict] = {c: {} for c in CATEG}
 
-    def _cat(self, c: str, v, fit: bool) -> float:
-        if v is None:
-            return np.nan
-        key = str(v)
-        if key not in self.vocab[c]:
-            if not fit:
-                return np.nan
-            self.vocab[c][key] = len(self.vocab[c])
-        return float(self.vocab[c][key])
+    def _cat(self, c: str, v) -> float:
+        """Vocabulary code, or NaN (sklearn's 'missing') for None and for values not in the fitted vocabulary."""
+        code = None if v is None else self.vocab[c].get(str(v))
+        return np.nan if code is None else float(code)
 
     def transform(self, rows: list[dict], fit: bool = False) -> np.ndarray:
+        if fit:
+            # HistGradientBoosting takes at most MAX_CATEGORIES codes per categorical feature (true colours alone can
+            # exceed that across drawings): keep the most frequent, the rest count as missing.
+            for c in CATEG:
+                seen = Counter(str(r["features"][c]) for r in rows if r["features"].get(c) is not None)
+                self.vocab[c] = {k: i for i, (k, _) in enumerate(seen.most_common(MAX_CATEGORIES))}
         X = []
         for r in rows:
             f = r["features"]
             v = [float(f[k]) if isinstance(f.get(k), (int, float)) and not isinstance(f.get(k), str) else np.nan for k in NUMERIC]
             rp = f.get("rel_pos") or [np.nan, np.nan]
             v += [rp[0], rp[1]]
-            v += [self._cat(c, f.get(c), fit) for c in CATEG]
+            v += [self._cat(c, f.get(c)) for c in CATEG]
             text = (f.get("text") or "") + " " + (f.get("dim_text_override") or "")
             v += [1.0 if re.search(p, text, re.I) else 0.0 for p in KEYWORDS.values()]
             X.append(v)
