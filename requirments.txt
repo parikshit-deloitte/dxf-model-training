@@ -1,1 +1,38 @@
 
+# NVIDIA GPU training + serving, e.g. AWS g4dn.xlarge (Tesla T4 16 GB, Ubuntu, Python 3.11, NVIDIA driver >= 560).
+#
+#   python3.11 -m venv .venv && source .venv/bin/activate
+#   pip install --upgrade pip
+#   pip install -r requirements-cuda.txt
+#   python -c "import torch; print(torch.__version__, torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+#
+# Pinned to the versions the tests ran with; pyproject.toml keeps the looser ranges. torch comes from PyTorch's
+# CUDA 12.6 index: PyPI's default Linux torch 2.14.1 is a CUDA 13 build, which needs driver >= 580; the cu126 build
+# runs on any driver >= 560 (check with nvidia-smi). Driver >= 580 and want CUDA 13: use torch==2.14.1 from PyPI.
+# The wheel bundles its CUDA runtime: no CUDA toolkit install is needed, only the driver.
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Core: DXF extraction, features, dataset, baselines (same as pyproject [project.dependencies])
+ezdxf==1.4.4
+shapely==2.1.2
+numpy==2.4.6
+matplotlib==3.11.2
+PyYAML==6.0.3
+scikit-learn==1.9.1
+
+# QLoRA training and scoring (pyproject [cuda]); T4 has no bfloat16: configs/qlora_12gb.yaml uses float16
+torch==2.14.1+cu126
+transformers==5.19.0
+peft==0.21.2
+accelerate==1.15.0
+bitsandbytes==0.50.2
+
+# Serving the model to the scrutiny system (pyproject [serve])
+fastapi==0.142.2
+uvicorn==0.54.0
+
+# Tests (pyproject [dev])
+pytest==9.1.1
+
+# This repo itself (src/dxftrain), editable, without re-resolving the pins above
+-e .
